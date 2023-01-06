@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iOS on Ziggurat</title>
-    <link>http://ziggurat.co.nz/tags/ios/</link>
+    <link>https://mikekeith.github.io/tags/ios/</link>
     <description>Recent content in iOS on Ziggurat</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-nz</language>
     <copyright>Copyright © 2022, Ziggurat Development Ltd</copyright>
-    <lastBuildDate>Tue, 19 Sep 2017 07:11:43 +0000</lastBuildDate><atom:link href="http://ziggurat.co.nz/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Sep 2017 07:11:43 +0000</lastBuildDate><atom:link href="https://mikekeith.github.io/tags/ios/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Happy Thimbleweed Park Day!</title>
-      <link>http://ziggurat.co.nz/news/2017/9/19/happy-thimbleweed-park-day/</link>
+      <link>https://mikekeith.github.io/news/2017/9/19/happy-thimbleweed-park-day/</link>
       <pubDate>Tue, 19 Sep 2017 07:11:43 +0000</pubDate>
       
-      <guid>http://ziggurat.co.nz/news/2017/9/19/happy-thimbleweed-park-day/</guid>
+      <guid>https://mikekeith.github.io/news/2017/9/19/happy-thimbleweed-park-day/</guid>
       <description>The iPad has become my preferred platform for playing adventure games, so I&amp;rsquo;ve been looking forward to this one. I backed the Kickstarter almost three years ago and it&amp;rsquo;s been a treat to see it take shape - the dev blog posts and podcasts were worth it alone.
 As luck would have it, my next overseas business trip is coming up in a few days which I hope will provide ample of opportunity to dive into it proper.</description>
     </item>
     
     <item>
       <title>Kickstarter for a Bluetooth Speccy</title>
-      <link>http://ziggurat.co.nz/news/2013/12/22/kickstarter-for-a-bluetooth-speccy/</link>
+      <link>https://mikekeith.github.io/news/2013/12/22/kickstarter-for-a-bluetooth-speccy/</link>
       <pubDate>Sat, 21 Dec 2013 22:13:25 +0000</pubDate>
       
-      <guid>http://ziggurat.co.nz/news/2013/12/22/kickstarter-for-a-bluetooth-speccy/</guid>
+      <guid>https://mikekeith.github.io/news/2013/12/22/kickstarter-for-a-bluetooth-speccy/</guid>
       <description>This draft Kickstarter campaign for a Bluetooth ZX Spectrum could be interesting. My old 48K only has a partially function keyboard (I really should get around to getting a new keyboard membrane for it), and Elite&amp;rsquo;s emulation on iOS is generally pretty good so this could be a good way to get a more authentic Speccy experience. I certainly hope that it will be useable as a standard Bluetooth keyboard so other emulators (e.</description>
     </item>
     
     <item>
       <title>Archipelagos (iOS)</title>
-      <link>http://ziggurat.co.nz/news/2013/2/20/archipelagos-ios/</link>
+      <link>https://mikekeith.github.io/news/2013/2/20/archipelagos-ios/</link>
       <pubDate>Wed, 20 Feb 2013 07:04:49 +0000</pubDate>
       
-      <guid>http://ziggurat.co.nz/news/2013/2/20/archipelagos-ios/</guid>
+      <guid>https://mikekeith.github.io/news/2013/2/20/archipelagos-ios/</guid>
       <description>Archipelagos appeared on the Amiga back in 1989 and is a first person realtime puzzle/strategy game. I certainly remember playing it, but I also remember not really knowing what I was doing. It&amp;rsquo;s somewhat reminiscent of The Sentinel (surely a remake of that must be on the cards?), and features 9999 procedurally generated levels.
 The original scored well in magazines of the day (Zzap! gave it 90%) and the remake is a decent job, though it feels a little rough and finicky - it seems to be a pretty straightforward port of the modern desktop version and the touch controls could use some love.</description>
     </item>

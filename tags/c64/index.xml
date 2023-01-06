@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C64 on Ziggurat</title>
-    <link>http://ziggurat.co.nz/tags/c64/</link>
+    <link>https://mikekeith.github.io/tags/c64/</link>
     <description>Recent content in C64 on Ziggurat</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-nz</language>
     <copyright>Copyright © 2022, Ziggurat Development Ltd</copyright>
-    <lastBuildDate>Sun, 24 Feb 2019 00:46:02 +0000</lastBuildDate><atom:link href="http://ziggurat.co.nz/tags/c64/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Feb 2019 00:46:02 +0000</lastBuildDate><atom:link href="https://mikekeith.github.io/tags/c64/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Diary of a Game: Part 4 - Item Activation, Interpolation and... Bugs</title>
-      <link>http://ziggurat.co.nz/news/2019/2/24/diary-of-a-game-part-4-item-activation-interpolation-and-bugs/</link>
+      <link>https://mikekeith.github.io/news/2019/2/24/diary-of-a-game-part-4-item-activation-interpolation-and-bugs/</link>
       <pubDate>Sun, 24 Feb 2019 00:46:02 +0000</pubDate>
       
-      <guid>http://ziggurat.co.nz/news/2019/2/24/diary-of-a-game-part-4-item-activation-interpolation-and-bugs/</guid>
+      <guid>https://mikekeith.github.io/news/2019/2/24/diary-of-a-game-part-4-item-activation-interpolation-and-bugs/</guid>
       <description>Since my last update work has been a bit quieter post-ship and I enjoyed an unexpectedly low key Christmas break, so surely I&amp;rsquo;ve made a lot of progress, right? Well&amp;hellip; life decided to intervene which resulted in a lot less time to work on the game than I had hoped. But I have managed to tick off a few things on the long to-do list&amp;hellip;
 Item Activation The main - and, I must admit, only - playing facing addition is items that need to be activated before they can be matched.</description>
     </item>
     
     <item>
       <title>Diary of a Game: Part 3 - Sprites, Character Animation and Input</title>
-      <link>http://ziggurat.co.nz/news/2018/10/15/diary-of-a-game-part-3-sprites-character-animation-and-input/</link>
+      <link>https://mikekeith.github.io/news/2018/10/15/diary-of-a-game-part-3-sprites-character-animation-and-input/</link>
       <pubDate>Mon, 15 Oct 2018 00:11:05 +0000</pubDate>
       
-      <guid>http://ziggurat.co.nz/news/2018/10/15/diary-of-a-game-part-3-sprites-character-animation-and-input/</guid>
+      <guid>https://mikekeith.github.io/news/2018/10/15/diary-of-a-game-part-3-sprites-character-animation-and-input/</guid>
       <description>Good grief, in my mind my last update was 3, maybe 4, months ago&amp;hellip; but May?! Well, I guess I&amp;rsquo;ve had a decent excuse.
 Despite being embarassingly tardy with writing updates, some progress has been made. This is the current state of the game:
 Sprites I&amp;rsquo;ve continued to stick with the C64&amp;rsquo;s standard character mode - I may well switch to the multicolour character mode, but a character approach seems to be working well.</description>
@@ -31,117 +31,117 @@ Sprites I&amp;rsquo;ve continued to stick with the C64&amp;rsquo;s standard char
     
     <item>
       <title>Diary of a Game: Part 2 - Matching and Testing</title>
-      <link>http://ziggurat.co.nz/news/2018/5/20/diary-of-a-game-part-2-matching-and-testing/</link>
+      <link>https://mikekeith.github.io/news/2018/5/20/diary-of-a-game-part-2-matching-and-testing/</link>
       <pubDate>Sun, 20 May 2018 00:17:01 +0000</pubDate>
       
-      <guid>http://ziggurat.co.nz/news/2018/5/20/diary-of-a-game-part-2-matching-and-testing/</guid>
+      <guid>https://mikekeith.github.io/news/2018/5/20/diary-of-a-game-part-2-matching-and-testing/</guid>
       <description>Once again a depressing amount of time has passed since my last update. Given what&amp;rsquo;s on my plate workwise over the next few months I suspect the sporadic nature of my posts will continue. Thankfully I have continued to find time to chip away at the game, and some progress has been made.
 After I managed to get a super rough first pass of the (very) initial base of the game done (with the balls/bubbles/whatever falling down the board and stacking up correctly), the next thing to tackle was the colour matching.</description>
     </item>
     
     <item>
       <title>Zzap!64 Annual 2019 Kickstarter launched</title>
-      <link>http://ziggurat.co.nz/news/2018/4/29/zzap64-annual-2019-kickstarter-launched/</link>
+      <link>https://mikekeith.github.io/news/2018/4/29/zzap64-annual-2019-kickstarter-launched/</link>
       <pubDate>Sat, 28 Apr 2018 22:37:29 +0000</pubDate>
       
-      <guid>http://ziggurat.co.nz/news/2018/4/29/zzap64-annual-2019-kickstarter-launched/</guid>
+      <guid>https://mikekeith.github.io/news/2018/4/29/zzap64-annual-2019-kickstarter-launched/</guid>
       <description>The folks behind last year&amp;rsquo;s rather excellent Crash Annual are back. Chris Wilkins, Roger Kean and Oli Frey have teamed up once again, this time to resurrect Crash&amp;rsquo;s sister mag, Zzap!64, for an annual due out towards the end of the year.
 I must admit I didn&amp;rsquo;t read the Kickstarter pitch or even watch the video before backing it as there was no question in my mind, so it was only through seeing people discussing it online that I realised that the likes of Mel Croucher, Julian Rignall and Robin Hogg were also involved.</description>
     </item>
     
     <item>
       <title>Diary of a Game: Part 1 - Wha&#39; Happen?</title>
-      <link>http://ziggurat.co.nz/news/2018/3/24/diary-of-a-game-part-1-wha-happen/</link>
+      <link>https://mikekeith.github.io/news/2018/3/24/diary-of-a-game-part-1-wha-happen/</link>
       <pubDate>Sat, 24 Mar 2018 01:31:47 +0000</pubDate>
       
-      <guid>http://ziggurat.co.nz/news/2018/3/24/diary-of-a-game-part-1-wha-happen/</guid>
+      <guid>https://mikekeith.github.io/news/2018/3/24/diary-of-a-game-part-1-wha-happen/</guid>
       <description>Man, what happened to the last couple of months?! In the first part of this series I mentioned that my work tended to be rather full on.. at that point I knew I was going to be spending the end of January traveling on business, but what I didn&amp;rsquo;t know was that that would be immediately followed by another, longer business trip. I had a whole 4 days at home during February, and not a single weekend.</description>
     </item>
     
     <item>
       <title>Diary of a Game: Part 0 - Genesis</title>
-      <link>http://ziggurat.co.nz/news/2018/1/22/diary-of-a-game-part-0-genesis/</link>
+      <link>https://mikekeith.github.io/news/2018/1/22/diary-of-a-game-part-0-genesis/</link>
       <pubDate>Sun, 21 Jan 2018 22:25:29 +0000</pubDate>
       
-      <guid>http://ziggurat.co.nz/news/2018/1/22/diary-of-a-game-part-0-genesis/</guid>
+      <guid>https://mikekeith.github.io/news/2018/1/22/diary-of-a-game-part-0-genesis/</guid>
       <description>Here is the first screenshot of a new game I&amp;rsquo;m working on - awesome eh? Wait, don&amp;rsquo;t walk away! It&amp;rsquo;ll get better, I promise!
 I&amp;rsquo;ve spent the last 23 years working in the games industry and at various points I&amp;rsquo;ve attempted to muster the motivation/energy to create a game in my spare time. Only one of those (a simple iPhone game, no longer available) made it through to the end and even that took way too long.</description>
     </item>
     
     <item>
       <title>C64 Reloaded mk2 Board</title>
-      <link>http://ziggurat.co.nz/news/2018/1/9/c64-reloaded-mk2-board/</link>
+      <link>https://mikekeith.github.io/news/2018/1/9/c64-reloaded-mk2-board/</link>
       <pubDate>Thu, 11 Jan 2018 08:41:52 +0000</pubDate>
       
-      <guid>http://ziggurat.co.nz/news/2018/1/9/c64-reloaded-mk2-board/</guid>
+      <guid>https://mikekeith.github.io/news/2018/1/9/c64-reloaded-mk2-board/</guid>
       <description>Updated with info about the remote control menu
 I have a reasonable collection of C64s - 3 breadbins and 2 C64Cs - but out of those only two are fully functioning, so I&amp;rsquo;ve become quite aware that these machines are getting flakey in their old age. I&amp;rsquo;ve sunk quite a lot of hours into attempting to diagnose the faults and finding replacement bits online, with mixed success. Given that it&amp;rsquo;s no surprise that I was eagerly awaiting the release of the C64 Reloaded mk2.</description>
     </item>
     
     <item>
       <title>Hunter&#39;s Moon Kickstarter</title>
-      <link>http://ziggurat.co.nz/news/2017/10/28/hunters-moon-kickstarter/</link>
+      <link>https://mikekeith.github.io/news/2017/10/28/hunters-moon-kickstarter/</link>
       <pubDate>Fri, 27 Oct 2017 21:35:12 +0000</pubDate>
       
-      <guid>http://ziggurat.co.nz/news/2017/10/28/hunters-moon-kickstarter/</guid>
+      <guid>https://mikekeith.github.io/news/2017/10/28/hunters-moon-kickstarter/</guid>
       <description>The legendary C64 software house Thalamus is back! Created in 1986 by mag publisher Newsfield, it quickly grew a reputation for quality titles. The connection with Zzap!64 probably didn&amp;rsquo;t hurt either.
 News broke a couple of months ago that the label was being reborn as Thalamus Digital, and that we could look forward to some of those classic games making a come back - including the possibility of a new installment of Creatures.</description>
     </item>
     
     <item>
       <title>Project Hubbard Kickstarter</title>
-      <link>http://ziggurat.co.nz/news/2017/10/18/project-hubbard-kickstarter/</link>
+      <link>https://mikekeith.github.io/news/2017/10/18/project-hubbard-kickstarter/</link>
       <pubDate>Wed, 18 Oct 2017 07:29:30 +0000</pubDate>
       
-      <guid>http://ziggurat.co.nz/news/2017/10/18/project-hubbard-kickstarter/</guid>
+      <guid>https://mikekeith.github.io/news/2017/10/18/project-hubbard-kickstarter/</guid>
       <description>It&amp;rsquo;s hard to overstate the impact Rob Hubbard had on the UK games scene during the 80s. He was a prolific musician who turned out some incredible tunes. Seeing &amp;ldquo;Commando&amp;rdquo; at my mate&amp;rsquo;s place one afternoon after school helped convince me I needed a C64. I remember going back to his house, tape recorder in hand, to record the music to listen to on repeat (especially that lovely game over tune).</description>
     </item>
     
     <item>
       <title>Review: The Bear Essentials (C64) by Pondsoft</title>
-      <link>http://ziggurat.co.nz/news/2017/7/14/review-the-bear-essentials-c64-by-pondsoft/</link>
+      <link>https://mikekeith.github.io/news/2017/7/14/review-the-bear-essentials-c64-by-pondsoft/</link>
       <pubDate>Fri, 14 Jul 2017 01:47:29 +0000</pubDate>
       
-      <guid>http://ziggurat.co.nz/news/2017/7/14/review-the-bear-essentials-c64-by-pondsoft/</guid>
+      <guid>https://mikekeith.github.io/news/2017/7/14/review-the-bear-essentials-c64-by-pondsoft/</guid>
       <description>When I first started to get into the resurgent C64 game scene after discovering the likes of Psytronik and Protovision, there was one game that everyone seemed to be talking about. Graham Axten’s platformer, which starred a rather charming bear, was looking great and was eagerly anticipated.
 The game draws heavily from Manic Miner and Jet Set Willy, with a graphics style reminiscent of Creatures. The influence of Matthew Smith’s classic games is clear right from the start, where instead of housekeeper Maria turning Willy away to go tidy the house after a massive party, it’s Bear’s wife wanting enough apples to get the family through the winter.</description>
     </item>
     
     <item>
       <title>C64 Reloaded Mk2 Announced!</title>
-      <link>http://ziggurat.co.nz/news/2017/7/14/c64-reloaded-mk2-announced/</link>
+      <link>https://mikekeith.github.io/news/2017/7/14/c64-reloaded-mk2-announced/</link>
       <pubDate>Fri, 14 Jul 2017 00:28:22 +0000</pubDate>
       
-      <guid>http://ziggurat.co.nz/news/2017/7/14/c64-reloaded-mk2-announced/</guid>
+      <guid>https://mikekeith.github.io/news/2017/7/14/c64-reloaded-mk2-announced/</guid>
       <description>Well, hot on the heels of yesterdays Ultimate-64 announcement comes the news that Individual Computers are about to start production of the C64 Reloaded Mk2. This is a rather different approach, and requires the user to install a few chips of their own in order to have a functioning C64. The required chips are:
 CPU 6510 or 8500 Two CIA 6526 or 8521 Video chip 6567, 6569, 8565 or 8562 SID 6581 and/or 8580 The board supports a dual SID configuration.</description>
     </item>
     
     <item>
       <title>Ultimate-64 Announced!</title>
-      <link>http://ziggurat.co.nz/news/2017/7/13/ultimate-64-announced/</link>
+      <link>https://mikekeith.github.io/news/2017/7/13/ultimate-64-announced/</link>
       <pubDate>Wed, 12 Jul 2017 23:32:39 +0000</pubDate>
       
-      <guid>http://ziggurat.co.nz/news/2017/7/13/ultimate-64-announced/</guid>
+      <guid>https://mikekeith.github.io/news/2017/7/13/ultimate-64-announced/</guid>
       <description>I received my 1541 Ultimate-II+ a couple of months ago and love it (which reminds me, I really need to do a write up of it), so the news that Gideon had announced a new product today certainly caught my attention.
 The Ultimate-64 is a an FPGA implementation of the entire C64 board. This means it has all the ports of an original C64, so you can attach tape &amp;amp; disk drives and hook it up to your old Commodore monitors.</description>
     </item>
     
     <item>
       <title>Review: &#34;The Camp&#34; (C64) by Protovision</title>
-      <link>http://ziggurat.co.nz/news/2017/6/22/review-the-camp-c64-by-protovision/</link>
+      <link>https://mikekeith.github.io/news/2017/6/22/review-the-camp-c64-by-protovision/</link>
       <pubDate>Thu, 22 Jun 2017 08:42:29 +0000</pubDate>
       
-      <guid>http://ziggurat.co.nz/news/2017/6/22/review-the-camp-c64-by-protovision/</guid>
+      <guid>https://mikekeith.github.io/news/2017/6/22/review-the-camp-c64-by-protovision/</guid>
       <description>Way back in the mists of time (well, 1982) my parents took me and my sister out of school for a few months to embark on a trip around the UK, Europe and the US. For the European leg we jaunted about in a campervan, staying at campsites (and occasionally on roadsides) along the way. My memories of that time are sadly vague - my main recollection is the ridiculously rough toilet paper that one had to endure in the bathrooms.</description>
     </item>
     
     <item>
       <title>New Arrivals</title>
-      <link>http://ziggurat.co.nz/news/2017/6/18/new-arrivals/</link>
+      <link>https://mikekeith.github.io/news/2017/6/18/new-arrivals/</link>
       <pubDate>Sun, 18 Jun 2017 05:42:48 +0000</pubDate>
       
-      <guid>http://ziggurat.co.nz/news/2017/6/18/new-arrivals/</guid>
+      <guid>https://mikekeith.github.io/news/2017/6/18/new-arrivals/</guid>
       <description>Since getting back into the C64/Amiga scene, one of the things I&amp;rsquo;ve really loved is that there are still people out there making &amp;amp; publishing games for the machines. So I finally got around to picking up a few. From Psytronkik there is:
 &amp;ldquo;Kung Fu Maniacs Trilogy&amp;rdquo; &amp;ldquo;Gravitrix&amp;rdquo; &amp;ldquo;X-Force&amp;rdquo; &amp;ldquo;Space Trip 2086&amp;rdquo;. And one from Pond that I had been eagerly awaiting:
 &amp;ldquo;The Bear Essentials&amp;rdquo; These should keep me busy for a little while&amp;hellip;</description>
@@ -149,20 +149,20 @@ The Ultimate-64 is a an FPGA implementation of the entire C64 board. This means 
     
     <item>
       <title>Recent Kickstarters</title>
-      <link>http://ziggurat.co.nz/news/2017/4/25/recent-kickstarters/</link>
+      <link>https://mikekeith.github.io/news/2017/4/25/recent-kickstarters/</link>
       <pubDate>Mon, 24 Apr 2017 23:46:18 +0000</pubDate>
       
-      <guid>http://ziggurat.co.nz/news/2017/4/25/recent-kickstarters/</guid>
+      <guid>https://mikekeith.github.io/news/2017/4/25/recent-kickstarters/</guid>
       <description>It&amp;rsquo;s been a good time to be a retro gaming fan recently with several promising Kickstarters. Of course I dawdled too long on writing about them, so some have already finished, but they&amp;rsquo;re still worth keeping an eye on.
 Reformation 2 from Matt Gray The first Reformation took a little longer to ship than originally expected, but it was well worth the wait. 5 CDs of excellent remakes of some of the best tunes to grace the C64 (and therefore, games in general).</description>
     </item>
     
     <item>
       <title>December Games Revisited</title>
-      <link>http://ziggurat.co.nz/news/2016/12/31/december-games-revisited/</link>
+      <link>https://mikekeith.github.io/news/2016/12/31/december-games-revisited/</link>
       <pubDate>Sat, 31 Dec 2016 04:12:03 +0000</pubDate>
       
-      <guid>http://ziggurat.co.nz/news/2016/12/31/december-games-revisited/</guid>
+      <guid>https://mikekeith.github.io/news/2016/12/31/december-games-revisited/</guid>
       <description>One of these days I’ll get my act together and not wait until the dying hours of the month (and even year in this case) to write these things… With that said, I did manage to have a decent play on a bunch of the biggest December games from 1986 and 1988.
 ”The Sentinel”, Geoff Crammond/Firebird, 1986
 Reviewed Zzap!64 December 1986.
@@ -171,20 +171,20 @@ I recall playing this quite a bit on the C64.</description>
     
     <item>
       <title>November Games Revisited</title>
-      <link>http://ziggurat.co.nz/news/2016/11/30/november-games-revisited/</link>
+      <link>https://mikekeith.github.io/news/2016/11/30/november-games-revisited/</link>
       <pubDate>Wed, 30 Nov 2016 07:26:06 +0000</pubDate>
       
-      <guid>http://ziggurat.co.nz/news/2016/11/30/november-games-revisited/</guid>
+      <guid>https://mikekeith.github.io/news/2016/11/30/november-games-revisited/</guid>
       <description>I had hoped to have a number of opportunities to spend some quality time playing these games (and more) this month, but one of the downsides of travelling so much for business is that such occasions are rare. Very rare in the case of this month: I managed a pathetic few hours last Sunday.
 At any rate&amp;hellip; Here&amp;rsquo;s a brief look back at a few games that hit the shelves in November many years ago to rave reviews.</description>
     </item>
     
     <item>
       <title>&#34;Parallax&#34; Re-visited</title>
-      <link>http://ziggurat.co.nz/news/2016/10/24/parallax-re-visited/</link>
+      <link>https://mikekeith.github.io/news/2016/10/24/parallax-re-visited/</link>
       <pubDate>Mon, 24 Oct 2016 07:01:04 +0000</pubDate>
       
-      <guid>http://ziggurat.co.nz/news/2016/10/24/parallax-re-visited/</guid>
+      <guid>https://mikekeith.github.io/news/2016/10/24/parallax-re-visited/</guid>
       <description>Parallax Sensible Software/Ocean, 1986 This month in 1986 saw Sensible&amp;rsquo;s first big title reviewed in Zzap!64, scoring a very respectable 93% overall and receiving a Sizzler.
 Over the past few days I&amp;rsquo;ve tried to remember where I first saw &amp;ldquo;Parallax&amp;rdquo;&amp;hellip; I want to say it was at my friend Neil&amp;rsquo;s house, but did he even have a C64?? I know he had a Spectrum and later an Amiga&amp;hellip; Maybe it was someone else.</description>
     </item>
