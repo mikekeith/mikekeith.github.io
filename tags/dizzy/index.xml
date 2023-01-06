@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dizzy on Ziggurat</title>
+    <link>http://ziggurat.co.nz/tags/dizzy/</link>
+    <description>Recent content in Dizzy on Ziggurat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-nz</language>
+    <copyright>Copyright © 2022, Ziggurat Development Ltd</copyright>
+    <lastBuildDate>Sun, 15 Sep 2013 05:20:22 +0000</lastBuildDate><atom:link href="http://ziggurat.co.nz/tags/dizzy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blitz Games closes down</title>
+      <link>http://ziggurat.co.nz/news/2013/9/15/blitz-games-closes-down/</link>
+      <pubDate>Sun, 15 Sep 2013 05:20:22 +0000</pubDate>
+      
+      <guid>http://ziggurat.co.nz/news/2013/9/15/blitz-games-closes-down/</guid>
+      <description>Well, this is sad. Blitz Games has closed down after 23 years. The Oliver Twins have been prominent members of the UK games industry since they shot to fame in the 80s for their much loved Dizzy series of games. I&amp;rsquo;ve never met them myself, but everyone I know that has has nothing but glowing things to say about them - they&amp;rsquo;ve been an immense help to many UK developers.</description>
+    </item>
+    
+  </channel>
+</rss>

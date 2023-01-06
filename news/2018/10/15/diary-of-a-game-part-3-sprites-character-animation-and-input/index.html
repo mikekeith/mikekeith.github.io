@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en-nz">
+<head>
+    <meta charset="utf-8">
+    
+    <title>Diary of a Game: Part 3 - Sprites, Character Animation and Input | Ziggurat</title>
+    <meta name="description" content="Occasional ramblings about retro games, development, augmented reality and other random subjects.">
+    <meta name="author" content="">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href=http://ziggurat.co.nz/apple-touch-icon.png>
+    <link rel="icon" type="image/png" sizes="32x32" href=http://ziggurat.co.nz/favicon-32x32.png>
+    <link rel="icon" type="image/png" sizes="16x16" href=http://ziggurat.co.nz/favicon-16x16.png>
+    <link rel="manifest" href=http://ziggurat.co.nz/site.webmanifest>
+    <link rel="mask-icon" href=http://ziggurat.co.nz/safari-pinned-tab.svg color="#00416a">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+    
+    
+    
+    
+    <link rel="me" href="https://micro.blog/mikekeith">
+    
+    <link rel="authorization_endpoint" href=https://indieauth.com/auth />
+    <link rel="token_endpoint" href=https://tokens.indieauth.com/token />
+    
+    
+    
+    
+    
+    <link rel="stylesheet" href=http://ziggurat.co.nz/css/fonts.css />
+    <link rel="stylesheet" href=http://ziggurat.co.nz/css/style.css />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div id="sitelogo">
+        <a class="glyph" alt="Home" href="http://ziggurat.co.nz/"><img src=http://ziggurat.co.nz/images/site-logo.svg alt="Site Logo" height="64px" width="64px"></a>
+    </div>
+    <header>
+        <nav>
+    
+    <div id="page-nav">
+        <div class="page-nav-item">
+            <a href="http://ziggurat.co.nz/">Home</a>
+        </div>
+        
+            <div class="page-nav-item">
+                <a href="/confidential/">
+                    
+                    <span>Confidential</span>
+                </a>
+            </div>
+        
+            <div class="page-nav-item">
+                <a href="/about/">
+                    
+                    <span>About</span>
+                </a>
+            </div>
+        
+    </div>
+</nav>
+        
+    </header>
+
+
+
+
+
+
+<div id="content">
+    <article class="h-entry">
+        <header>
+            <h1 class="post-title p-name">Diary of a Game: Part 3 - Sprites, Character Animation and Input</h1>
+            <p class="post-date">Posted on
+                <time class="dt-published" datetime="15 October 2018 13:11 NZDT">
+                    15 October 2018 13:11 NZDT
+                </time>  by <a href="http://ziggurat.co.nz/" class="p-author h-card"
+                    rel="author">Michael Keith</a>
+            </p>
+            
+            
+            <p class="post-tag">Category:
+                
+                <a href="http://ziggurat.co.nz/categories/diary-of-a-game" class="post-tag p-category">Diary of a game</a>
+                
+            </p>
+            <hr class="post-underline">
+            
+        </header>
+        <section class="content e-content">
+            <p>Good grief, in my mind my last update was 3, maybe 4, months ago&hellip; but May?!
+Well, I guess I&rsquo;ve had <a href="https://michael-keith-y85g.squarespace.com/news/2018/10/15/of-magic-leap-amp-dr-grordborts">a decent excuse</a>.</p>
+<p>Despite being embarassingly tardy with writing updates, some progress has been
+made. This is the current state of the game:</p>
+<p><img src="/images/2018-10-15-20181015diary-of-a-game-part-3-sprites-character-animation-and-input/20181015.2018-10-15-10_54_13.gif" alt="20181015.2018-10-15 10_54_13.gif"></p>
+<h2 id="sprites">Sprites</h2>
+<p>I&rsquo;ve continued to stick with the C64&rsquo;s <a href="https://www.c64-wiki.com/wiki/Standard_Character_Mode">standard character mode</a> - I
+may well switch to the multicolour character mode, but a character approach
+seems to be working well. In order to draw the overlapping rows of items on
+the board, I just change the horizontal scroll value every 8 lines which means
+I don&rsquo;t have to faff about with creating a bunch of extra in-between chars.
+The downside to this is that as items/balls/whatever fall down, they jump left
+and right.</p>
+<p>Sprites aren&rsquo;t affected by the scroll registers, so now when an item drops
+from the top what you&rsquo;re seeing is a sprite rather than a character. Setting
+up the sprite code was straightforward and as always I highly recommend
+checking out <a href="https://64bites.com">64bites.com</a>.</p>
+<p>The first step was to be able to position sprites over any of the board&rsquo;s
+cells. The way the logic for the items works is similar to a <a href="https://en.wikipedia.org/wiki/Cellular_automaton">cellular
+automaton</a>, in that each board cell looks at its contents and the
+contents of its neighbours, and then decides what the next state should be.
+This means that things move in character sized jumps. So once I was able to
+cover any item with a sprite as it dropped down, I could start on making this
+look nice and pixely smooth.</p>
+<p>Roughly, the way it now works is:</p>
+<ol>
+<li>Create an item at the top, hide it and replace it with a sprite</li>
+<li>Tick the item (does it drop down or is it blocked?)</li>
+<li>If it&rsquo;s position did change, start a linear interpolation between the current sprite position and the item&rsquo;s new position.</li>
+<li>Repeat the interpolation until the sprite has arrived.</li>
+<li>Repeat step 2.</li>
+</ol>
+<p>Currently this is only used for the item that is fired from the top, but one
+of the things on my todo list is to expand it to include items when they
+collapse.</p>
+<h2 id="character-animations">Character Animations</h2>
+<p>One of the most interesting things I&rsquo;ve found while working on this is just
+how overly confident I am that I know what I&rsquo;m doing when when approaching
+certain straightforward tasks. It ended up taking me about 6-8 hours split
+over several nights to get a simple system for animating arbitrary characters
+integrated&hellip; so many times I was sure I had the answer only to find it was a
+deadend. To be fair, the difficulty is not that I didn&rsquo;t know what was needed,
+it was taking it and cramming into the constraints of the 6510.</p>
+<p>So I&rsquo;ve ended up with an animation pool that take animation sequences and then
+play them appropriately.</p>
+<p>The animation pool along with an example sequence (used when items are matched
+&amp; removed) looks like:</p>
+<pre><code>.macro animation_frame(char, frame_dur) {
+  character: .byte char                // character to display
+  frame_duration: .byte frame_dur    // how long to show it for
+}
+
+animation_sequence3: {
+  num_frames: .byte 6
+  animation_frame1: {
+      :animation_frame(CIRCLE_FILLED_CHAR, 3)        
+  }
+  animation_frame2: {
+      :animation_frame(CIRCLE_OUTLINE_CHAR, 3)        
+  }
+  animation_frame3: {
+      :animation_frame(ASTERISK_CHAR, 3)
+  }
+  animation_frame4: {
+      :animation_frame(PLUS_CHAR, 3)        
+  }
+  animation_frame5: {
+      :animation_frame(PERIOD_CHAR, 3)
+  }
+  animation_frame6: {
+      :animation_frame(BLANK_CHAR, 1)        
+  }
+}
+
+animation_pool: .for(var i = 0; i &lt; ANIMATION_POOL_SIZE; i++) {
+    animation_item: {
+        loop_count: .byte 0         // how many loops left - 255 = forever
+        dest: .word 0                // screen offset for where to draw
+        character: .byte 0            // current character
+        current_frame: .byte 0        // current frame in the sequence
+        frame_time_left: .byte 0    // how long left for the current frame
+        sequence: .word 0            // pointer to the sequence data
+        flags: .byte 0                // flags for the anim
+    animation_item_end:
+    }
+}
+animation_pool_end:
+</code></pre>
+<p>This gives me a nice, flexible system which I can use to animate any character
+on the screen. I&rsquo;ve been a bit sloppy with my memory usage, but if I run out
+of RAM there is some easy low hanging fruit to tackle (famous last words!).</p>
+<h2 id="input">Input</h2>
+<p>Player input is super, super simple in this game - it&rsquo;s literally just one
+button. For the time being I&rsquo;m only reading the spacebar state, but I will
+extend that to joystick buttons and possibly other inputs. Consequently the
+code is straightforward:</p>
+<pre><code>.macro update_spacebar_state(previous_spacebar_state, spacebar_state) { 
+    lda spacebar_state 
+    sta previous_spacebar_state
+
+    lda #%01111111              // check for space bar pressed
+    sta $dc00 
+    lda $dc01 
+    and #%00010000 
+    sta spacebar_state
+}
+</code></pre>
+<p>Even though I&rsquo;d been using raster interrupts to trigger the scroll register
+changes since the early days, I was still always making sure to call the
+system IRQ handler when I was done. You can see just how heavy this default
+handler is in this clip where it screws up drawing when the spacebar is
+pressed:</p>
+<p><img src="/images/2018-10-15-20181015diary-of-a-game-part-3-sprites-character-animation-and-input/image-asset.gif" alt=""></p>
+<p>However I&rsquo;m pretty sure I don&rsquo;t need that kernal functionality, so now I skip
+the system handler. Just make sure to restore the registers when you exit your
+handler, e.g:</p>
+<pre><code>.macro scroll_irq_last(scroll_value) {
+  // update scroll register
+  lda screen_control_register2
+  and #%11111000
+  ora #scroll_value
+  sta screen_control_register2
+
+  // acknowldge the interrupt
+  lda #%00000001
+  sta vic2_interrupt_status_register
+
+  // restore the registers 
+  pla 
+  tay 
+  pla 
+  tax 
+  pla 
+  rti      
+}
+</code></pre>
+<h2 id="what-next">What Next?</h2>
+<p>Top of the todo list is special items. Unlike the regular coloured balls,
+these will have particular behaviours like bubbles that disappear when a
+neighbouring cell becomes empty, or ones that can&rsquo;t be removed by matching but
+turn into regular balls when directly hit.</p>
+
+        </section>
+        <footer>
+            <a class="permalink u-url" href="http://ziggurat.co.nz/news/2018/10/15/diary-of-a-game-part-3-sprites-character-animation-and-input/">🔗</a>
+            
+            <hr class="post-underline">
+            <p class="post-tag">Tags for this post:
+                
+                <a href="http://ziggurat.co.nz/tags/c64" class="post-tag p-category">C64</a>
+                
+                <a href="http://ziggurat.co.nz/tags/assembler" class="post-tag p-category">Assembler</a>
+                
+                <a href="http://ziggurat.co.nz/tags/coding" class="post-tag p-category">Coding</a>
+                
+            </p>
+            
+        </footer>
+    </article>
+</div>
+
+    
+    <div id="footer">
+      
+      <nav id="article-skip">
+        <div class="next">
+          
+          <a alt="Newer article" href="http://ziggurat.co.nz/news/2018/10/18/this-month-in-the-one-92/">&larr; Newer</a>
+          
+        </div>
+        <div class="top">
+          <a alt="Top of page" href="#">Top</a>
+        </div>
+        <div class="prev">
+          
+          <a alt="Older article" href="http://ziggurat.co.nz/news/2018/10/15/of-magic-leap-amp-dr-grordborts/">Older &rarr;</a>
+          
+        </div>
+      </nav>
+      
+      <aside id="social">
+  <div id="social-icons">
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Email me" href="mailto:mike@ziggurat.co.nz"><img src=http://ziggurat.co.nz/icons/envelope.svg height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="GitHub profile" href="https://github.com/mikekeith"><img src=http://ziggurat.co.nz/icons/github.svg height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="LinkedIn profile" href="https://www.linkedin.com/in/mike-keith-4b33bb1"><img src=http://ziggurat.co.nz/icons/linkedin.svg height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Micro.Blog profile" href="https://micro.blog/mikekeith"><img src=http://ziggurat.co.nz/icons/microblog.svg height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    
+    
+  </div>
+</aside>
+
+      
+      <p class="copyright">
+          Copyright © 2022, Ziggurat Development Ltd
+      </p>
+      
+    </div>
+
+
+</body>
+</html>

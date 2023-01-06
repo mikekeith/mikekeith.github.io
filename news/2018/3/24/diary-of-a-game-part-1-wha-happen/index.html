@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en-nz">
+<head>
+    <meta charset="utf-8">
+    
+    <title>Diary of a Game: Part 1 - Wha&#39; Happen? | Ziggurat</title>
+    <meta name="description" content="Occasional ramblings about retro games, development, augmented reality and other random subjects.">
+    <meta name="author" content="">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href=http://ziggurat.co.nz/apple-touch-icon.png>
+    <link rel="icon" type="image/png" sizes="32x32" href=http://ziggurat.co.nz/favicon-32x32.png>
+    <link rel="icon" type="image/png" sizes="16x16" href=http://ziggurat.co.nz/favicon-16x16.png>
+    <link rel="manifest" href=http://ziggurat.co.nz/site.webmanifest>
+    <link rel="mask-icon" href=http://ziggurat.co.nz/safari-pinned-tab.svg color="#00416a">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+    
+    
+    
+    
+    <link rel="me" href="https://micro.blog/mikekeith">
+    
+    <link rel="authorization_endpoint" href=https://indieauth.com/auth />
+    <link rel="token_endpoint" href=https://tokens.indieauth.com/token />
+    
+    
+    
+    
+    
+    <link rel="stylesheet" href=http://ziggurat.co.nz/css/fonts.css />
+    <link rel="stylesheet" href=http://ziggurat.co.nz/css/style.css />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div id="sitelogo">
+        <a class="glyph" alt="Home" href="http://ziggurat.co.nz/"><img src=http://ziggurat.co.nz/images/site-logo.svg alt="Site Logo" height="64px" width="64px"></a>
+    </div>
+    <header>
+        <nav>
+    
+    <div id="page-nav">
+        <div class="page-nav-item">
+            <a href="http://ziggurat.co.nz/">Home</a>
+        </div>
+        
+            <div class="page-nav-item">
+                <a href="/confidential/">
+                    
+                    <span>Confidential</span>
+                </a>
+            </div>
+        
+            <div class="page-nav-item">
+                <a href="/about/">
+                    
+                    <span>About</span>
+                </a>
+            </div>
+        
+    </div>
+</nav>
+        
+    </header>
+
+
+
+
+
+
+<div id="content">
+    <article class="h-entry">
+        <header>
+            <h1 class="post-title p-name">Diary of a Game: Part 1 - Wha&#39; Happen?</h1>
+            <p class="post-date">Posted on
+                <time class="dt-published" datetime="24 March 2018 14:31 NZDT">
+                    24 March 2018 14:31 NZDT
+                </time>  by <a href="http://ziggurat.co.nz/" class="p-author h-card"
+                    rel="author">Michael Keith</a>
+            </p>
+            
+            
+            <p class="post-tag">Category:
+                
+                <a href="http://ziggurat.co.nz/categories/diary-of-a-game" class="post-tag p-category">Diary of a game</a>
+                
+            </p>
+            <hr class="post-underline">
+            
+        </header>
+        <section class="content e-content">
+            <p>Man, what happened to the last couple of months?! In the first part of this
+series I mentioned that my work tended to be rather full on.. at that point I
+knew I was going to be spending the end of January traveling on business, but
+what I didn&rsquo;t know was that that would be immediately followed by another,
+longer business trip. I had a whole 4 days at home during February, and not a
+single weekend. Work-wise it was a very productive and beneficial time, but it
+did mean that other things slipped through the cracks.</p>
+<p>Despite that I did manage to make a bit of progress on the game. The
+items/balls/bubbles/whatever now fall down and pile up correctly. I&rsquo;m still
+just using characters - I want to get the core game state update functional
+before worrying about making things look nicer.</p>
+<p>In order to use characters and get alternating rows offset correctly I&rsquo;m using
+a series of raster interrupts to modify the horizontal scroll value. In the
+video below, you can see how it looks before these interrupts start running,
+and once they are the coloured lines show the amount of raster time they take
+(which is pretty long due to them occurring on <a href="https://stackoverflow.com/questions/24375150/stable-raster-on-c64#25613443">&ldquo;bad lines&rdquo;</a>).</p>
+<p>The flashing border colours at the top of the screen show the raster time
+taken for various bits of the game tick routine. The black border is the
+routine that updates all the cells of what I call the board - each cell in the
+board is either empty or contains an item. The white shows the time spent re-
+drawing the board and its cells.</p>
+<p><img src="/images/2018-03-24-2018324diary-of-a-game-part-1-wha-happen/betterrandcapture2.gif" alt="betterrandcapture2.gif"></p>
+<p>Yes, this is pretty terrible performance wise right now. My philosophy with
+coding is to do the easiest, quickest thing first and then step back and
+evaluate. I&rsquo;m not smart enough to plan entire systems out ahead of time - in
+my experience once you have something doing what you originally thought you
+wanted, you often realise that it sucks or that there are issues that you
+hadn&rsquo;t even thought of beforehand. Being able to iterate rapidly on the things
+that matter is important.</p>
+<h2 id="random-problems">Random Problems</h2>
+<p>Speaking of going with the quickest, easiest implementation first and terrible
+performance&hellip; This was my initial super basic pass at a random number
+generator:</p>
+<pre><code>random_num_in_range: 
+    sta rand_hi
+
+!rand_loop: 
+    jsr random_num 
+    cmp rand_hi 
+    bcs !rand_loop- 
+    rts
+
+random_num: 
+    lda $d012 
+    eor $dc04 
+    sbc $dc05 
+    rts
+
+rand_hi: .byte 0
+</code></pre>
+<p>The <code>random_num</code> routine was found on this <a href="http://www.lemon64.com/forum/viewtopic.php?t=15714&amp;sid=34d576e4abd4a2d7f79ff2879a50d471">lemon64 thread</a>.</p>
+<p><code>random_num_in_range</code> took a value in the A register and generated a random
+number between 0 and that value - 1. This allowed me to quickly get to work on
+the game update routines, but every few frames it would take a very, very long
+time. The problem, of course, is how it makes sure the result is within the
+range the caller wanted. In this case it just kept on trying until it
+generated a number within the desired range - and when that range is small (in
+this case I was looking for a value between 0 and 5 for the column, and 1 and
+4 for the colour), chances are it&rsquo;s gonna have to try a <em>lot</em> of times.</p>
+<p>The typical approach for this kind of thing is to take the modulus of the
+random number with the upper value (e.g. for a number between 0 and 5 in C,
+you would do <code>rand() % 6</code>). I was too lazy to implement a general modulus
+routine (and I suspect it may be heavier than I would want) so I went with
+this:</p>
+<pre><code>.macro random_high(high) {
+    jsr random_num
+    .var next = pow(2, ceil(log(high)/log(2))) - 1
+    and #next
+!shift_loop:
+    cmp #high    
+    bcc !fine+
+    beq !fine+
+    sec
+    sbc #high
+!fine: 
+}
+</code></pre>
+<p>Thanks to <a href="http://www.theweb.dk/KickAssembler/Main.html">Kickassembler&rsquo;s</a> very nice language features, I calculate the
+power of 2 value that&rsquo;s either equal to the passed in parameter or the next
+highest. Then I can subtract 1 to get a bitmask (e.g if the value passed in
+was 8, then the bitmask would be 7, i.e. %00000111), use the logical <code>and</code>,
+and if that result happens to be out of range then I just subtract the <code>high</code>
+value. Once again that&rsquo;ll give me a number between 0 and <code>high</code>- 1.</p>
+<p>The problem with this is that if you want, say, a number between 0 and 5, then
+that&rsquo;s a fraction of the possible numbers returned by the <code>random_num</code> routine
+(which is a byte, so 0-255). So the distribution of numbers in the desired
+range is highly dependent on just how good your random number generator is.</p>
+<p>This video shows the result of using the original, super cheap &amp; basic
+routine.</p>
+<p><img src="/images/2018-03-24-2018324diary-of-a-game-part-1-wha-happen/badcapture2.gif" alt="badcapture2.gif"></p>
+<p>Not ideal, eh? A lot of repetition, with some values hardly ever getting
+chosen.</p>
+<p>In the end I decided to go with <a href="http://codebase64.org/doku.php?id=base:small_fast_8-bit_prng">the RNG described here</a>.</p>
+<pre><code>random_num:
+    lda seed
+    beq doEor
+    asl
+    beq noEor //if the input was $80, skip the EOR
+    bcc noEor
+doEor:
+    eor #$1d
+noEor:
+    sta seed
+    rts
+seed: .byte 0
+</code></pre>
+<p>Thanks to that you can see the much better distribution in the first video in
+this post, and it still manages to do it with a low cycle count.</p>
+<p>For a much more in depth look at RNGs in 6502, then <a href="http://6502.org/source/integers/random/random.html">this is well worth
+checking out</a>.</p>
+<h1 id="what-next">What Next?</h1>
+<p>Obviously an important part of a &ldquo;match 3&rdquo; style game is the matching, so I&rsquo;ve
+been working on that. This has been a somewhat humbling exercise so far, as I
+started it thinking I would knock it out in no time, but then the reality of
+only having 1 general purpose register, 2 index registers and a very limited
+set of addressing modes dawned on me yet again. With that said, I&rsquo;ve made some
+good progress and am hopeful it&rsquo;ll all be working nicely in time for the next
+post.</p>
+
+        </section>
+        <footer>
+            <a class="permalink u-url" href="http://ziggurat.co.nz/news/2018/3/24/diary-of-a-game-part-1-wha-happen/">🔗</a>
+            
+            <hr class="post-underline">
+            <p class="post-tag">Tags for this post:
+                
+                <a href="http://ziggurat.co.nz/tags/c64" class="post-tag p-category">C64</a>
+                
+                <a href="http://ziggurat.co.nz/tags/assembler" class="post-tag p-category">Assembler</a>
+                
+                <a href="http://ziggurat.co.nz/tags/game-dev" class="post-tag p-category">Game Dev</a>
+                
+            </p>
+            
+        </footer>
+    </article>
+</div>
+
+    
+    <div id="footer">
+      
+      <nav id="article-skip">
+        <div class="next">
+          
+          <a alt="Newer article" href="http://ziggurat.co.nz/news/2018/3/31/this-month-in-the-one-for-amiga-92/">&larr; Newer</a>
+          
+        </div>
+        <div class="top">
+          <a alt="Top of page" href="#">Top</a>
+        </div>
+        <div class="prev">
+          
+          <a alt="Older article" href="http://ziggurat.co.nz/news/2018/2/8/this-month-in-cvg-90/">Older &rarr;</a>
+          
+        </div>
+      </nav>
+      
+      <aside id="social">
+  <div id="social-icons">
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Email me" href="mailto:mike@ziggurat.co.nz"><img src=http://ziggurat.co.nz/icons/envelope.svg height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="GitHub profile" href="https://github.com/mikekeith"><img src=http://ziggurat.co.nz/icons/github.svg height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="LinkedIn profile" href="https://www.linkedin.com/in/mike-keith-4b33bb1"><img src=http://ziggurat.co.nz/icons/linkedin.svg height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Micro.Blog profile" href="https://micro.blog/mikekeith"><img src=http://ziggurat.co.nz/icons/microblog.svg height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    
+    
+  </div>
+</aside>
+
+      
+      <p class="copyright">
+          Copyright © 2022, Ziggurat Development Ltd
+      </p>
+      
+    </div>
+
+
+</body>
+</html>

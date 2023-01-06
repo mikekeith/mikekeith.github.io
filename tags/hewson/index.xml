@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hewson on Ziggurat</title>
+    <link>http://ziggurat.co.nz/tags/hewson/</link>
+    <description>Recent content in Hewson on Ziggurat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-nz</language>
+    <copyright>Copyright © 2022, Ziggurat Development Ltd</copyright>
+    <lastBuildDate>Sat, 26 Oct 2013 21:18:56 +0000</lastBuildDate><atom:link href="http://ziggurat.co.nz/tags/hewson/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kickstarter for a book by Andrew Hewson</title>
+      <link>http://ziggurat.co.nz/news/2013/10/27/kickstarter-for-a-book-by-andrew-hewson/</link>
+      <pubDate>Sat, 26 Oct 2013 21:18:56 +0000</pubDate>
+      
+      <guid>http://ziggurat.co.nz/news/2013/10/27/kickstarter-for-a-book-by-andrew-hewson/</guid>
+      <description>Andrew Hewson is running a Kickstarter for a new book detailing his experiences and insights from a long career in videogame development. I&amp;rsquo;m not terribly keen on the title of the book (&amp;ldquo;Hints &amp;amp; Tips for Videogame Pioneers&amp;rdquo;) as it sounds a bit like those &amp;ldquo;Learn how to program C++ in 24 hours!&amp;rdquo; books, but I would love to read his accounts of what was one my favourite software houses of the 80s/90s.</description>
+    </item>
+    
+  </channel>
+</rss>

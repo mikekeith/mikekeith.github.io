@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>This month in... on Ziggurat</title>
+    <link>http://ziggurat.co.nz/categories/this-month-in.../</link>
+    <description>Recent content in This month in... on Ziggurat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-nz</language>
+    <copyright>Copyright © 2022, Ziggurat Development Ltd</copyright><atom:link href="http://ziggurat.co.nz/categories/this-month-in.../index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

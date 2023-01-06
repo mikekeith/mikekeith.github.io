@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en-nz">
+<head>
+    <meta charset="utf-8">
+    
+    <title>Diary of a Game: Part 4 - Item Activation, Interpolation and... Bugs | Ziggurat</title>
+    <meta name="description" content="Occasional ramblings about retro games, development, augmented reality and other random subjects.">
+    <meta name="author" content="">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href=http://ziggurat.co.nz/apple-touch-icon.png>
+    <link rel="icon" type="image/png" sizes="32x32" href=http://ziggurat.co.nz/favicon-32x32.png>
+    <link rel="icon" type="image/png" sizes="16x16" href=http://ziggurat.co.nz/favicon-16x16.png>
+    <link rel="manifest" href=http://ziggurat.co.nz/site.webmanifest>
+    <link rel="mask-icon" href=http://ziggurat.co.nz/safari-pinned-tab.svg color="#00416a">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+    
+    
+    
+    
+    <link rel="me" href="https://micro.blog/mikekeith">
+    
+    <link rel="authorization_endpoint" href=https://indieauth.com/auth />
+    <link rel="token_endpoint" href=https://tokens.indieauth.com/token />
+    
+    
+    
+    
+    
+    <link rel="stylesheet" href=http://ziggurat.co.nz/css/fonts.css />
+    <link rel="stylesheet" href=http://ziggurat.co.nz/css/style.css />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div id="sitelogo">
+        <a class="glyph" alt="Home" href="http://ziggurat.co.nz/"><img src=http://ziggurat.co.nz/images/site-logo.svg alt="Site Logo" height="64px" width="64px"></a>
+    </div>
+    <header>
+        <nav>
+    
+    <div id="page-nav">
+        <div class="page-nav-item">
+            <a href="http://ziggurat.co.nz/">Home</a>
+        </div>
+        
+            <div class="page-nav-item">
+                <a href="/confidential/">
+                    
+                    <span>Confidential</span>
+                </a>
+            </div>
+        
+            <div class="page-nav-item">
+                <a href="/about/">
+                    
+                    <span>About</span>
+                </a>
+            </div>
+        
+    </div>
+</nav>
+        
+    </header>
+
+
+
+
+
+
+<div id="content">
+    <article class="h-entry">
+        <header>
+            <h1 class="post-title p-name">Diary of a Game: Part 4 - Item Activation, Interpolation and... Bugs</h1>
+            <p class="post-date">Posted on
+                <time class="dt-published" datetime="24 February 2019 13:46 NZDT">
+                    24 February 2019 13:46 NZDT
+                </time>  by <a href="http://ziggurat.co.nz/" class="p-author h-card"
+                    rel="author">Michael Keith</a>
+            </p>
+            
+            
+            <p class="post-tag">Category:
+                
+                <a href="http://ziggurat.co.nz/categories/diary-of-a-game" class="post-tag p-category">Diary of a game</a>
+                
+            </p>
+            <hr class="post-underline">
+            
+        </header>
+        <section class="content e-content">
+            <p>Since my last update work has been a bit quieter post-ship and I enjoyed an
+unexpectedly low key Christmas break, so surely I&rsquo;ve made a lot of progress,
+right? Well&hellip; life decided to intervene which resulted in a lot less time to
+work on the game than I had hoped. But I have managed to tick off a few things
+on the long to-do list&hellip;</p>
+<p><img src="/images/2019-02-24-2019224diary-of-a-game-part-4-item-activation-interpolation-and-bugs/image-asset.gif" alt=""></p>
+<h2 id="item-activation">Item Activation</h2>
+<p>The main - and, I must admit, only - playing facing addition is items that
+need to be activated before they can be matched. Activation occurs when a
+neighbour - regardless of colour - is matched and removed. I&rsquo;ve reserved the
+4th bit to indicate whether an item requires activation, which means I have 7
+possible item types. So far I&rsquo;m only using 4, so I <em>think</em> this will be
+enough. However, I should be able to take the 5th bit to give 15 item types
+(each with an unactivated variant) if need be.</p>
+<p>The item bits at present are:</p>
+<pre><code>.const ITEM_TYPE_BITS = %00001111
+.const ITEM_AWAITING_ACTIVATION = %00001000
+.const ITEM_MOVING = %00100000
+.const ITEM_DONT_DRAW = %01000000
+
+.enum {
+    ITEM_TYPE_NONE = 0,
+    ITEM_TYPE_WHITE_BALL = 1,
+    ITEM_TYPE_RED_BALL = 2,
+    ITEM_TYPE_CYAN_BALL = 3,
+    ITEM_TYPE_PURPLE_BALL = 4,
+
+    ITEM_TYPE_PLACEHOLDER_1 = 5,
+    ITEM_TYPE_PLACEHOLDER_2 = 6,
+    ITEM_TYPE_PLACEHOLDER_3 = 7,
+
+    ITEM_TYPE_NONE_UNACTIVATED = ITEM_TYPE_NONE + ITEM_AWAITING_ACTIVATION,
+
+    ITEM_TYPE_WHITE_BALL_UNACTIVATED = ITEM_TYPE_WHITE_BALL + ITEM_AWAITING_ACTIVATION,
+    ITEM_TYPE_RED_BALL_UNACTIVATED = ITEM_TYPE_RED_BALL + ITEM_AWAITING_ACTIVATION,
+    ITEM_TYPE_CYAN_BALL_UNACTIVATED = ITEM_TYPE_CYAN_BALL + ITEM_AWAITING_ACTIVATION,
+    ITEM_TYPE_PURPLE_BALL_UNACTIVATED =ITEM_TYPE_PURPLE_BALL + ITEM_AWAITING_ACTIVATION,
+
+
+    ITEM_NUM_TYPES = 13
+}
+</code></pre>
+<h2 id="interpolation">Interpolation</h2>
+<p>Up until a couple of months ago, the code to handle the sprite movement when
+the player fires an item was specific to that use case. Rather than having
+items jump immediately to their new positions when neighbours are removed, I
+want to utilise this sprite iterpolation to make it nice and smooth. So the
+first step in the process was to refactor the code into something more
+generic.</p>
+<p>The resulting routines are super simplistic - the interpolation speeds are
+specified as pixels per update (whole pixels only), and the X and Y
+coordinates are interpolated at the same speed, which doesn&rsquo;t look great under
+some circumstances. I may revisit this in the future.</p>
+<p>The following clip shows this code in action:</p>
+<pre><code>test_lerp:
+    :test_push_lerp(0, 0, 100, 200, 1)
+    :test_push_lerp(200, 0, 50, 200, 2)
+    :test_push_lerp(20, 0, 70, 200, 3)
+    :test_push_lerp(60, 0, 40, 200, 4)
+    :test_push_lerp(90, 0, 120, 200, 5)
+    :test_push_lerp(0, 0, 100, 200, 1)
+    :test_push_lerp(200, 0, 50, 200, 2)
+    :test_push_lerp(20, 0, 70, 200, 3)
+    :test_push_lerp(60, 0, 40, 200, 4)
+    :test_push_lerp(90, 0, 120, 200, 5)
+
+!loop:
+    :start_frame_update(1, !profiling)
+    jsr item_lerper.tick
+</code></pre>
+<p>where the test_push_lerp parameters are the start X &amp; Y, target X &amp; Y and
+colour.</p>
+<p><img src="/images/2019-02-24-2019224diary-of-a-game-part-4-item-activation-interpolation-and-bugs/image-asset-1.gif" alt=""></p>
+<h2 id="bugs">Bugs</h2>
+<p>While writing the activation and interpolation code, I ran into two separate
+bugs that had me scatching my head for an embarassingly long time.</p>
+<p>The first occurred when matched items were being removed - occasionally the
+bottom left item would disappear when it shouldn&rsquo;t. I suspected this had
+something to do with the new code which finds any neighbours of an item being
+removed and activates them. The <a href="https://sourceforge.net/projects/c64-debugger/">64 Debugger</a> was a huge help in
+tracking the culprit down, especially since it recently added the ability to
+read KickAssembler debug symbols. This is brilliant as it gives you your full
+source code along side the instructions:</p>
+<p><img src="/images/2019-02-24-2019224diary-of-a-game-part-4-item-activation-interpolation-and-bugs/Capto_Capture-2019-02-24_11-09-42_AM.png" alt="Capto_Capture 2019-02-24_11-09-42_AM.png"></p>
+<p><img src="/images/2019-02-24-2019224diary-of-a-game-part-4-item-activation-interpolation-and-bugs/Capto_Capture-2019-02-24_11-11-43_AM.png" alt="Capto_Capture 2019-02-24_11-11-43_AM.png"></p>
+<p>Sure enough the bug was in the routine to find occupied neighbours - if there
+were no neighbours, I was neglecting to set the count of neighbours found to
+zero. This meant it would try to activate whatever items happened to be lying
+around in a buffer.</p>
+<p>The second bug was considerably harder to find&hellip;</p>
+<h2 id="the-perils-of-macros">The Perils of Macros</h2>
+<p><a href="http://www.theweb.dk/KickAssembler/webhelp/content/cpt_Introduction.html">KickAssembler</a> has a rich scripting language to assist with creating
+code and data. For my first pass on the interpolation routines, I relied
+heavily on the scripting - particularly macros and pseudocommands. This made
+things like operating over a buffer of data structures very straightforward,
+for example:</p>
+<pre><code>.for (var i = 0; i &lt; lerping_items_count; i++) {
+    lda lerping_items[i].active
+    beq !skip+
+
+    :lerp(lerping_items[i].current_x, lerping_items[i].target_x, ITEM_DROP_SPEED, lerping_items[i].active)
+    :lerp(lerping_items[i].current_y, lerping_items[i].target_y, ITEM_DROP_SPEED, lerping_items[i].active)
+
+    :update_lerping_item_sprite(i)
+    ....
+</code></pre>
+<p>But then I ran into a bug where some interpolating items would just disappear
+when a certain number had been queued. What made this particularly difficult
+to debug was the reliance on macros and pseudocommands. Because I was calling
+several macros, which in turn called other macros and pseudocommands, and all
+of this was wrapped in a for loop, the amount of actual code output was huge.
+I found stepping through all this code tedious and confusing - particularly
+since the issue only appeared towards the end of the interpolating items
+buffer.</p>
+<p>The cause turned out to be a classic mixup between an address and the size of
+a buffer. In the routine to find a free interpolating item to use, I loop over
+all the items in the buffer to see if there is one that isn&rsquo;t active:</p>
+<pre><code>get_free_lerping_item_offset:
+    ldx #0
+!loop:    
+    lda lerping_items,X
+    beq !found_free+
+
+    txa
+    clc    
+    adc #lerping_item_size()
+    cmp #lerping_items_end  // &lt;---- d'oh
+    bcs !none_free+
+
+    tax
+    jmp !loop-
+!found_free:
+    rts
+!none_free:
+    ldx #255
+    rts
+</code></pre>
+<p>lerping_items_end happens to be the memory <em>address</em> immediately after the
+lerping items buffer. What I wanted, of course, was to compare the current
+offset to the <em>size</em> of the buffer.</p>
+<h2 id="kickassembler-5">KickAssembler 5</h2>
+<p>As well as the ability to output full symbols/source for use in the <a href="https://sourceforge.net/projects/c64-debugger">C64
+Debugger</a>, there are a number of other <a href="http://www.theweb.dk/KickAssembler/Main.html#updates">nice improvements</a> in
+KickAssembler 5. However, the changes to escape characters in strings broke
+the useful unit test framework <a href="https://github.com/64bites/64spec">64spec</a>. I&rsquo;ve submitted a <a href="https://github.com/64bites/64spec/pull/4">pull
+request</a> that fixes these errors.</p>
+
+        </section>
+        <footer>
+            <a class="permalink u-url" href="http://ziggurat.co.nz/news/2019/2/24/diary-of-a-game-part-4-item-activation-interpolation-and-bugs/">🔗</a>
+            
+            <hr class="post-underline">
+            <p class="post-tag">Tags for this post:
+                
+                <a href="http://ziggurat.co.nz/tags/c64" class="post-tag p-category">c64</a>
+                
+                <a href="http://ziggurat.co.nz/tags/coding" class="post-tag p-category">Coding</a>
+                
+                <a href="http://ziggurat.co.nz/tags/assembler" class="post-tag p-category">Assembler</a>
+                
+            </p>
+            
+        </footer>
+    </article>
+</div>
+
+    
+    <div id="footer">
+      
+      <nav id="article-skip">
+        <div class="next">
+          
+          <a alt="Newer article" href="http://ziggurat.co.nz/news/2019/2/27/this-month-in-the-one-93/">&larr; Newer</a>
+          
+        </div>
+        <div class="top">
+          <a alt="Top of page" href="#">Top</a>
+        </div>
+        <div class="prev">
+          
+          <a alt="Older article" href="http://ziggurat.co.nz/news/2019/1/24/this-month-in-the-one-93/">Older &rarr;</a>
+          
+        </div>
+      </nav>
+      
+      <aside id="social">
+  <div id="social-icons">
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Email me" href="mailto:mike@ziggurat.co.nz"><img src=http://ziggurat.co.nz/icons/envelope.svg height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="GitHub profile" href="https://github.com/mikekeith"><img src=http://ziggurat.co.nz/icons/github.svg height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="LinkedIn profile" href="https://www.linkedin.com/in/mike-keith-4b33bb1"><img src=http://ziggurat.co.nz/icons/linkedin.svg height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Micro.Blog profile" href="https://micro.blog/mikekeith"><img src=http://ziggurat.co.nz/icons/microblog.svg height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    
+    
+  </div>
+</aside>
+
+      
+      <p class="copyright">
+          Copyright © 2022, Ziggurat Development Ltd
+      </p>
+      
+    </div>
+
+
+</body>
+</html>

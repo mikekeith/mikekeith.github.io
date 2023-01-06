@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en-nz">
+<head>
+    <meta charset="utf-8">
+    
+    <title>C64 Reloaded mk2 Board | Ziggurat</title>
+    <meta name="description" content="Occasional ramblings about retro games, development, augmented reality and other random subjects.">
+    <meta name="author" content="">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href=http://ziggurat.co.nz/apple-touch-icon.png>
+    <link rel="icon" type="image/png" sizes="32x32" href=http://ziggurat.co.nz/favicon-32x32.png>
+    <link rel="icon" type="image/png" sizes="16x16" href=http://ziggurat.co.nz/favicon-16x16.png>
+    <link rel="manifest" href=http://ziggurat.co.nz/site.webmanifest>
+    <link rel="mask-icon" href=http://ziggurat.co.nz/safari-pinned-tab.svg color="#00416a">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+    
+    
+    
+    
+    <link rel="me" href="https://micro.blog/mikekeith">
+    
+    <link rel="authorization_endpoint" href=https://indieauth.com/auth />
+    <link rel="token_endpoint" href=https://tokens.indieauth.com/token />
+    
+    
+    
+    
+    
+    <link rel="stylesheet" href=http://ziggurat.co.nz/css/fonts.css />
+    <link rel="stylesheet" href=http://ziggurat.co.nz/css/style.css />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div id="sitelogo">
+        <a class="glyph" alt="Home" href="http://ziggurat.co.nz/"><img src=http://ziggurat.co.nz/images/site-logo.svg alt="Site Logo" height="64px" width="64px"></a>
+    </div>
+    <header>
+        <nav>
+    
+    <div id="page-nav">
+        <div class="page-nav-item">
+            <a href="http://ziggurat.co.nz/">Home</a>
+        </div>
+        
+            <div class="page-nav-item">
+                <a href="/confidential/">
+                    
+                    <span>Confidential</span>
+                </a>
+            </div>
+        
+            <div class="page-nav-item">
+                <a href="/about/">
+                    
+                    <span>About</span>
+                </a>
+            </div>
+        
+    </div>
+</nav>
+        
+    </header>
+
+
+
+
+
+
+<div id="content">
+    <article class="h-entry">
+        <header>
+            <h1 class="post-title p-name">C64 Reloaded mk2 Board</h1>
+            <p class="post-date">Posted on
+                <time class="dt-published" datetime="11 January 2018 21:41 NZDT">
+                    11 January 2018 21:41 NZDT
+                </time>  by <a href="http://ziggurat.co.nz/" class="p-author h-card"
+                    rel="author">Michael Keith</a>
+            </p>
+            
+            
+            <p class="post-tag">Category:
+                
+                <a href="http://ziggurat.co.nz/categories/recent-pickups" class="post-tag p-category">Recent Pickups</a>
+                
+            </p>
+            <hr class="post-underline">
+            
+        </header>
+        <section class="content e-content">
+            <p><img src="/images/2018-01-11-201819c64-reloaded-mk2-board/IMG_4585.jpg" alt="IMG_4585.jpg"> <img src="/images/2018-01-11-201819c64-reloaded-mk2-board/IMG_4587.jpg" alt="IMG_4587.jpg"> <img src="/images/2018-01-11-201819c64-reloaded-mk2-board/IMG_4588.jpg" alt="IMG_4588.jpg">
+<img src="/images/2018-01-11-201819c64-reloaded-mk2-board/IMG_4589.jpg" alt="IMG_4589.jpg"> <img src="/images/2018-01-11-201819c64-reloaded-mk2-board/IMG_4596.jpg" alt="IMG_4596.jpg"> <img src="/images/2018-01-11-201819c64-reloaded-mk2-board/IMG_4624.jpg" alt="IMG_4624.jpg">
+<img src="/images/2018-01-11-201819c64-reloaded-mk2-board/IMG_4629.jpg" alt="IMG_4629.jpg"></p>
+<p><em>Updated with info about the remote control menu</em></p>
+<p>I have a reasonable collection of C64s - 3 breadbins and 2 C64Cs - but out of
+those only two are fully functioning, so I&rsquo;ve become quite aware that these
+machines are getting flakey in their old age. I&rsquo;ve sunk quite a lot of hours
+into attempting to diagnose the faults and finding replacement bits online,
+with mixed success. Given that it&rsquo;s no surprise that I was eagerly awaiting
+the release of the <a href="https://icomp.de/shop-icomp/en/shop/product/c64-reloaded-mk2.html">C64 Reloaded mk2</a>.</p>
+<p>In order to get started with one of these boards, you&rsquo;ll need to source a few
+items:</p>
+<ul>
+<li>CPU 6510 or 8500</li>
+<li>two CIA 6526(A) or 8521 chips</li>
+<li>VIC 6567, 6569, 8565 or 8562</li>
+<li>one or two SIDs - 6581 and/or 8580, two can be used at the same time for dual SID audio!</li>
+<li>12V DC poer supply (don&rsquo;t forget this! I managed to get all the chips required, went to set it up and realised I forgot the most easily found item&hellip;)</li>
+</ul>
+<p>The build quality is very good, and setup was a doddle. The ZIF chip
+connectors mean it&rsquo;s simple to insert and remove chips - no more nervewracking
+levering! The board even auto-detects what&rsquo;s installed which means no need for
+jumpers.</p>
+<p>One thing I have yet to do is try connecting to the Remote Menu. We only have
+Macs at home, and the <a href="http://wiki.icomp.de/wiki/C64_reloaded_mk2">Reloaded mk2 wiki</a> contains some dire warnings
+about using the USB driver on OSX.</p>
+<blockquote>
+<p>Caution: The Prolific driver for macOS is really crappy. It keeps your
+system from shutting down, crashes if you insert/remove the USB connector a
+second time, and since there is no automatic de-installer, it is hard to
+remove from the system. You have been warned: We do not recommend to use
+this driver.</p>
+</blockquote>
+<p>I need to try setting up a Linux VM to see if I can connect via that.</p>
+<p>Overall I&rsquo;ve been really impressed. Going forward this will be my C64
+workhorse, and I look forward to getting into the more advanced options. The
+one thing that is a bit annoying is that when placed inside a breadbin case,
+the power switch is too close to the bottom edge which makes powering on/off
+and resetting tricky - I&rsquo;m sure I can figure out a way to improve this though.</p>
+<h2 id="update">Update</h2>
+<p>Fearing the consequences of installing the USB drivers on my Mac, I setup an
+Ubuntu VM and that worked a charm. I followed the wiki&rsquo;s advice and used
+minicom. Once the USB is connected and you power on the C64 you get a little
+welcome message (I&rsquo;m pretty sure you can connect it at any time). The menu
+allows you to configure a number of things, including the behaviour of short &amp;
+long holds of the &ldquo;reset&rdquo; button (power button down is off, up is on, and
+there&rsquo;s a further debounced up position which by default resets the machine),
+and enabling dual SID mode. You can even upload custom kernal and character
+ROMs.</p>
+<p>I changed the reset button to switch between my two SID chips and discovered
+with some delight that these can be switched at runtime without interferring
+with whatever is running. This is very very cool as it means I can go back and
+forth between the 6581 and 8580 chips and hear their different
+characteristics.</p>
+<p><img src="/images/2018-01-11-201819c64-reloaded-mk2-board/chipsinstalled.png" alt="Details of the chips installed."></p>
+<p>Details of the chips installed.</p>
+<p><img src="/images/2018-01-11-201819c64-reloaded-mk2-board/image-asset.png" alt="The various SID config options."></p>
+<p>The various SID config options.</p>
+
+        </section>
+        <footer>
+            <a class="permalink u-url" href="http://ziggurat.co.nz/news/2018/1/9/c64-reloaded-mk2-board/">🔗</a>
+            
+            <hr class="post-underline">
+            <p class="post-tag">Tags for this post:
+                
+                <a href="http://ziggurat.co.nz/tags/c64" class="post-tag p-category">C64</a>
+                
+                <a href="http://ziggurat.co.nz/tags/reloaded" class="post-tag p-category">Reloaded</a>
+                
+                <a href="http://ziggurat.co.nz/tags/hardware" class="post-tag p-category">Hardware</a>
+                
+            </p>
+            
+        </footer>
+    </article>
+</div>
+
+    
+    <div id="footer">
+      
+      <nav id="article-skip">
+        <div class="next">
+          
+          <a alt="Newer article" href="http://ziggurat.co.nz/news/2018/1/22/diary-of-a-game-part-0-genesis/">&larr; Newer</a>
+          
+        </div>
+        <div class="top">
+          <a alt="Top of page" href="#">Top</a>
+        </div>
+        <div class="prev">
+          
+          <a alt="Older article" href="http://ziggurat.co.nz/news/2018/1/2/confidential-magazine-6-augustseptember-1989/">Older &rarr;</a>
+          
+        </div>
+      </nav>
+      
+      <aside id="social">
+  <div id="social-icons">
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Email me" href="mailto:mike@ziggurat.co.nz"><img src=http://ziggurat.co.nz/icons/envelope.svg height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="GitHub profile" href="https://github.com/mikekeith"><img src=http://ziggurat.co.nz/icons/github.svg height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="LinkedIn profile" href="https://www.linkedin.com/in/mike-keith-4b33bb1"><img src=http://ziggurat.co.nz/icons/linkedin.svg height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    <div class="icon-24x24">
+      <a class="glyph" alt="Micro.Blog profile" href="https://micro.blog/mikekeith"><img src=http://ziggurat.co.nz/icons/microblog.svg height="24px" width="24px"></a>
+    </div>
+    
+    
+    
+    
+    
+    
+  </div>
+</aside>
+
+      
+      <p class="copyright">
+          Copyright © 2022, Ziggurat Development Ltd
+      </p>
+      
+    </div>
+
+
+</body>
+</html>

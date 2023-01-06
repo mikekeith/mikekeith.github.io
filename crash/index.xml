@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crashes on Ziggurat</title>
+    <link>http://ziggurat.co.nz/crash/</link>
+    <description>Recent content in Crashes on Ziggurat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-nz</language>
+    <copyright>Copyright © 2022, Ziggurat Development Ltd</copyright><atom:link href="http://ziggurat.co.nz/crash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crash!</title>
+      <link>http://ziggurat.co.nz/crash/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ziggurat.co.nz/crash/</guid>
+      <description>Crash! 1986 April May June September October November December 1987 January February March April May June </description>
+    </item>
+    
+  </channel>
+</rss>
