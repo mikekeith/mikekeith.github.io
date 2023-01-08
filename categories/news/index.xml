@@ -2,86 +2,86 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on Ziggurat</title>
-    <link>https://mikekeith.github.io/categories/news/</link>
+    <link>https://ziggurat.co.nz/categories/news/</link>
     <description>Recent content in News on Ziggurat</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-nz</language>
     <copyright>Copyright © 2022, Ziggurat Development Ltd</copyright>
-    <lastBuildDate>Sun, 14 Oct 2018 21:33:41 +0000</lastBuildDate><atom:link href="https://mikekeith.github.io/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Oct 2018 21:33:41 +0000</lastBuildDate><atom:link href="https://ziggurat.co.nz/categories/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Of Magic Leap &amp; Dr Grordbort&#39;s</title>
-      <link>https://mikekeith.github.io/news/2018/10/15/of-magic-leap-amp-dr-grordborts/</link>
+      <link>https://ziggurat.co.nz/news/2018/10/15/of-magic-leap-amp-dr-grordborts/</link>
       <pubDate>Sun, 14 Oct 2018 21:33:41 +0000</pubDate>
       
-      <guid>https://mikekeith.github.io/news/2018/10/15/of-magic-leap-amp-dr-grordborts/</guid>
+      <guid>https://ziggurat.co.nz/news/2018/10/15/of-magic-leap-amp-dr-grordborts/</guid>
       <description>Let&amp;rsquo;s take a little break from looking back to the past and cast our gaze towards the tech of the present and future&amp;hellip;
 Some (almost) 6 years ago I was approached to help out with a prototype Weta Workshop was developing with a highly secretive tech start up called Magic Leap. Workshop was well known, especially here in NZ, but there was little to no info out there about the latter.</description>
     </item>
     
     <item>
       <title>The Art of Point-and-Click Adventure Games pre-orders are live!</title>
-      <link>https://mikekeith.github.io/news/2018/4/4/the-art-of-point-and-click-adventure-games-pre-orders-are-live/</link>
+      <link>https://ziggurat.co.nz/news/2018/4/4/the-art-of-point-and-click-adventure-games-pre-orders-are-live/</link>
       <pubDate>Tue, 03 Apr 2018 22:26:11 +0000</pubDate>
       
-      <guid>https://mikekeith.github.io/news/2018/4/4/the-art-of-point-and-click-adventure-games-pre-orders-are-live/</guid>
+      <guid>https://ziggurat.co.nz/news/2018/4/4/the-art-of-point-and-click-adventure-games-pre-orders-are-live/</guid>
       <description>There is a slight irony around my love of point &amp;amp; click adventures over the last few years. Back in the 8 and 16 bit days I would often pour my disdain on these games while proclaiming the superiority of the good old text adventure. I was willing to accept the static images that accompanied games like &amp;ldquo;The Guild of Thieves&amp;rdquo; or &amp;ldquo;The Boggit&amp;rdquo;, but controlling a pixeled character and clicking on things with a limited set of verbs?</description>
     </item>
     
     <item>
       <title>C64 Reloaded Mk2 Announced!</title>
-      <link>https://mikekeith.github.io/news/2017/7/14/c64-reloaded-mk2-announced/</link>
+      <link>https://ziggurat.co.nz/news/2017/7/14/c64-reloaded-mk2-announced/</link>
       <pubDate>Fri, 14 Jul 2017 00:28:22 +0000</pubDate>
       
-      <guid>https://mikekeith.github.io/news/2017/7/14/c64-reloaded-mk2-announced/</guid>
+      <guid>https://ziggurat.co.nz/news/2017/7/14/c64-reloaded-mk2-announced/</guid>
       <description>Well, hot on the heels of yesterdays Ultimate-64 announcement comes the news that Individual Computers are about to start production of the C64 Reloaded Mk2. This is a rather different approach, and requires the user to install a few chips of their own in order to have a functioning C64. The required chips are:
 CPU 6510 or 8500 Two CIA 6526 or 8521 Video chip 6567, 6569, 8565 or 8562 SID 6581 and/or 8580 The board supports a dual SID configuration.</description>
     </item>
     
     <item>
       <title>Ultimate-64 Announced!</title>
-      <link>https://mikekeith.github.io/news/2017/7/13/ultimate-64-announced/</link>
+      <link>https://ziggurat.co.nz/news/2017/7/13/ultimate-64-announced/</link>
       <pubDate>Wed, 12 Jul 2017 23:32:39 +0000</pubDate>
       
-      <guid>https://mikekeith.github.io/news/2017/7/13/ultimate-64-announced/</guid>
+      <guid>https://ziggurat.co.nz/news/2017/7/13/ultimate-64-announced/</guid>
       <description>I received my 1541 Ultimate-II+ a couple of months ago and love it (which reminds me, I really need to do a write up of it), so the news that Gideon had announced a new product today certainly caught my attention.
 The Ultimate-64 is a an FPGA implementation of the entire C64 board. This means it has all the ports of an original C64, so you can attach tape &amp;amp; disk drives and hook it up to your old Commodore monitors.</description>
     </item>
     
     <item>
       <title>SNES mini announced - includes Star Fox 2!</title>
-      <link>https://mikekeith.github.io/news/2017/6/27/snes-mini-announced-includes-star-fox-2/</link>
+      <link>https://ziggurat.co.nz/news/2017/6/27/snes-mini-announced-includes-star-fox-2/</link>
       <pubDate>Mon, 26 Jun 2017 19:40:31 +0000</pubDate>
       
-      <guid>https://mikekeith.github.io/news/2017/6/27/snes-mini-announced-includes-star-fox-2/</guid>
+      <guid>https://ziggurat.co.nz/news/2017/6/27/snes-mini-announced-includes-star-fox-2/</guid>
       <description>While the announcement of the SNES mini is hardly a surprise, especially given the runaway success of its 8bit sibling, the inclusion of Star Fox 2 certainly is. The sequel to arguably one of the finest games of the 16bit era was cancelled late into its development and never saw the light of day (aside from a leaked prototype ROM).
 I missed out on the NES mini, mainly because I assumed that Nintendo would keep on churning them out for a good while, so I&amp;rsquo;m much more tempted this time around.</description>
     </item>
     
     <item>
       <title>Footage of Jeff Minter&#39;s &#34;Polybius&#34;</title>
-      <link>https://mikekeith.github.io/news/2017/5/7/footage-of-jeff-minters-polybius/</link>
+      <link>https://ziggurat.co.nz/news/2017/5/7/footage-of-jeff-minters-polybius/</link>
       <pubDate>Sun, 07 May 2017 07:43:18 +0000</pubDate>
       
-      <guid>https://mikekeith.github.io/news/2017/5/7/footage-of-jeff-minters-polybius/</guid>
+      <guid>https://ziggurat.co.nz/news/2017/5/7/footage-of-jeff-minters-polybius/</guid>
       <description>Jeff Minter takes us through the first 7 levels of his upcoming PS4/PSVR shoot&amp;rsquo;em up, &amp;ldquo;Polyius&amp;rdquo;, and it looks as crazy full on as you might expect. It&amp;rsquo;s interesting that he says people have reported they find it quite meditative as it&amp;rsquo;s all about the flow&amp;hellip; but even as a spectactor I found it tricky to follow. Will be interesting to see how much difference playing it in VR makes.</description>
     </item>
     
     <item>
       <title>Amiga 3000&#43; Board on eBay</title>
-      <link>https://mikekeith.github.io/news/2017/5/7/amiga-3000-board-on-ebay/</link>
+      <link>https://ziggurat.co.nz/news/2017/5/7/amiga-3000-board-on-ebay/</link>
       <pubDate>Sun, 07 May 2017 04:55:08 +0000</pubDate>
       
-      <guid>https://mikekeith.github.io/news/2017/5/7/amiga-3000-board-on-ebay/</guid>
+      <guid>https://ziggurat.co.nz/news/2017/5/7/amiga-3000-board-on-ebay/</guid>
       <description>Well, this is rather fascinating: an Amiga 3000+ prototype board was sold on eBay by none other than Dave Haynie. It fetched a decent $2,155 USD and included a couple of his notebooks from the period when he was working on it.
 As if the fact that such a board still exists isn&amp;rsquo;t interesting enough, he penned a long description of the board and what was going on at Commodore at the time.</description>
     </item>
     
     <item>
       <title>Retro Gamer site revamp</title>
-      <link>https://mikekeith.github.io/news/2013/12/15/retro-gamer-site-revamp/</link>
+      <link>https://ziggurat.co.nz/news/2013/12/15/retro-gamer-site-revamp/</link>
       <pubDate>Sat, 14 Dec 2013 23:21:07 +0000</pubDate>
       
-      <guid>https://mikekeith.github.io/news/2013/12/15/retro-gamer-site-revamp/</guid>
+      <guid>https://ziggurat.co.nz/news/2013/12/15/retro-gamer-site-revamp/</guid>
       <description>The site for the best retro gaming magazine out there (and, arguably, one of the finest gaming mags ever) has received a lick of fresh paint. It looks like they&amp;rsquo;ll be updating it more frequently with new articles, and emphasis on profiles (be they a game, old software house, retro hero or community member) should be interesting.
 I&amp;rsquo;ve been subscribing since around issue 15 (issue 123 has just been published!</description>
     </item>
