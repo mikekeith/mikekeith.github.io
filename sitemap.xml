@@ -7,10 +7,16 @@
   </url><url>
     <loc>https://ziggurat.co.nz/confidential/</loc>
   </url><url>
+    <loc>https://ziggurat.co.nz/</loc>
+    <lastmod>2023-01-06T15:56:46+13:00</lastmod>
+  </url><url>
     <loc>https://ziggurat.co.nz/tags/1995/</loc>
     <lastmod>2021-05-31T07:38:15+00:00</lastmod>
   </url><url>
     <loc>https://ziggurat.co.nz/tags/amiga/</loc>
+    <lastmod>2021-05-31T07:38:15+00:00</lastmod>
+  </url><url>
+    <loc>https://ziggurat.co.nz/categories/</loc>
     <lastmod>2021-05-31T07:38:15+00:00</lastmod>
   </url><url>
     <loc>https://ziggurat.co.nz/tags/magazines/</loc>
@@ -28,10 +34,10 @@
     <loc>https://ziggurat.co.nz/tags/theone/</loc>
     <lastmod>2021-05-31T07:38:15+00:00</lastmod>
   </url><url>
-    <loc>https://ziggurat.co.nz/news/2021/5/31/this-month-in-the-one-95/</loc>
+    <loc>https://ziggurat.co.nz/categories/this-month-in.../</loc>
     <lastmod>2021-05-31T07:38:15+00:00</lastmod>
   </url><url>
-    <loc>https://ziggurat.co.nz/</loc>
+    <loc>https://ziggurat.co.nz/news/2021/5/31/this-month-in-the-one-95/</loc>
     <lastmod>2021-05-31T07:38:15+00:00</lastmod>
   </url><url>
     <loc>https://ziggurat.co.nz/news/2021/5/4/this-month-in-the-one-95/</loc>
@@ -96,9 +102,6 @@
   </url><url>
     <loc>https://ziggurat.co.nz/news/2020/5/31/this-month-in-the-one-94/</loc>
     <lastmod>2020-05-30T22:53:30+00:00</lastmod>
-  </url><url>
-    <loc>https://ziggurat.co.nz/categories/</loc>
-    <lastmod>2020-05-06T22:28:21+00:00</lastmod>
   </url><url>
     <loc>https://ziggurat.co.nz/tags/magic-leap/</loc>
     <lastmod>2020-05-06T22:28:21+00:00</lastmod>
@@ -1052,8 +1055,6 @@
     <loc>https://ziggurat.co.nz/the-games-machine/</loc>
   </url><url>
     <loc>https://ziggurat.co.nz/the-one-amiga/</loc>
-  </url><url>
-    <loc>https://ziggurat.co.nz/categories/this-month-in.../</loc>
   </url><url>
     <loc>https://ziggurat.co.nz/zzap64/</loc>
   </url>

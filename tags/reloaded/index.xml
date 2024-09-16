@@ -4,19 +4,17 @@
     <title>Reloaded on Ziggurat</title>
     <link>https://ziggurat.co.nz/tags/reloaded/</link>
     <description>Recent content in Reloaded on Ziggurat</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-nz</language>
     <copyright>Copyright © 2022, Ziggurat Development Ltd</copyright>
-    <lastBuildDate>Thu, 11 Jan 2018 08:41:52 +0000</lastBuildDate><atom:link href="https://ziggurat.co.nz/tags/reloaded/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Jan 2018 08:41:52 +0000</lastBuildDate>
+    <atom:link href="https://ziggurat.co.nz/tags/reloaded/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C64 Reloaded mk2 Board</title>
       <link>https://ziggurat.co.nz/news/2018/1/9/c64-reloaded-mk2-board/</link>
       <pubDate>Thu, 11 Jan 2018 08:41:52 +0000</pubDate>
-      
       <guid>https://ziggurat.co.nz/news/2018/1/9/c64-reloaded-mk2-board/</guid>
-      <description>Updated with info about the remote control menu
-I have a reasonable collection of C64s - 3 breadbins and 2 C64Cs - but out of those only two are fully functioning, so I&amp;rsquo;ve become quite aware that these machines are getting flakey in their old age. I&amp;rsquo;ve sunk quite a lot of hours into attempting to diagnose the faults and finding replacement bits online, with mixed success. Given that it&amp;rsquo;s no surprise that I was eagerly awaiting the release of the C64 Reloaded mk2.</description>
+      <description>Updated with info about the remote control menu&#xA;I have a reasonable collection of C64s - 3 breadbins and 2 C64Cs - but out of those only two are fully functioning, so I&amp;rsquo;ve become quite aware that these machines are getting flakey in their old age. I&amp;rsquo;ve sunk quite a lot of hours into attempting to diagnose the faults and finding replacement bits online, with mixed success. Given that it&amp;rsquo;s no surprise that I was eagerly awaiting the release of the C64 Reloaded mk2.</description>
     </item>
-    
   </channel>
 </rss>
