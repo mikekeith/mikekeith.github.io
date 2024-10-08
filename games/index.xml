@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Games on Ziggurat</title>
+    <link>http://ziggurat.co.nz/games/</link>
+    <description>Recent content in Games on Ziggurat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-nz</language>
+    <copyright>Copyright © 2022, Ziggurat Development Ltd</copyright><atom:link href="http://ziggurat.co.nz/games/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Retro Games on Modern Platforms</title>
+      <link>http://ziggurat.co.nz/games/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ziggurat.co.nz/games/</guid>
+      <description>Here&amp;rsquo;s a not-at-all-complete list of recent projects great developers from the 8 &amp;amp; 16 bit days, and some other random retro related games.
+David Braben (&amp;ldquo;Elite&amp;rdquo;, &amp;ldquo;Virus&amp;rdquo;, &amp;ldquo;Frontier&amp;rdquo;) &amp;ldquo;LostWinds&amp;rdquo; &amp;ldquo;LostWinds 2: Winter of the Melodias&amp;rdquo; Site: Frontier Developments Twitter: DavidBraben Charles Cecil (Revolution Software) &amp;ldquo;Beneath a Steel Sky: Remastered&amp;rdquo; &amp;ldquo;Broken Sword: Director&amp;rsquo;s Cut&amp;rdquo; &amp;ldquo;Broken Sword - The Smoking Mirror: Remastered&amp;rdquo; Peter Harrap (&amp;ldquo;Monty Mole&amp;rdquo;) &amp;ldquo;Z&amp;rdquo; (iOS port of the Bitmap Brothers game) Site: harrap.</description>
+    </item>
+    
+  </channel>
+</rss>
