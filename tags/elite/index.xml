@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Elite on Ziggurat</title>
-    <link>http://localhost:1313/tags/elite/</link>
+    <link>https://ziggurat.co.nz/tags/elite/</link>
     <description>Recent content in Elite on Ziggurat</description>
     <generator>Hugo</generator>
     <language>en-nz</language>
     <copyright>Copyright © 2022, Ziggurat Development Ltd</copyright>
     <lastBuildDate>Sat, 21 Dec 2013 22:13:25 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/elite/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ziggurat.co.nz/tags/elite/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kickstarter for a Bluetooth Speccy</title>
-      <link>http://localhost:1313/news/2013/12/22/kickstarter-for-a-bluetooth-speccy/</link>
+      <link>https://ziggurat.co.nz/news/2013/12/22/kickstarter-for-a-bluetooth-speccy/</link>
       <pubDate>Sat, 21 Dec 2013 22:13:25 +0000</pubDate>
-      <guid>http://localhost:1313/news/2013/12/22/kickstarter-for-a-bluetooth-speccy/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.kickstarter.com/projects/952953995/1706707152?token=178af0ea&#34;&gt; &lt;img src=&#34;http://localhost:1313/images/2013-12-21-20131222kickstarter-for-a-bluetooth-speccy/652e384b0c84d30109204605957eb6cf_large.png&#34; alt=&#34;652e384b0c84d30109204605957eb6cf_large.png&#34;&gt; &lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.kickstarter.com/projects/952953995/1706707152?token=178af0ea&#34;&gt;This draft Kickstarter campaign&lt;/a&gt; for a Bluetooth ZX Spectrum could be&#xA;interesting. My old 48K only has a partially function keyboard (I really&#xA;should get around to getting a new keyboard membrane for it), and Elite&amp;rsquo;s&#xA;emulation on iOS is generally pretty good so this could be a good way to get a&#xA;more authentic Speccy experience. I certainly hope that it will be useable as&#xA;a standard Bluetooth keyboard so other emulators (e.g. &lt;a href=&#34;https://itunes.apple.com/gb/app/spectaculator-zx-spectrum/id421662150&#34;&gt;Spectaculator&lt;/a&gt;)&#xA;can support it.&lt;/p&gt;</description>
+      <guid>https://ziggurat.co.nz/news/2013/12/22/kickstarter-for-a-bluetooth-speccy/</guid>
+      <description>This draft Kickstarter campaign for a Bluetooth ZX Spectrum could be interesting. My old 48K only has a partially function keyboard (I really should get around to getting a new keyboard membrane for it), and Elite&amp;rsquo;s emulation on iOS is generally pretty good so this could be a good way to get a more authentic Speccy experience. I certainly hope that it will be useable as a standard Bluetooth keyboard so other emulators (e.</description>
     </item>
   </channel>
 </rss>

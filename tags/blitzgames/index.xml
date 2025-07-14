@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BlitzGames on Ziggurat</title>
-    <link>http://localhost:1313/tags/blitzgames/</link>
+    <link>https://ziggurat.co.nz/tags/blitzgames/</link>
     <description>Recent content in BlitzGames on Ziggurat</description>
     <generator>Hugo</generator>
     <language>en-nz</language>
     <copyright>Copyright © 2022, Ziggurat Development Ltd</copyright>
     <lastBuildDate>Sun, 15 Sep 2013 05:20:22 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/blitzgames/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ziggurat.co.nz/tags/blitzgames/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blitz Games closes down</title>
-      <link>http://localhost:1313/news/2013/9/15/blitz-games-closes-down/</link>
+      <link>https://ziggurat.co.nz/news/2013/9/15/blitz-games-closes-down/</link>
       <pubDate>Sun, 15 Sep 2013 05:20:22 +0000</pubDate>
-      <guid>http://localhost:1313/news/2013/9/15/blitz-games-closes-down/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://yolkfolk.com&#34;&gt; &lt;img src=&#34;http://localhost:1313/images/2013-09-15-2013915blitz-games-closes-down/DizzyTUCATitle.PNG&#34; alt=&#34;DizzyTUCATitle.PNG&#34;&gt; &lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Well, this is sad. &lt;a href=&#34;http://www.eurogamer.net/articles/2013-09-12-uk-studio-blitz-games-closes-down&#34;&gt;Blitz Games has closed down after 23 years&lt;/a&gt;. The&#xA;Oliver Twins have been prominent members of the UK games industry since they&#xA;shot to fame in the 80s for their much loved Dizzy series of games. I&amp;rsquo;ve never&#xA;met them myself, but everyone I know that has has nothing but glowing things&#xA;to say about them - they&amp;rsquo;ve been an immense help to many UK developers.&lt;/p&gt;</description>
+      <guid>https://ziggurat.co.nz/news/2013/9/15/blitz-games-closes-down/</guid>
+      <description>Well, this is sad. Blitz Games has closed down after 23 years. The Oliver Twins have been prominent members of the UK games industry since they shot to fame in the 80s for their much loved Dizzy series of games. I&amp;rsquo;ve never met them myself, but everyone I know that has has nothing but glowing things to say about them - they&amp;rsquo;ve been an immense help to many UK developers.</description>
     </item>
   </channel>
 </rss>

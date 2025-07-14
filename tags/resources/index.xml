@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resources on Ziggurat</title>
-    <link>http://localhost:1313/tags/resources/</link>
+    <link>https://ziggurat.co.nz/tags/resources/</link>
     <description>Recent content in Resources on Ziggurat</description>
     <generator>Hugo</generator>
     <language>en-nz</language>
     <copyright>Copyright © 2022, Ziggurat Development Ltd</copyright>
     <lastBuildDate>Sun, 21 Jan 2018 22:25:29 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/resources/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ziggurat.co.nz/tags/resources/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Diary of a Game: Part 0 - Genesis</title>
-      <link>http://localhost:1313/news/2018/1/22/diary-of-a-game-part-0-genesis/</link>
+      <link>https://ziggurat.co.nz/news/2018/1/22/diary-of-a-game-part-0-genesis/</link>
       <pubDate>Sun, 21 Jan 2018 22:25:29 +0000</pubDate>
-      <guid>http://localhost:1313/news/2018/1/22/diary-of-a-game-part-0-genesis/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2018-01-21-2018122diary-of-a-game-part-0-genesis/poko.png&#34; alt=&#34;poko.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Here is the first screenshot of a new game I&amp;rsquo;m working on - awesome eh? Wait,&#xA;don&amp;rsquo;t walk away! It&amp;rsquo;ll get better, I promise!&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve spent the last 23 years working in the games industry and at various&#xA;points I&amp;rsquo;ve attempted to muster the motivation/energy to create a game in my&#xA;spare time. Only one of those (a simple iPhone game, no longer available) made&#xA;it through to the end and even that took way too long. The reasons for the&#xA;slow/non-existent progress have typically revolved around being swamped with&#xA;work, being overly ambitious and getting distracted by new shiny things.&lt;/p&gt;</description>
+      <guid>https://ziggurat.co.nz/news/2018/1/22/diary-of-a-game-part-0-genesis/</guid>
+      <description>Here is the first screenshot of a new game I&amp;rsquo;m working on - awesome eh? Wait, don&amp;rsquo;t walk away! It&amp;rsquo;ll get better, I promise!&#xA;I&amp;rsquo;ve spent the last 23 years working in the games industry and at various points I&amp;rsquo;ve attempted to muster the motivation/energy to create a game in my spare time. Only one of those (a simple iPhone game, no longer available) made it through to the end and even that took way too long.</description>
     </item>
   </channel>
 </rss>

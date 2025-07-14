@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Full Throttle on Ziggurat</title>
-    <link>http://localhost:1313/tags/full-throttle/</link>
+    <link>https://ziggurat.co.nz/tags/full-throttle/</link>
     <description>Recent content in Full Throttle on Ziggurat</description>
     <generator>Hugo</generator>
     <language>en-nz</language>
     <copyright>Copyright © 2022, Ziggurat Development Ltd</copyright>
     <lastBuildDate>Thu, 20 Jul 2017 09:02:45 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/full-throttle/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ziggurat.co.nz/tags/full-throttle/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Full Throttle Remastered arrives on iOS</title>
-      <link>http://localhost:1313/news/2017/7/20/full-throttle-remastered-arrives-on-ios/</link>
+      <link>https://ziggurat.co.nz/news/2017/7/20/full-throttle-remastered-arrives-on-ios/</link>
       <pubDate>Thu, 20 Jul 2017 09:02:45 +0000</pubDate>
-      <guid>http://localhost:1313/news/2017/7/20/full-throttle-remastered-arrives-on-ios/</guid>
-      <description>&lt;iframe&#xA;src=&#34;//www.youtube.com/embed/cNFkmjC6-aI?wmode=opaque&amp;enablejsapi=1&#34;&#xA;height=&#34;480&#34; width=&#34;854&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;&#34;&gt;&#xA;&lt;/iframe&gt;&#xA;&#xA;&lt;p&gt;Finally! I&amp;rsquo;ve been waiting for this one for a while: &lt;a href=&#34;https://geo.itunes.apple.com/us/app/full-throttle-remastered/id1230257367?mt=8&amp;amp;at=1l3v57p&#34;&gt;&amp;ldquo;Full Throttle&#xA;Remastered&amp;rdquo;&lt;/a&gt; has been released for iOS. The iPad has become my adventure&#xA;gaming device of choice (aside from 8bit text adventures, and I&amp;rsquo;m trying to&#xA;figure out a solution for that), so it&amp;rsquo;s great to see another LucasArts&#xA;classic on the platform.&lt;/p&gt;&#xA;&lt;p&gt;Not only that, but to coincide with the release Double Fine have slashed the&#xA;prices of &lt;a href=&#34;https://geo.itunes.apple.com/us/app/grim-fandango-remastered/id978524071?mt=8&amp;amp;at=1l3v57p&#34;&gt;&amp;ldquo;Grim Fandango Remastered&amp;rdquo;&lt;/a&gt; and &lt;a href=&#34;https://geo.itunes.apple.com/us/app/day-of-the-tentacle-remastered/id1114170869?mt=8&amp;amp;at=1l3v57p&#34;&gt;&amp;ldquo;The Day of the Tentacle&#xA;Remastered&amp;rdquo;&lt;/a&gt; - both highly recommended and absolute bargains at this&#xA;price.&lt;/p&gt;</description>
+      <guid>https://ziggurat.co.nz/news/2017/7/20/full-throttle-remastered-arrives-on-ios/</guid>
+      <description>Finally! I&amp;rsquo;ve been waiting for this one for a while: &amp;ldquo;Full Throttle Remastered&amp;rdquo; has been released for iOS. The iPad has become my adventure gaming device of choice (aside from 8bit text adventures, and I&amp;rsquo;m trying to figure out a solution for that), so it&amp;rsquo;s great to see another LucasArts classic on the platform.&#xA;Not only that, but to coincide with the release Double Fine have slashed the prices of &amp;ldquo;Grim Fandango Remastered&amp;rdquo; and &amp;ldquo;The Day of the Tentacle Remastered&amp;rdquo; - both highly recommended and absolute bargains at this price.</description>
     </item>
   </channel>
 </rss>

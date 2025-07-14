@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BitmapBrothers on Ziggurat</title>
-    <link>http://localhost:1313/tags/bitmapbrothers/</link>
+    <link>https://ziggurat.co.nz/tags/bitmapbrothers/</link>
     <description>Recent content in BitmapBrothers on Ziggurat</description>
     <generator>Hugo</generator>
     <language>en-nz</language>
     <copyright>Copyright © 2022, Ziggurat Development Ltd</copyright>
     <lastBuildDate>Sun, 18 Aug 2013 01:36:57 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/bitmapbrothers/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ziggurat.co.nz/tags/bitmapbrothers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Chaos Engine remake announced</title>
-      <link>http://localhost:1313/news/2013/8/18/the-chaos-engine-remake-announced/</link>
+      <link>https://ziggurat.co.nz/news/2013/8/18/the-chaos-engine-remake-announced/</link>
       <pubDate>Sun, 18 Aug 2013 01:36:57 +0000</pubDate>
-      <guid>http://localhost:1313/news/2013/8/18/the-chaos-engine-remake-announced/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2013-08-18-2013818the-chaos-engine-remake-announced/chaos_engine_28aga29_02.png&#34; alt=&#34;chaos_engine_(aga)_02.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Rather exciting news: a remake of the excellent Amiga game &lt;a href=&#34;http://www.lemonamiga.com/games/details.php?id=253&#34;&gt;The Chaos&#xA;Engine&lt;/a&gt; has been &lt;a href=&#34;http://www.thechaosenginegame.com/&#34;&gt;announced&lt;/a&gt; for PS, Mac and Linux. This game has&#xA;always struck me as an obvious candidate for an update, so it&amp;rsquo;s good to hear&#xA;it&amp;rsquo;s finally happening. Development duties are being handled by Abstraction&#xA;Games who most recently ported Hotline Miami to the PS3 an Vita. Fingers&#xA;crossed it&amp;rsquo;ll have been worth the wait.&lt;/p&gt;&#xA;&lt;p&gt;More details can be found over at &lt;a href=&#34;http://retroasylum.com/the-chaos-engine-coming-soon-to-pc-mac-and-linux/&#34;&gt;Retro Asylum&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>https://ziggurat.co.nz/news/2013/8/18/the-chaos-engine-remake-announced/</guid>
+      <description>Rather exciting news: a remake of the excellent Amiga game The Chaos Engine has been announced for PS, Mac and Linux. This game has always struck me as an obvious candidate for an update, so it&amp;rsquo;s good to hear it&amp;rsquo;s finally happening. Development duties are being handled by Abstraction Games who most recently ported Hotline Miami to the PS3 an Vita. Fingers crossed it&amp;rsquo;ll have been worth the wait.</description>
     </item>
   </channel>
 </rss>

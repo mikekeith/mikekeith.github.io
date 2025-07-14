@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Demo Party on Ziggurat</title>
-    <link>http://localhost:1313/tags/demo-party/</link>
+    <link>https://ziggurat.co.nz/tags/demo-party/</link>
     <description>Recent content in Demo Party on Ziggurat</description>
     <generator>Hugo</generator>
     <language>en-nz</language>
     <copyright>Copyright © 2022, Ziggurat Development Ltd</copyright>
     <lastBuildDate>Wed, 04 Apr 2018 06:04:27 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/demo-party/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ziggurat.co.nz/tags/demo-party/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Revision 2018</title>
-      <link>http://localhost:1313/news/2018/4/4/revision-2018/</link>
+      <link>https://ziggurat.co.nz/news/2018/4/4/revision-2018/</link>
       <pubDate>Wed, 04 Apr 2018 06:04:27 +0000</pubDate>
-      <guid>http://localhost:1313/news/2018/4/4/revision-2018/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://2018.revision-party.net&#34;&gt; &lt;img src=&#34;http://localhost:1313/images/2018-04-04-201844revision-2018/logo_posterous_400x400.png&#34; alt=&#34;logo_posterous_400x400.png&#34;&gt; &lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The main demoscene event of the year, Revision, took place last weekend in&#xA;Saarbrücken, Germany. Once again I failed to actually make it over there, but&#xA;I did manage to catch a fair amount of the live streams.&lt;/p&gt;&#xA;&lt;p&gt;The full compo results can be &lt;a href=&#34;https://demozoo.org/parties/3537/#competition_14181&#34;&gt;found here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Here are a few of my faves:&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&lt;iframe&#xA;src=&#34;//www.youtube.com/embed/fp0t2jCMGZE?wmode=opaque&amp;enablejsapi=1&#34;&#xA;height=&#34;480&#34; width=&#34;854&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;&#34;&gt;&#xA;&lt;/iframe&gt;&#xA; &#xA;&lt;iframe&#xA;src=&#34;//www.youtube.com/embed/xWvCxSRvubQ?time_continue=1&amp;wmode=opaque&amp;enablejsapi=1&#34;&#xA;height=&#34;480&#34; width=&#34;640&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;&#34;&gt;&#xA;&lt;/iframe&gt;&#xA; &#xA;&lt;iframe&#xA;src=&#34;//www.youtube.com/embed/ryt9ZWOgjao?wmode=opaque&amp;enablejsapi=1&#34;&#xA;height=&#34;480&#34; width=&#34;640&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;&#34;&gt;&#xA;&lt;/iframe&gt;&#xA; &#xA;&lt;iframe&#xA;src=&#34;//www.youtube.com/embed/6wBwbRYL-F4?wmode=opaque&amp;enablejsapi=1&#34;&#xA;height=&#34;480&#34; width=&#34;854&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;&#34;&gt;&#xA;&lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
+      <guid>https://ziggurat.co.nz/news/2018/4/4/revision-2018/</guid>
+      <description>The main demoscene event of the year, Revision, took place last weekend in Saarbrücken, Germany. Once again I failed to actually make it over there, but I did manage to catch a fair amount of the live streams.&#xA;The full compo results can be found here.&#xA;Here are a few of my faves:</description>
     </item>
   </channel>
 </rss>

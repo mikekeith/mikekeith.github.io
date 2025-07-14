@@ -2,47 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Assembler on Ziggurat</title>
-    <link>http://localhost:1313/tags/assembler/</link>
+    <link>https://ziggurat.co.nz/tags/assembler/</link>
     <description>Recent content in Assembler on Ziggurat</description>
     <generator>Hugo</generator>
     <language>en-nz</language>
     <copyright>Copyright © 2022, Ziggurat Development Ltd</copyright>
-    <lastBuildDate>Mon, 14 Sep 2020 21:11:48 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/assembler/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Diary of a Game Part 5: Wha&#39; happen?</title>
-      <link>http://localhost:1313/news/2020/9/15/diary-of-a-game-part-5-wha-happen/</link>
-      <pubDate>Mon, 14 Sep 2020 21:11:48 +0000</pubDate>
-      <guid>http://localhost:1313/news/2020/9/15/diary-of-a-game-part-5-wha-happen/</guid>
-      <description>&lt;p&gt;&#xA;&lt;iframe class=&#34;embedly-embed&#34;&#xA;src=&#34;//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FNYVLnHYWIdw%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DNYVLnHYWIdw&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FNYVLnHYWIdw%2Fhqdefault.jpg&amp;key=61d05c9d54e8455ea7a9677c366be814&amp;type=text%2Fhtml&amp;schema=youtube&amp;wmode=opaque&#34;&#xA;width=&#34;640&#34; height=&#34;480&#34; scrolling=&#34;no&#34; title=&#34;YouTube embed&#34; frameborder=&#34;0&#34;&#xA;allow=&#34;autoplay; fullscreen&#34; allowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;&#xA;&#xA;&#xA;&lt;iframe width=&#34;560&#34; height=&#34;315&#34;&#xA;src=&#34;https://www.youtube.com/embed/NYVLnHYWIdw&#34; frameborder=&#34;0&#34;&#xA;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-&#xA;picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Ahh boy. I just checked when the last instalment of this was, thinking it had&#xA;to have been mid-2019, but instead it was in fact in &lt;a href=&#34;http://localhost:1313/news/2019/2/24/diary-of-a-game-part-4-item-activation-interpolation-and-bugs&#34;&gt;February 2019&lt;/a&gt; 😱&lt;/p&gt;&#xA;&lt;p&gt;Wha’ happen? Well, work was crazy busy throughout most of last year. I managed&#xA;to squeeze in a lovely holiday trip back to London, after which it was&#xA;straight on a plane to spend 2-3 weeks with the Sunnyvale office (and when I&#xA;say “straight on a plane” I mean I literally had 1 day at home after the&#xA;gruelling journey back from London before flying out). The rest of 2019 was a&#xA;bit of blur, mainly due to work. Then things got proper surreal in March with&#xA;Covid, lockdown and, well, &lt;a href=&#34;http://localhost:1313/news/2020/5/7/well-that-was-quite-a-ride&#34;&gt;being laid off&lt;/a&gt; a short time into it.&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Sun, 24 Feb 2019 00:46:02 +0000</lastBuildDate>
+    <atom:link href="https://ziggurat.co.nz/tags/assembler/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Diary of a Game: Part 4 - Item Activation, Interpolation and... Bugs</title>
-      <link>http://localhost:1313/news/2019/2/24/diary-of-a-game-part-4-item-activation-interpolation-and-bugs/</link>
+      <link>https://ziggurat.co.nz/news/2019/2/24/diary-of-a-game-part-4-item-activation-interpolation-and-bugs/</link>
       <pubDate>Sun, 24 Feb 2019 00:46:02 +0000</pubDate>
-      <guid>http://localhost:1313/news/2019/2/24/diary-of-a-game-part-4-item-activation-interpolation-and-bugs/</guid>
-      <description>&lt;p&gt;Since my last update work has been a bit quieter post-ship and I enjoyed an&#xA;unexpectedly low key Christmas break, so surely I&amp;rsquo;ve made a lot of progress,&#xA;right? Well&amp;hellip; life decided to intervene which resulted in a lot less time to&#xA;work on the game than I had hoped. But I have managed to tick off a few things&#xA;on the long to-do list&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2019-02-24-2019224diary-of-a-game-part-4-item-activation-interpolation-and-bugs/image-asset.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;item-activation&#34;&gt;Item Activation&lt;/h2&gt;&#xA;&lt;p&gt;The main - and, I must admit, only - playing facing addition is items that&#xA;need to be activated before they can be matched. Activation occurs when a&#xA;neighbour - regardless of colour - is matched and removed. I&amp;rsquo;ve reserved the&#xA;4th bit to indicate whether an item requires activation, which means I have 7&#xA;possible item types. So far I&amp;rsquo;m only using 4, so I &lt;em&gt;think&lt;/em&gt; this will be&#xA;enough. However, I should be able to take the 5th bit to give 15 item types&#xA;(each with an unactivated variant) if need be.&lt;/p&gt;</description>
+      <guid>https://ziggurat.co.nz/news/2019/2/24/diary-of-a-game-part-4-item-activation-interpolation-and-bugs/</guid>
+      <description>Since my last update work has been a bit quieter post-ship and I enjoyed an unexpectedly low key Christmas break, so surely I&amp;rsquo;ve made a lot of progress, right? Well&amp;hellip; life decided to intervene which resulted in a lot less time to work on the game than I had hoped. But I have managed to tick off a few things on the long to-do list&amp;hellip;&#xA;Item Activation The main - and, I must admit, only - playing facing addition is items that need to be activated before they can be matched.</description>
     </item>
     <item>
       <title>Diary of a Game: Part 3 - Sprites, Character Animation and Input</title>
-      <link>http://localhost:1313/news/2018/10/15/diary-of-a-game-part-3-sprites-character-animation-and-input/</link>
+      <link>https://ziggurat.co.nz/news/2018/10/15/diary-of-a-game-part-3-sprites-character-animation-and-input/</link>
       <pubDate>Mon, 15 Oct 2018 00:11:05 +0000</pubDate>
-      <guid>http://localhost:1313/news/2018/10/15/diary-of-a-game-part-3-sprites-character-animation-and-input/</guid>
-      <description>&lt;p&gt;Good grief, in my mind my last update was 3, maybe 4, months ago&amp;hellip; but May?!&#xA;Well, I guess I&amp;rsquo;ve had &lt;a href=&#34;https://michael-keith-y85g.squarespace.com/news/2018/10/15/of-magic-leap-amp-dr-grordborts&#34;&gt;a decent excuse&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Despite being embarassingly tardy with writing updates, some progress has been&#xA;made. This is the current state of the game:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2018-10-15-20181015diary-of-a-game-part-3-sprites-character-animation-and-input/20181015.2018-10-15-10_54_13.gif&#34; alt=&#34;20181015.2018-10-15 10_54_13.gif&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;sprites&#34;&gt;Sprites&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve continued to stick with the C64&amp;rsquo;s &lt;a href=&#34;https://www.c64-wiki.com/wiki/Standard_Character_Mode&#34;&gt;standard character mode&lt;/a&gt; - I&#xA;may well switch to the multicolour character mode, but a character approach&#xA;seems to be working well. In order to draw the overlapping rows of items on&#xA;the board, I just change the horizontal scroll value every 8 lines which means&#xA;I don&amp;rsquo;t have to faff about with creating a bunch of extra in-between chars.&#xA;The downside to this is that as items/balls/whatever fall down, they jump left&#xA;and right.&lt;/p&gt;</description>
+      <guid>https://ziggurat.co.nz/news/2018/10/15/diary-of-a-game-part-3-sprites-character-animation-and-input/</guid>
+      <description>Good grief, in my mind my last update was 3, maybe 4, months ago&amp;hellip; but May?! Well, I guess I&amp;rsquo;ve had a decent excuse.&#xA;Despite being embarassingly tardy with writing updates, some progress has been made. This is the current state of the game:&#xA;Sprites I&amp;rsquo;ve continued to stick with the C64&amp;rsquo;s standard character mode - I may well switch to the multicolour character mode, but a character approach seems to be working well.</description>
     </item>
     <item>
       <title>Diary of a Game: Part 1 - Wha&#39; Happen?</title>
-      <link>http://localhost:1313/news/2018/3/24/diary-of-a-game-part-1-wha-happen/</link>
+      <link>https://ziggurat.co.nz/news/2018/3/24/diary-of-a-game-part-1-wha-happen/</link>
       <pubDate>Sat, 24 Mar 2018 01:31:47 +0000</pubDate>
-      <guid>http://localhost:1313/news/2018/3/24/diary-of-a-game-part-1-wha-happen/</guid>
-      <description>&lt;p&gt;Man, what happened to the last couple of months?! In the first part of this&#xA;series I mentioned that my work tended to be rather full on.. at that point I&#xA;knew I was going to be spending the end of January traveling on business, but&#xA;what I didn&amp;rsquo;t know was that that would be immediately followed by another,&#xA;longer business trip. I had a whole 4 days at home during February, and not a&#xA;single weekend. Work-wise it was a very productive and beneficial time, but it&#xA;did mean that other things slipped through the cracks.&lt;/p&gt;</description>
+      <guid>https://ziggurat.co.nz/news/2018/3/24/diary-of-a-game-part-1-wha-happen/</guid>
+      <description>Man, what happened to the last couple of months?! In the first part of this series I mentioned that my work tended to be rather full on.. at that point I knew I was going to be spending the end of January traveling on business, but what I didn&amp;rsquo;t know was that that would be immediately followed by another, longer business trip. I had a whole 4 days at home during February, and not a single weekend.</description>
     </item>
     <item>
       <title>Diary of a Game: Part 0 - Genesis</title>
-      <link>http://localhost:1313/news/2018/1/22/diary-of-a-game-part-0-genesis/</link>
+      <link>https://ziggurat.co.nz/news/2018/1/22/diary-of-a-game-part-0-genesis/</link>
       <pubDate>Sun, 21 Jan 2018 22:25:29 +0000</pubDate>
-      <guid>http://localhost:1313/news/2018/1/22/diary-of-a-game-part-0-genesis/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2018-01-21-2018122diary-of-a-game-part-0-genesis/poko.png&#34; alt=&#34;poko.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Here is the first screenshot of a new game I&amp;rsquo;m working on - awesome eh? Wait,&#xA;don&amp;rsquo;t walk away! It&amp;rsquo;ll get better, I promise!&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve spent the last 23 years working in the games industry and at various&#xA;points I&amp;rsquo;ve attempted to muster the motivation/energy to create a game in my&#xA;spare time. Only one of those (a simple iPhone game, no longer available) made&#xA;it through to the end and even that took way too long. The reasons for the&#xA;slow/non-existent progress have typically revolved around being swamped with&#xA;work, being overly ambitious and getting distracted by new shiny things.&lt;/p&gt;</description>
+      <guid>https://ziggurat.co.nz/news/2018/1/22/diary-of-a-game-part-0-genesis/</guid>
+      <description>Here is the first screenshot of a new game I&amp;rsquo;m working on - awesome eh? Wait, don&amp;rsquo;t walk away! It&amp;rsquo;ll get better, I promise!&#xA;I&amp;rsquo;ve spent the last 23 years working in the games industry and at various points I&amp;rsquo;ve attempted to muster the motivation/energy to create a game in my spare time. Only one of those (a simple iPhone game, no longer available) made it through to the end and even that took way too long.</description>
     </item>
   </channel>
 </rss>

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reloaded on Ziggurat</title>
-    <link>http://localhost:1313/tags/reloaded/</link>
+    <link>https://ziggurat.co.nz/tags/reloaded/</link>
     <description>Recent content in Reloaded on Ziggurat</description>
     <generator>Hugo</generator>
     <language>en-nz</language>
     <copyright>Copyright © 2022, Ziggurat Development Ltd</copyright>
     <lastBuildDate>Thu, 11 Jan 2018 08:41:52 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/reloaded/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ziggurat.co.nz/tags/reloaded/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C64 Reloaded mk2 Board</title>
-      <link>http://localhost:1313/news/2018/1/9/c64-reloaded-mk2-board/</link>
+      <link>https://ziggurat.co.nz/news/2018/1/9/c64-reloaded-mk2-board/</link>
       <pubDate>Thu, 11 Jan 2018 08:41:52 +0000</pubDate>
-      <guid>http://localhost:1313/news/2018/1/9/c64-reloaded-mk2-board/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2018-01-11-201819c64-reloaded-mk2-board/IMG_4585.jpg&#34; alt=&#34;IMG_4585.jpg&#34;&gt; &lt;img src=&#34;http://localhost:1313/images/2018-01-11-201819c64-reloaded-mk2-board/IMG_4587.jpg&#34; alt=&#34;IMG_4587.jpg&#34;&gt; &lt;img src=&#34;http://localhost:1313/images/2018-01-11-201819c64-reloaded-mk2-board/IMG_4588.jpg&#34; alt=&#34;IMG_4588.jpg&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/2018-01-11-201819c64-reloaded-mk2-board/IMG_4589.jpg&#34; alt=&#34;IMG_4589.jpg&#34;&gt; &lt;img src=&#34;http://localhost:1313/images/2018-01-11-201819c64-reloaded-mk2-board/IMG_4596.jpg&#34; alt=&#34;IMG_4596.jpg&#34;&gt; &lt;img src=&#34;http://localhost:1313/images/2018-01-11-201819c64-reloaded-mk2-board/IMG_4624.jpg&#34; alt=&#34;IMG_4624.jpg&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/2018-01-11-201819c64-reloaded-mk2-board/IMG_4629.jpg&#34; alt=&#34;IMG_4629.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Updated with info about the remote control menu&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;I have a reasonable collection of C64s - 3 breadbins and 2 C64Cs - but out of&#xA;those only two are fully functioning, so I&amp;rsquo;ve become quite aware that these&#xA;machines are getting flakey in their old age. I&amp;rsquo;ve sunk quite a lot of hours&#xA;into attempting to diagnose the faults and finding replacement bits online,&#xA;with mixed success. Given that it&amp;rsquo;s no surprise that I was eagerly awaiting&#xA;the release of the &lt;a href=&#34;https://icomp.de/shop-icomp/en/shop/product/c64-reloaded-mk2.html&#34;&gt;C64 Reloaded mk2&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>https://ziggurat.co.nz/news/2018/1/9/c64-reloaded-mk2-board/</guid>
+      <description>Updated with info about the remote control menu&#xA;I have a reasonable collection of C64s - 3 breadbins and 2 C64Cs - but out of those only two are fully functioning, so I&amp;rsquo;ve become quite aware that these machines are getting flakey in their old age. I&amp;rsquo;ve sunk quite a lot of hours into attempting to diagnose the faults and finding replacement bits online, with mixed success. Given that it&amp;rsquo;s no surprise that I was eagerly awaiting the release of the C64 Reloaded mk2.</description>
     </item>
   </channel>
 </rss>
