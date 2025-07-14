@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rambles on Ziggurat</title>
-    <link>https://ziggurat.co.nz/categories/rambles/</link>
+    <link>http://localhost:1313/categories/rambles/</link>
     <description>Recent content in Rambles on Ziggurat</description>
     <generator>Hugo</generator>
     <language>en-nz</language>
     <copyright>Copyright © 2022, Ziggurat Development Ltd</copyright>
     <lastBuildDate>Wed, 06 May 2020 22:28:21 +0000</lastBuildDate>
-    <atom:link href="https://ziggurat.co.nz/categories/rambles/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/rambles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Well, that was quite a ride</title>
-      <link>https://ziggurat.co.nz/news/2020/5/7/well-that-was-quite-a-ride/</link>
+      <link>http://localhost:1313/news/2020/5/7/well-that-was-quite-a-ride/</link>
       <pubDate>Wed, 06 May 2020 22:28:21 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/news/2020/5/7/well-that-was-quite-a-ride/</guid>
-      <description>When I made the decision to join Magic Leap back at the start of 2013, I told my friends that I had no idea where it was going to lead, but I knew it would be a ride&amp;hellip; and that it was.&#xA;It&amp;rsquo;s two weeks to the day that myself, my team here in NZ and over 1,000 of my workmates at offices across the world were laid off. Well, technically those of us in NZ entered into a &amp;ldquo;consultation&amp;rdquo; period of a few days as mandated by NZ law, but that ended on Monday with all of us being made redundant.</description>
+      <guid>http://localhost:1313/news/2020/5/7/well-that-was-quite-a-ride/</guid>
+      <description>&lt;p&gt;When I made the decision to join Magic Leap back at the start of 2013, I told&#xA;my friends that I had no idea where it was going to lead, but I knew it would&#xA;be a ride&amp;hellip; and that it was.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s two weeks to the day that myself, my team here in NZ and over 1,000 of my&#xA;workmates at offices across the world were laid off. Well, technically those&#xA;of us in NZ entered into a &amp;ldquo;consultation&amp;rdquo; period of a few days as mandated by&#xA;NZ law, but that ended on Monday with all of us being made redundant. It was a&#xA;sad end to what had been an intense (in good and bad ways) but incredible 7.5&#xA;years for me.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

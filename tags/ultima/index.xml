@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ultima on Ziggurat</title>
-    <link>https://ziggurat.co.nz/tags/ultima/</link>
+    <link>http://localhost:1313/tags/ultima/</link>
     <description>Recent content in Ultima on Ziggurat</description>
     <generator>Hugo</generator>
     <language>en-nz</language>
     <copyright>Copyright © 2022, Ziggurat Development Ltd</copyright>
     <lastBuildDate>Wed, 24 Oct 2018 05:48:34 +0000</lastBuildDate>
-    <atom:link href="https://ziggurat.co.nz/tags/ultima/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ultima/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Confidential Magazine #10 April/May 1990</title>
-      <link>https://ziggurat.co.nz/news/2018/10/23/confidential-magazine-10-aprilmay-1990/</link>
+      <link>http://localhost:1313/news/2018/10/23/confidential-magazine-10-aprilmay-1990/</link>
       <pubDate>Wed, 24 Oct 2018 05:48:34 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/news/2018/10/23/confidential-magazine-10-aprilmay-1990/</guid>
-      <description>In this month&amp;rsquo;s issue&amp;hellip;&#xA;The subject on the editor&amp;rsquo;s mind was, perhaps unexpectedly for an adventure gaming mag, taxation as he had a good rant about how much money from each game the club sold went to the HMRC.&#xA;Games making the news this month included several horror games (&amp;ldquo;Elvira&amp;rdquo;, [&amp;ldquo;Demon&amp;rsquo;s Tomb - The Awakening&amp;rdquo;][4403], [&amp;ldquo;Mystery of the Mummy&amp;rdquo;][4404]), the next title from The Bitmaps in the form of [&amp;ldquo;Cadaver&amp;rdquo;][4405], and some new games from Origin.</description>
+      <guid>http://localhost:1313/news/2018/10/23/confidential-magazine-10-aprilmay-1990/</guid>
+      <description>&lt;iframe src=&#34;https://archive.org/embed/confidential10&#34;&#xA;width=&#34;560&#34; height=&#34;384&#34; frameborder=&#34;0&#34; webkitallowfullscreen=&#34;true&#34;&#xA;mozallowfullscreen=&#34;true&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&#xA;&lt;p&gt;In this month&amp;rsquo;s issue&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;The subject on the editor&amp;rsquo;s mind was, perhaps unexpectedly for an adventure&#xA;gaming mag, taxation as he had a good rant about how much money from each game&#xA;the club sold went to the HMRC.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Games making the news this month included several horror games (&lt;a href=&#34;http://www.lemonamiga.com/games/details.php?id=368&#34;&gt;&amp;ldquo;Elvira&amp;rdquo;&lt;/a&gt;, [&amp;ldquo;Demon&amp;rsquo;s Tomb - The Awakening&amp;rdquo;][4403], [&amp;ldquo;Mystery of the Mummy&amp;rdquo;][4404]), the next title from The Bitmaps in the form of [&amp;ldquo;Cadaver&amp;rdquo;][4405], and some new games from Origin.&lt;/li&gt;&#xA;&lt;li&gt;Official Secrets had managed to snaffle a load of copies of Infocom&amp;rsquo;s back catalogue which was a good excuse to take an indepth look at the legendary developer.&lt;/li&gt;&#xA;&lt;li&gt;A round up of recent war/strategy games.&lt;/li&gt;&#xA;&lt;li&gt;The second installment in a beginner&amp;rsquo;s guide to adventure gaming.&lt;/li&gt;&#xA;&lt;li&gt;[&amp;ldquo;Ultima VI&amp;rdquo;][4406] was about to be released and there was a look back at the previous games in the series.&lt;/li&gt;&#xA;&lt;li&gt;In addition to that, an interview with Lord British.&lt;/li&gt;&#xA;&lt;li&gt;With doubts being cast on the continuing commercial viability of the adventure game market, there was a round up of active adventure focussed software houses.&lt;/li&gt;&#xA;&lt;li&gt;This month&amp;rsquo;s featured Play By Mail was &amp;ldquo;Arcania&amp;rdquo; from Marlin Games.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;[4403]:&#xA;[4404]: &lt;a href=&#34;http://www.lemonamiga.com/games/details.php?id=1947&#34;&gt;http://www.lemonamiga.com/games/details.php?id=1947&lt;/a&gt;&#xA;[4405]: &lt;a href=&#34;http://www.lemonamiga.com/games/details.php?id=212&#34;&gt;http://www.lemonamiga.com/games/details.php?id=212&lt;/a&gt;&#xA;[4406]: &lt;a href=&#34;http://www.lemonamiga.com/games/details.php?id=1250&#34;&gt;http://www.lemonamiga.com/games/details.php?id=1250&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

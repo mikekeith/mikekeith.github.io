@@ -2,123 +2,123 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Ziggurat</title>
-    <link>https://ziggurat.co.nz/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Ziggurat</description>
     <generator>Hugo</generator>
     <language>en-nz</language>
     <copyright>Copyright © 2022, Ziggurat Development Ltd</copyright>
     <lastBuildDate>Tue, 08 Oct 2024 12:13:24 +1300</lastBuildDate>
-    <atom:link href="https://ziggurat.co.nz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>News</title>
-      <link>https://ziggurat.co.nz/categories/news/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/categories/news/</guid>
+      <link>http://localhost:1313/categories/news/</link>
+      <pubDate>Tue, 08 Oct 2024 12:13:24 +1300</pubDate>
+      <guid>http://localhost:1313/categories/news/</guid>
       <description></description>
     </item>
     <item>
       <title>This Month In...</title>
-      <link>https://ziggurat.co.nz/categories/this-month-in.../</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/categories/this-month-in.../</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rambles</title>
-      <link>https://ziggurat.co.nz/categories/rambles/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/categories/rambles/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Confidential Magazine</title>
-      <link>https://ziggurat.co.nz/categories/confidential-magazine/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/categories/confidential-magazine/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Developers</title>
-      <link>https://ziggurat.co.nz/categories/developers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/categories/developers/</guid>
+      <link>http://localhost:1313/categories/this-month-in.../</link>
+      <pubDate>Mon, 31 May 2021 07:38:15 +0000</pubDate>
+      <guid>http://localhost:1313/categories/this-month-in.../</guid>
       <description></description>
     </item>
     <item>
       <title>Diary of a Game</title>
-      <link>https://ziggurat.co.nz/categories/diary-of-a-game/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/categories/diary-of-a-game/</guid>
+      <link>http://localhost:1313/categories/diary-of-a-game/</link>
+      <pubDate>Mon, 14 Sep 2020 21:11:48 +0000</pubDate>
+      <guid>http://localhost:1313/categories/diary-of-a-game/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rambles</title>
+      <link>http://localhost:1313/categories/rambles/</link>
+      <pubDate>Wed, 06 May 2020 22:28:21 +0000</pubDate>
+      <guid>http://localhost:1313/categories/rambles/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Confidential Magazine</title>
+      <link>http://localhost:1313/categories/confidential-magazine/</link>
+      <pubDate>Wed, 01 Jan 2020 21:35:39 +0000</pubDate>
+      <guid>http://localhost:1313/categories/confidential-magazine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Developers</title>
+      <link>http://localhost:1313/categories/developers/</link>
+      <pubDate>Sun, 28 Jul 2019 22:49:19 +0000</pubDate>
+      <guid>http://localhost:1313/categories/developers/</guid>
       <description></description>
     </item>
     <item>
       <title>Kickstarter</title>
-      <link>https://ziggurat.co.nz/categories/kickstarter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/categories/kickstarter/</guid>
+      <link>http://localhost:1313/categories/kickstarter/</link>
+      <pubDate>Sat, 28 Apr 2018 22:37:29 +0000</pubDate>
+      <guid>http://localhost:1313/categories/kickstarter/</guid>
       <description></description>
     </item>
     <item>
       <title>Events</title>
-      <link>https://ziggurat.co.nz/categories/events/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/categories/events/</guid>
+      <link>http://localhost:1313/categories/events/</link>
+      <pubDate>Wed, 04 Apr 2018 06:04:27 +0000</pubDate>
+      <guid>http://localhost:1313/categories/events/</guid>
       <description></description>
     </item>
     <item>
       <title>Recent Pickups</title>
-      <link>https://ziggurat.co.nz/categories/recent-pickups/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/categories/recent-pickups/</guid>
+      <link>http://localhost:1313/categories/recent-pickups/</link>
+      <pubDate>Thu, 11 Jan 2018 08:41:52 +0000</pubDate>
+      <guid>http://localhost:1313/categories/recent-pickups/</guid>
       <description></description>
     </item>
     <item>
       <title>New Releases</title>
-      <link>https://ziggurat.co.nz/categories/new-releases/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/categories/new-releases/</guid>
+      <link>http://localhost:1313/categories/new-releases/</link>
+      <pubDate>Thu, 28 Dec 2017 22:52:38 +0000</pubDate>
+      <guid>http://localhost:1313/categories/new-releases/</guid>
       <description></description>
     </item>
     <item>
       <title>Games</title>
-      <link>https://ziggurat.co.nz/categories/games/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/categories/games/</guid>
+      <link>http://localhost:1313/categories/games/</link>
+      <pubDate>Sat, 16 Sep 2017 06:05:40 +0000</pubDate>
+      <guid>http://localhost:1313/categories/games/</guid>
       <description></description>
     </item>
     <item>
       <title>Reviews</title>
-      <link>https://ziggurat.co.nz/categories/reviews/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/categories/reviews/</guid>
+      <link>http://localhost:1313/categories/reviews/</link>
+      <pubDate>Fri, 14 Jul 2017 01:47:29 +0000</pubDate>
+      <guid>http://localhost:1313/categories/reviews/</guid>
       <description></description>
     </item>
     <item>
       <title>New Games</title>
-      <link>https://ziggurat.co.nz/categories/new-games/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/categories/new-games/</guid>
+      <link>http://localhost:1313/categories/new-games/</link>
+      <pubDate>Sun, 18 Jun 2017 05:42:48 +0000</pubDate>
+      <guid>http://localhost:1313/categories/new-games/</guid>
       <description></description>
     </item>
     <item>
       <title>Games Revisited</title>
-      <link>https://ziggurat.co.nz/categories/games-revisited/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/categories/games-revisited/</guid>
+      <link>http://localhost:1313/categories/games-revisited/</link>
+      <pubDate>Sat, 31 Dec 2016 04:12:03 +0000</pubDate>
+      <guid>http://localhost:1313/categories/games-revisited/</guid>
       <description></description>
     </item>
     <item>
       <title>Documentaries</title>
-      <link>https://ziggurat.co.nz/categories/documentaries/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/categories/documentaries/</guid>
+      <link>http://localhost:1313/categories/documentaries/</link>
+      <pubDate>Sun, 22 Feb 2015 03:09:49 +0000</pubDate>
+      <guid>http://localhost:1313/categories/documentaries/</guid>
       <description></description>
     </item>
     <item>
       <title>Remakes</title>
-      <link>https://ziggurat.co.nz/categories/remakes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/categories/remakes/</guid>
+      <link>http://localhost:1313/categories/remakes/</link>
+      <pubDate>Sun, 22 Jun 2014 03:17:51 +0000</pubDate>
+      <guid>http://localhost:1313/categories/remakes/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Magic Leap on Ziggurat</title>
-    <link>https://ziggurat.co.nz/tags/magic-leap/</link>
+    <link>http://localhost:1313/tags/magic-leap/</link>
     <description>Recent content in Magic Leap on Ziggurat</description>
     <generator>Hugo</generator>
     <language>en-nz</language>
     <copyright>Copyright © 2022, Ziggurat Development Ltd</copyright>
     <lastBuildDate>Wed, 06 May 2020 22:28:21 +0000</lastBuildDate>
-    <atom:link href="https://ziggurat.co.nz/tags/magic-leap/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/magic-leap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Well, that was quite a ride</title>
-      <link>https://ziggurat.co.nz/news/2020/5/7/well-that-was-quite-a-ride/</link>
+      <link>http://localhost:1313/news/2020/5/7/well-that-was-quite-a-ride/</link>
       <pubDate>Wed, 06 May 2020 22:28:21 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/news/2020/5/7/well-that-was-quite-a-ride/</guid>
-      <description>When I made the decision to join Magic Leap back at the start of 2013, I told my friends that I had no idea where it was going to lead, but I knew it would be a ride&amp;hellip; and that it was.&#xA;It&amp;rsquo;s two weeks to the day that myself, my team here in NZ and over 1,000 of my workmates at offices across the world were laid off. Well, technically those of us in NZ entered into a &amp;ldquo;consultation&amp;rdquo; period of a few days as mandated by NZ law, but that ended on Monday with all of us being made redundant.</description>
+      <guid>http://localhost:1313/news/2020/5/7/well-that-was-quite-a-ride/</guid>
+      <description>&lt;p&gt;When I made the decision to join Magic Leap back at the start of 2013, I told&#xA;my friends that I had no idea where it was going to lead, but I knew it would&#xA;be a ride&amp;hellip; and that it was.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s two weeks to the day that myself, my team here in NZ and over 1,000 of my&#xA;workmates at offices across the world were laid off. Well, technically those&#xA;of us in NZ entered into a &amp;ldquo;consultation&amp;rdquo; period of a few days as mandated by&#xA;NZ law, but that ended on Monday with all of us being made redundant. It was a&#xA;sad end to what had been an intense (in good and bad ways) but incredible 7.5&#xA;years for me.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Of Magic Leap &amp; Dr Grordbort&#39;s</title>
-      <link>https://ziggurat.co.nz/news/2018/10/15/of-magic-leap-amp-dr-grordborts/</link>
+      <link>http://localhost:1313/news/2018/10/15/of-magic-leap-amp-dr-grordborts/</link>
       <pubDate>Sun, 14 Oct 2018 21:33:41 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/news/2018/10/15/of-magic-leap-amp-dr-grordborts/</guid>
-      <description>Let&amp;rsquo;s take a little break from looking back to the past and cast our gaze towards the tech of the present and future&amp;hellip;&#xA;Some (almost) 6 years ago I was approached to help out with a prototype Weta Workshop was developing with a highly secretive tech start up called Magic Leap. Workshop was well known, especially here in NZ, but there was little to no info out there about the latter.</description>
+      <guid>http://localhost:1313/news/2018/10/15/of-magic-leap-amp-dr-grordborts/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2018-10-14-20181015of-magic-leap-amp-dr-grordborts/Lightwear28final29.jpg&#34; alt=&#34;Lightwear(final).jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s take a little break from looking back to the past and cast our gaze&#xA;towards the tech of the present and future&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;Some (almost) 6 years ago I was approached to help out with a prototype Weta&#xA;Workshop was developing with a highly secretive tech start up called Magic&#xA;Leap. Workshop was well known, especially here in NZ, but there was little to&#xA;no info out there about the latter. Nevertheless it sounded intriguing and I&#xA;figured why not.. I was the first and - for 6 months - only programmer on the&#xA;project which would grow and transform over the coming years into &lt;a href=&#34;https://web.archive.org/web/20191026214025/https://www.magicleap.com/experiences/invaders&#34;&gt;Dr&#xA;Grordbort&amp;rsquo;s Invaders&lt;/a&gt;. I was also the first games industry person at&#xA;Magic Leap. Quite amazing to think how far things have come since those early&#xA;days. The NZ studio has grown to around 50 people, and my job entails very&#xA;little programming these days - we&amp;rsquo;ve been fortunate to hire a bunch of far&#xA;more talented people.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Remake on Ziggurat</title>
-    <link>https://ziggurat.co.nz/tags/remake/</link>
+    <link>http://localhost:1313/tags/remake/</link>
     <description>Recent content in Remake on Ziggurat</description>
     <generator>Hugo</generator>
     <language>en-nz</language>
     <copyright>Copyright © 2022, Ziggurat Development Ltd</copyright>
     <lastBuildDate>Sun, 18 Jun 2017 06:02:28 +0000</lastBuildDate>
-    <atom:link href="https://ziggurat.co.nz/tags/remake/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/remake/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The return of Magnetic Scrolls? (Sort of)</title>
-      <link>https://ziggurat.co.nz/news/2017/6/18/the-return-of-magnetic-scrolls-sort-of/</link>
+      <link>http://localhost:1313/news/2017/6/18/the-return-of-magnetic-scrolls-sort-of/</link>
       <pubDate>Sun, 18 Jun 2017 06:02:28 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/news/2017/6/18/the-return-of-magnetic-scrolls-sort-of/</guid>
-      <description>Well, this is very interesting indeed. Hugh Steers - a founding member of Magnetic Scrolls - has formed Strand Games along with Stefan Meier (from if-legends.org). Their first release is a a remaster of the classic adventure &amp;ldquo;The Pawn&amp;rdquo;, available for Mac, Win and Linux. Not only that, but they have the support of other Magnetic Scrolls alumni, including Anita Sinclair and Ken Gordon.&#xA;I stumbled across their site somewhat randomly - I&amp;rsquo;m a bit surprised it hasn&amp;rsquo;t received more coverage in the retro gaming scene.</description>
+      <guid>http://localhost:1313/news/2017/6/18/the-return-of-magnetic-scrolls-sort-of/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2017-06-18-2017618the-return-of-magnetic-scrolls-sort-of/image-asset.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Well, &lt;a href=&#34;https://strandgames.com&#34;&gt;this is very interesting indeed&lt;/a&gt;. Hugh Steers - a founding member&#xA;of Magnetic Scrolls - has formed Strand Games along with Stefan Meier (from&#xA;&lt;a href=&#34;http://msmemorial.if-legends.org/memorial.php&#34;&gt;if-legends.org&lt;/a&gt;). Their first release is a a remaster of the classic&#xA;adventure &lt;a href=&#34;https://strandgames.com/games/thepawn&#34;&gt;&amp;ldquo;The Pawn&amp;rdquo;&lt;/a&gt;, available for &lt;a href=&#34;https://strandgames.itch.io/the-pawn-by-magnetic-scrolls&#34;&gt;Mac, Win and Linux&lt;/a&gt;. Not&#xA;only that, but they have the support of other Magnetic Scrolls alumni,&#xA;including Anita Sinclair and Ken Gordon.&lt;/p&gt;&#xA;&lt;p&gt;I stumbled across their site somewhat randomly - I&amp;rsquo;m a bit surprised it hasn&amp;rsquo;t&#xA;received more coverage in the retro gaming scene. The funny thing is I had&#xA;recently been pondering whether a iOS interpreter for the Magnetic Scrolls&#xA;games would be an interesting project to take on&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Midwinter Remake</title>
-      <link>https://ziggurat.co.nz/news/2014/1/10/midwinter-remake/</link>
+      <link>http://localhost:1313/news/2014/1/10/midwinter-remake/</link>
       <pubDate>Thu, 09 Jan 2014 21:03:51 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/news/2014/1/10/midwinter-remake/</guid>
-      <description>Chris Wild, who was behind the excellent iOS remake of &amp;ldquo;Lords of Midnight&amp;rdquo;, has announced that his company is now taking on a brand new version of another Mike Singleton classic: &amp;ldquo;Midwinter&amp;rdquo;. &amp;ldquo;Midwinter&amp;rdquo; received considerable critical claim but slipped by unnoticed by many (including myself). A sprawling open world game originally released on the Amiga in 1989, &amp;ldquo;Midwinter&amp;rdquo; was an early, influential example of sandbox gameplay.&#xA;The game is currently in pre-production, with a Kickstarter campaign expected to start in the next few months.</description>
+      <guid>http://localhost:1313/news/2014/1/10/midwinter-remake/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://web.archive.org/web/20160304194523/http://themidwinterreport.com/&#34;&gt; &lt;img src=&#34;http://localhost:1313/images/2014-01-09-2014110midwinter-remake/image-asset.jpeg&#34; alt=&#34;&#34;&gt; &lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Chris Wild, who was behind the excellent iOS remake of &lt;a href=&#34;http://www.thelordsofmidnight.com/&#34;&gt;&amp;ldquo;Lords of&#xA;Midnight&amp;rdquo;&lt;/a&gt;, has announced that his company is now taking on a brand new&#xA;version of another Mike Singleton classic: &lt;a href=&#34;https://web.archive.org/web/20171109052148/http://blog.themidwinterreport.com/press_release_1/&#34;&gt;&amp;ldquo;Midwinter&amp;rdquo;&lt;/a&gt;. &amp;ldquo;Midwinter&amp;rdquo;&#xA;received considerable critical claim but slipped by unnoticed by many&#xA;(including myself). A sprawling open world game originally released on &lt;a href=&#34;http://www.lemonamiga.com/games/details.php?id=747&#34;&gt;the&#xA;Amiga in 1989&lt;/a&gt;, &amp;ldquo;Midwinter&amp;rdquo; was an early, influential example of sandbox&#xA;gameplay.&lt;/p&gt;&#xA;&lt;p&gt;The game is currently in pre-production, with a Kickstarter campaign expected&#xA;to start in the next few months. The concept art looks great and they have&#xA;Dave Gautrey on board, who was a programmer on the original, so this should be&#xA;an interesting project to watch.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Chaos Engine remake announced</title>
-      <link>https://ziggurat.co.nz/news/2013/8/18/the-chaos-engine-remake-announced/</link>
+      <link>http://localhost:1313/news/2013/8/18/the-chaos-engine-remake-announced/</link>
       <pubDate>Sun, 18 Aug 2013 01:36:57 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/news/2013/8/18/the-chaos-engine-remake-announced/</guid>
-      <description>Rather exciting news: a remake of the excellent Amiga game The Chaos Engine has been announced for PS, Mac and Linux. This game has always struck me as an obvious candidate for an update, so it&amp;rsquo;s good to hear it&amp;rsquo;s finally happening. Development duties are being handled by Abstraction Games who most recently ported Hotline Miami to the PS3 an Vita. Fingers crossed it&amp;rsquo;ll have been worth the wait.</description>
+      <guid>http://localhost:1313/news/2013/8/18/the-chaos-engine-remake-announced/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2013-08-18-2013818the-chaos-engine-remake-announced/chaos_engine_28aga29_02.png&#34; alt=&#34;chaos_engine_(aga)_02.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Rather exciting news: a remake of the excellent Amiga game &lt;a href=&#34;http://www.lemonamiga.com/games/details.php?id=253&#34;&gt;The Chaos&#xA;Engine&lt;/a&gt; has been &lt;a href=&#34;http://www.thechaosenginegame.com/&#34;&gt;announced&lt;/a&gt; for PS, Mac and Linux. This game has&#xA;always struck me as an obvious candidate for an update, so it&amp;rsquo;s good to hear&#xA;it&amp;rsquo;s finally happening. Development duties are being handled by Abstraction&#xA;Games who most recently ported Hotline Miami to the PS3 an Vita. Fingers&#xA;crossed it&amp;rsquo;ll have been worth the wait.&lt;/p&gt;&#xA;&lt;p&gt;More details can be found over at &lt;a href=&#34;http://retroasylum.com/the-chaos-engine-coming-soon-to-pc-mac-and-linux/&#34;&gt;Retro Asylum&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Archipelagos (iOS)</title>
-      <link>https://ziggurat.co.nz/news/2013/2/20/archipelagos-ios/</link>
+      <link>http://localhost:1313/news/2013/2/20/archipelagos-ios/</link>
       <pubDate>Wed, 20 Feb 2013 07:04:49 +0000</pubDate>
-      <guid>https://ziggurat.co.nz/news/2013/2/20/archipelagos-ios/</guid>
-      <description>Archipelagos appeared on the Amiga back in 1989 and is a first person realtime puzzle/strategy game. I certainly remember playing it, but I also remember not really knowing what I was doing. It&amp;rsquo;s somewhat reminiscent of The Sentinel (surely a remake of that must be on the cards?), and features 9999 procedurally generated levels.&#xA;The original scored well in magazines of the day (Zzap! gave it 90%) and the remake is a decent job, though it feels a little rough and finicky - it seems to be a pretty straightforward port of the modern desktop version and the touch controls could use some love.</description>
+      <guid>http://localhost:1313/news/2013/2/20/archipelagos-ios/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://itunes.apple.com/app/id595365875&#34;&gt; &lt;img src=&#34;http://localhost:1313/images/2013-02-20-2013220archipelagos-ios/394960_204273639712143_1723476887_n.png&#34; alt=&#34;394960_204273639712143_1723476887_n.png&#34;&gt; &lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Archipelagos appeared on the Amiga back in 1989 and is a first person realtime&#xA;puzzle/strategy game. I certainly remember playing it, but I also remember not&#xA;really knowing what I was doing. It&amp;rsquo;s somewhat reminiscent of The Sentinel&#xA;(surely a remake of that must be on the cards?), and features 9999&#xA;procedurally generated levels.&lt;/p&gt;&#xA;&lt;p&gt;The original scored well in magazines of the day (&lt;a href=&#34;http://www.zzap64.co.uk/cgi-bin/displaypage.pl?issue=051&amp;amp;page=067&amp;amp;thumbstart=0&amp;amp;magazine=zzap&amp;amp;check=1&#34;&gt;Zzap! gave it 90%&lt;/a&gt;)&#xA;and the remake is a decent job, though it feels a little rough and finicky -&#xA;it seems to be a pretty straightforward port of the modern desktop version and&#xA;the touch controls could use some love. With that said, it&amp;rsquo;s enjoyable and&#xA;even features the original music by David Whittaker.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
