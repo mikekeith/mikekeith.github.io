@@ -1,386 +1,798 @@
 
-<!DOCTYPE html>
-<html lang="en-nz">
-<head>
+
+
+
+
+
+
+<!doctype html>
+<html
+  lang="en"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head>
 	<meta name="generator" content="Hugo 0.148.1">
-    <meta charset="utf-8">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#FFFFFF" />
+  
+  <title>Ziggurat</title>
+    <meta name="title" content="Ziggurat" />
+  
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="https://ziggurat.co.nz/js/appearance.min.8a082f81b27f3cb2ee528df0b0bdc39787034cf2cc34d4669fbc9977c929023c.js"
+    integrity="sha256-iggvgbJ/PLLuUo3wsL3Dl4cDTPLMNNRmn7yZd8kpAjw="
+  ></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="https://ziggurat.co.nz/css/main.bundle.min.57d1c448a1783097815ad61ba1a727b1490184aed782150f83eb9243809e8142.css"
+    integrity="sha256-V9HESKF4MJeBWtYboacnsUkBhK7XghUPg&#43;uSQ4CegUI="
+  />
+  
+  
+  
     
-    <title>Ziggurat | Ziggurat</title>
-    <meta name="description" content="Occasional ramblings about retro games, development, augmented reality and other random subjects.">
-    <meta name="author" content="">
     
-    <link rel="apple-touch-icon" sizes="180x180" href=https://ziggurat.co.nz/apple-touch-icon.png>
-    <link rel="icon" type="image/png" sizes="32x32" href=https://ziggurat.co.nz/favicon-32x32.png>
-    <link rel="icon" type="image/png" sizes="16x16" href=https://ziggurat.co.nz/favicon-16x16.png>
-    <link rel="manifest" href=https://ziggurat.co.nz/site.webmanifest>
-    <link rel="mask-icon" href=https://ziggurat.co.nz/safari-pinned-tab.svg color="#00416a">
-    <meta name="msapplication-TileColor" content="#00aba9">
-    <meta name="theme-color" content="#ffffff">
+  
+  
+  
+  
     
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="https://ziggurat.co.nz/js/main.bundle.min.3e80d0528c59616e7de9b0ca9316d9afd314b49ed9e5e6b88873731486ad67ee.js"
+      integrity="sha256-PoDQUoxZYW596bDKkxbZr9MUtJ7Z5ea4iHNzFIatZ&#43;4="
+      data-copy="Copy"
+      data-copied="Copied"
+    ></script>
+  
+  
+  <meta
+    name="description"
+    content="
+      
+        Occasional ramblings about retro games, development, augmented reality and other random subjects.
+      
+    "
+  />
+  
+  
+  
+  
+    <link rel="canonical" href="https://ziggurat.co.nz/" />
+  
+  <link rel="alternate" type="application/rss+xml" href="https://ziggurat.co.nz/index.xml" title="Ziggurat" />
+  <link rel="alternate" type="application/json" href="https://ziggurat.co.nz/index.json" title="Ziggurat" />
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="https://ziggurat.co.nz/">
+  <meta property="og:site_name" content="Ziggurat">
+  <meta property="og:title" content="Welcome to Ziggurat">
+  <meta property="og:description" content="Occasional ramblings about retro games, development, augmented reality and other random subjects.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Welcome to Ziggurat">
+  <meta name="twitter:description" content="Occasional ramblings about retro games, development, augmented reality and other random subjects.">
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https:\/\/ziggurat.co.nz\/",
+    "name": "Ziggurat",
+    "description": "Occasional ramblings about retro games, development, augmented reality and other random subjects.",
+    "inLanguage": "en",
+    "url": "https:\/\/ziggurat.co.nz\/",
+    
+    "publisher" : {
+      "@type": "Person",
+      "name": "Michael Keith"
+    }
+  }
+  </script>
+
+
+  
+  
+    <meta name="author" content="Michael Keith" />
+  
+  
+    
+      <link href="mailto:mike@ziggurat.co.nz" rel="me" />
+    
+      <link href="https://github.com/mikekeith" rel="me" />
+    
+      <link href="https://lastfm.com/user/nifta" rel="me" />
+    
+      <link href="https://icosahedron.website/@nifta" rel="me" />
+    
+  
+  
+  
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+  
+  
     <meta name="omgproof" content="proven.lol/df002d">
-    
-    
-    <link rel="me" href="mailto:mike@ziggurat.co.nz">
-    
-    
-    
-    
-    <link rel="stylesheet" href=https://ziggurat.co.nz/css/fonts.css />
-    <link rel="stylesheet" href=https://ziggurat.co.nz/css/style.css />
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
 </head>
-
-<body>
-    <div id="sitelogo">
-        <a class="glyph" alt="Home" href="https://ziggurat.co.nz/"><img src=https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol.svg alt="Site Logo" height="64px" width="64px"></a>
+<body
+    class="m-auto flex h-screen max-w-7xl flex-col bg-neutral px-6 text-lg leading-7 text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="-translate-y-8 rounded-b-lg bg-primary-200 px-3 py-1 text-sm focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="pe-2 font-bold text-primary-600 dark:text-primary-400">&darr;</span
+        >Skip to main content</a
+      >
     </div>
-    <header>
-        <nav>
     
-    <div id="page-nav">
-        <div class="page-nav-item">
-            <a href="https://ziggurat.co.nz/">Home</a>
-        </div>
-        
-            <div class="page-nav-item">
-                <a href="/confidential/">
-                    
-                    <span>Confidential Magazine</span>
-                </a>
-            </div>
-        
-            <div class="page-nav-item">
-                <a href="/about/">
-                    
-                    <span>About</span>
-                </a>
-            </div>
-        
+    
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral sm:py-10 print:hidden">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="flex flex-row items-center">
+      
+    <a href="/" class="mr-2">
+      
+      <img
+        src="https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol%2064x64.png"
+        width="32"
+        height="32"
+        class="max-h-[10rem] max-w-[10rem] object-scale-down object-left
+        "
+        alt="Ziggurat"
+      />
+    </a>
+  <a
+    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+    rel="me"
+    href="/"
+    >Ziggurat</a
+  >
+
     </div>
-</nav>
+    
+    
+      <ul class="flex list-none flex-col text-end sm:flex-row">
         
-        <div id="site-header">
-            <h1 id="site-header">Ziggurat</h1>
+          
             
-        </div>
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/about/"
+                  title="About"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >About</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/posts/"
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Blog</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/categories/"
+                  title="Categories"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Categories</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/tags/"
+                  title="Tags"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Tags</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/confidential/"
+                  title="Confidential Magazine"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Confidential Magazine</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                
+                
+              
+            </li>
+          
+            
+              
+          
         
+      </ul>
+    
+  </nav>
+</header>
+
+    
+    <div class="relative flex grow flex-col">
+      <main id="main-content" class="grow">
+        
+  
+  
+    <article class="prose max-w-full dark:prose-invert">
+  
+    <header>
+      <h1>Welcome to Ziggurat</h1>
     </header>
-
-
-
-<div id="content">
-
-
-    <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2013/8/13/this-month-in-cvg-85/">This month in... C&amp;VG &#39;85</a></h2>
-        
-        <p class="list-post-date"><time datetime="13 August 2013 20:15 NZST">
-            13 August 2013 20:15 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2013/8/13/this-month-in-cvg-85/cvg198508.png"><img src="/news/2013/8/13/this-month-in-cvg-85/cvg198508_hu_f741c1395a38c441.png"></a>
-        
-        <div>
+  
+  <section><p>My little nook on the internet where I blat down ramblings on my current projects. Well, that&rsquo;s the theory. In practice I&rsquo;m an exceptional procrastinator.</p>
+<p>The main things occupying my noggin these days are to do with psychogeography, perception, field recordings, nature, maps, philosophy, art and generally pondering how we experience the world around us. I also love retro computers/gaming, and the demoscene (AMIGAAA).</p>
+</section>
+</article>
+<section>
+  
+  <h2 class="mt-8 text-2xl font-extrabold">Recent</h2>
+  
+    <article class="mt-6 flex max-w-prose flex-row">
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a
+        href="
+          https://ziggurat.co.nz/news/2017/1/11/this-month-in-cvg-89/
+        "
+        aria-label="This month in... C&VG &#39;89"
+      >
+        <img
+          alt=""
           
-            <strong>News</strong> US Gold had signed the licenses to a couple of Disney games, &ldquo;Winnie the Pooh in the Hundred Acre Wood&rdquo; and &ldquo;Donald Duck&rsquo;s Playground&rdquo;. Both were aimed at children, and both were written by Al Lowe (including the music). Even though Ocean had been publishing Konami&rsquo;s games in the US, they were strangely absent from UK shelves. This was about to change with &ldquo;Hypersports&rdquo;, followed by &ldquo;Konami Tennis&rdquo;,...
+            class="w-24 rounded-md sm:w-40" srcset="https://ziggurat.co.nz/news/2017/1/11/this-month-in-cvg-89/image-asset_hu_5e23ffe0246e9439.png
+            160w,https://ziggurat.co.nz/news/2017/1/11/this-month-in-cvg-89/image-asset_hu_1956d833314e72d0.png 2x"
+            src="https://ziggurat.co.nz/news/2017/1/11/this-month-in-cvg-89/image-asset_hu_5e23ffe0246e9439.png" width="160" height="120"
           
-        </div>
-      </div>
-      
-    </article>
-
-
-
-    <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2013/7/23/deus-ex-machina-2-take-two/">Deus Ex Machina 2 take two</a></h2>
-        
-        <p class="list-post-date"><time datetime="23 July 2013 10:12 NZST">
-            23 July 2013 10:12 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2013/7/23/deus-ex-machina-2-take-two/IMAGE3.jpg"><img src="/news/2013/7/23/deus-ex-machina-2-take-two/IMAGE3_hu_5ff61b7f6d8b83f4.jpg"></a>
-        
-        <div>
           
-            <p><img src="/images/2013-07-22-2013723deus-ex-machina-2-take-two/IMAGE3.jpg" alt="IMAGE3.jpg"></p>
-<p>After an unsuccessful first attempt at a Kickstarter, the Automata folks have
-solicited feedback and <a href="http://www.kickstarter.com/projects/1552445321/deus-ex-machina-2-reboot">re-launched the campaign</a> with tweaked rewards,
-logo and even aspects of the game itself. Perhaps more importantly, they&rsquo;re
-asking for considerably less. Hopefully this time they&rsquo;ll make …</p>
+            loading="lazy"
           
-        </div>
-      </div>
-      
-    </article>
-
-
-
-    <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2013/7/19/this-month-in-the-games-machine-88/">This month in... The Games Machine &#39;88</a></h2>
-        
-        <p class="list-post-date"><time datetime="23 July 2013 09:59 NZST">
-            23 July 2013 09:59 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2013/7/19/this-month-in-the-games-machine-88/tgm008.png"><img src="/news/2013/7/19/this-month-in-the-games-machine-88/tgm008_hu_1013c25d5d6ff13c.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Not a game as such, but the latest book from William Gibson, &ldquo;Mona Lisa Overdrive&rdquo;, was about to hit the shelves. To mark the occasion, the Cyberpunk theme would be visited several times in this issue. What was billed &ldquo;the first mass-market desktop-publishing (DTP) packag&rdquo;&rsquo; was launched by mouse manufacturer AMS for PC-XT and AT compatibles. It featured a mouse, a handheld scanner and software - all for...
-          
-        </div>
-      </div>
-      
-    </article>
-
-
-
-    <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2013/7/8/this-month-in-cvg-85/">This month in... C&amp;VG &#39;85</a></h2>
-        
-        <p class="list-post-date"><time datetime="08 July 2013 18:07 NZST">
-            08 July 2013 18:07 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2013/7/8/this-month-in-cvg-85/cvg198507.png"><img src="/news/2013/7/8/this-month-in-cvg-85/cvg198507_hu_1eabbd18ede9f2b0.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Plans were afoot to build Britain&rsquo;s first Laser tag centre. It would be built on Wellington Pier in Great Yarmouth and promised to &ldquo;take leisure and entertainment &lsquo;into the 21st century.&rsquo;&rdquo; Games Workshop was about to release &ldquo;Chaos&rdquo; by a certain Julian Gollop who would go onto produce such genre defining games as Rebelstar and XCom. He has a remake of &ldquo;Chaos&rdquo; underway and you can follow his...
-          
-        </div>
-      </div>
-      
-    </article>
-
-
-
-    <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2013/6/30/this-month-in-the-games-machine-88/">This month in... The Games Machine &#39;88</a></h2>
-        
-        <p class="list-post-date"><time datetime="30 June 2013 17:40 NZST">
-            30 June 2013 17:40 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2013/6/30/this-month-in-the-games-machine-88/tgm198806.png"><img src="/news/2013/6/30/this-month-in-the-games-machine-88/tgm198806_hu_5889acf6016ba382.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> * &ldquo;Computers and Art&rdquo; was a new travelling exhibition that had just opened at the IBM Gallery of Science and Art in NYC. It was an attempt to bring &ldquo;computer art&rdquo; into the mainstream - not just graphics, but works using fabric etc. Elsewhere, Carnegie Mellon began a course on writing &ldquo;interactive fiction.&rdquo; * CRL&rsquo;s &ldquo;Wolfman&rdquo; was in the news for <em>failing</em> to be slapped with a British...
-          
-        </div>
-      </div>
-      
-    </article>
-
-
-
-    <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2013/6/30/this-month-in-crash-88/">This month in... Crash &#39;86</a></h2>
-        
-        <p class="list-post-date"><time datetime="30 June 2013 17:31 NZST">
-            30 June 2013 17:31 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2013/6/30/this-month-in-crash-88/crash198806.png"><img src="/news/2013/6/30/this-month-in-crash-88/crash198806_hu_b8393afccce994ca.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> On the back of the news that the price of the Spectrum 128K had dropped following the acquisition by Amstrad, rumours started to circulate that a 256K &ldquo;games machine&rdquo; was in the pipeline. According to the rumours the machine would be Spectrum based but would use credit card sized &ldquo;cartridges&rdquo;. Reactions were mixed - while this would drastically reduce piracy, software houses feared Amstrad having control over what...
-          
-        </div>
-      </div>
-      
-    </article>
-
-
-
-    <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2013/6/16/deus-ex-machina-2-kickstarter/">Deus Ex Machina 2 Kickstarter!</a></h2>
-        
-        <p class="list-post-date"><time datetime="16 June 2013 16:54 NZST">
-            16 June 2013 16:54 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2013/6/16/deus-ex-machina-2-kickstarter/deus-ex-machina-artwork-04.jpg"><img src="/news/2013/6/16/deus-ex-machina-2-kickstarter/deus-ex-machina-artwork-04_hu_53981ace835882f7.jpg"></a>
-        
-        <div>
-          
-            !deus-ex-machina-artwork-04.jpg 190 As I previously mentioned , a sequel the the amazing &ldquo;Deus Ex Machina&rdquo; is in the works. Well, Mel is now looking for backers to help fund the final stages of production. I&rsquo;m still unsure of just how the game will turn out (the original was more about the experience as a whole, rather than they gameplay itself), but it cannot be overstated how important the original and...
-          
-        </div>
-      </div>
-      
-    </article>
-
-
-
-    <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2013/6/16/this-month-in-cvg-85/">This month in... C&amp;VG &#39;85</a></h2>
-        
-        <p class="list-post-date"><time datetime="16 June 2013 16:53 NZST">
-            16 June 2013 16:53 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2013/6/16/this-month-in-cvg-85/cvg198506.png"><img src="/news/2013/6/16/this-month-in-cvg-85/cvg198506_hu_be32d5fd985deb6b.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> * Atari announced they were about to launch a new range of computers. First there were the new XEs which were basically upgraded/re-styled 800 XLs. But more importantly were the STs which would provide an impressive jump from the existing machines. * Robert Schifreen who had written the &ldquo;Bug hunter&rdquo; and Micronet columns for C&amp;VG was arrested for hacking. <strong>Notable Reviews</strong> * &ldquo;Starion&rdquo; Melbourne House - Spectrum...
-          
-        </div>
-      </div>
-      
-    </article>
-
-
-
-    <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2013/5/26/this-month-in-the-games-machine-88/">This month in... The Games Machine &#39;88</a></h2>
-        
-        <p class="list-post-date"><time datetime="26 May 2013 21:38 NZST">
-            26 May 2013 21:38 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2013/5/26/this-month-in-the-games-machine-88/tgm_198805.png"><img src="/news/2013/5/26/this-month-in-the-games-machine-88/tgm_198805_hu_7ee6147af60884c8.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> The first ever British entertainment software conference took place, with representatives from Britain&rsquo;s top software houses and distributors in attendance. A gala awards dinner was held which handed out awards based on Crash and Zzap!64 reader awards. Best Spectrum game went to &ldquo;Driller&rdquo; from Incentive, with &ldquo;California Games&rdquo; from Epyx/US Gold winning best C64 game. Ocean won best software house for readers of both magazines. Games Workshop opened...
-          
-        </div>
-      </div>
-      
-    </article>
-
-
-
-    <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2013/5/19/this-month-in-crash-86/">This month in... Crash &#39;86</a></h2>
-        
-        <p class="list-post-date"><time datetime="19 May 2013 15:36 NZST">
-            19 May 2013 15:36 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2013/5/19/this-month-in-crash-86/crash-198605.png"><img src="/news/2013/5/19/this-month-in-crash-86/crash-198605_hu_e2ceeae6c462e16d.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Huge news arrived just hours before this issue went to press - Amstrad had bought Sinclair for meagre £5 million. What would this mean for Sinclair products? The QL and microdrive would be likely casualties, but it sounded like Amstrad had promising plans for the Spectrum. Overall it was taken as a positive happening, though the alternative would&rsquo;ve been receivership for Sinclair. Sir Clive himself was to return...
-          
-        </div>
-      </div>
-      
-    </article>
-
-<nav>
-    <div id="pagination">
-        <div class="pagination-item-spacer">&nbsp;</div>
-        
-            <div class="pagination-item">
-                <a alt="Newer articles" href="/page/20/">&larr; Newer</a>
-            </div>
-        
-        <div class="pagination-item-spacer">
-            Page 21 of 22
-        </div>
-        
-            <div class="pagination-item">
-                <a alt="Older articles" href="/page/22/">Older &rarr;</a>
-            </div>
-        
-        <div class="pagination-item-spacer">&nbsp;</div>
+        />
+      </a>
     </div>
-</nav>
-
-</div>
-
-
-
-    
-    <div id="footer">
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
       
-      <aside id="social">
-  <div id="social-icons">
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2017/1/11/this-month-in-cvg-89/"
+          >This month in... C&VG '89</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
     
-    <div class="icon-24x24">
-      <a class="glyph" alt="Email me" href="mailto:mike@ziggurat.co.nz"><img src=https://ziggurat.co.nz/icons/envelope.svg height="24px" width="24px"></a>
-    </div>
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
     
     
-    <div class="icon-24x24">
-      <a rel="me" class="glyph" alt="Mastodon profile" href="https://icosahedron.website/@nifta"><img src=https://ziggurat.co.nz/icons/mastodon.svg height="24px" width="24px"></a>
-     </div>
-     
+      <time datetime="2017-01-11 08:57:55 &#43;0000 &#43;0000">11 January 2017</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span>
     
-    
-    
-    <div class="icon-24x24">
-      <a class="glyph" alt="GitHub profile" href="https://github.com/mikekeith"><img src=https://ziggurat.co.nz/icons/github.svg height="24px" width="24px"></a>
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     
     
   </div>
-</aside>
 
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+  
+    <article class="mt-6 flex max-w-prose flex-row">
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a
+        href="
+          https://ziggurat.co.nz/news/2016/12/31/december-games-revisited/
+        "
+        aria-label="December Games Revisited"
+      >
+        <img
+          alt=""
+          
+            class="w-24 rounded-md sm:w-40" srcset="https://ziggurat.co.nz/news/2016/12/31/december-games-revisited/sentinel_01_hu_2116a8d1b3f20e77.png
+            160w,https://ziggurat.co.nz/news/2016/12/31/december-games-revisited/sentinel_01_hu_f850be7756d5bb5e.png 2x"
+            src="https://ziggurat.co.nz/news/2016/12/31/december-games-revisited/sentinel_01_hu_2116a8d1b3f20e77.png" width="160" height="120"
+          
+          
+            loading="lazy"
+          
+        />
+      </a>
+    </div>
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
       
-      <p class="copyright">
-          Copyright © 2022, Ziggurat Development Ltd
-      </p>
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2016/12/31/december-games-revisited/"
+          >December Games Revisited</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2016-12-31 04:12:03 &#43;0000 &#43;0000">31 December 2016</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+  
+    <article class="mt-6 flex max-w-prose flex-row">
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a
+        href="
+          https://ziggurat.co.nz/news/2016/12/24/this-month-in-zzap64-86/
+        "
+        aria-label="This month in... Zzap!64 &#39;86"
+      >
+        <img
+          alt=""
+          
+            class="w-24 rounded-md sm:w-40" srcset="https://ziggurat.co.nz/news/2016/12/24/this-month-in-zzap64-86/image-asset_hu_25b976a6b7249141.png
+            160w,https://ziggurat.co.nz/news/2016/12/24/this-month-in-zzap64-86/image-asset_hu_19a42ef9d61fc143.png 2x"
+            src="https://ziggurat.co.nz/news/2016/12/24/this-month-in-zzap64-86/image-asset_hu_25b976a6b7249141.png" width="160" height="120"
+          
+          
+            loading="lazy"
+          
+        />
+      </a>
+    </div>
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2016/12/24/this-month-in-zzap64-86/"
+          >This month in... Zzap!64 '86</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2016-12-24 04:45:09 &#43;0000 &#43;0000">24 December 2016</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+  
+    <article class="mt-6 flex max-w-prose flex-row">
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a
+        href="
+          https://ziggurat.co.nz/news/2016/12/15/this-month-in-cvg-88/
+        "
+        aria-label="This month in... C&VG &#39;88"
+      >
+        <img
+          alt=""
+          
+            class="w-24 rounded-md sm:w-40" srcset="https://ziggurat.co.nz/news/2016/12/15/this-month-in-cvg-88/image-asset_hu_4de402ba2bd7bae8.png
+            160w,https://ziggurat.co.nz/news/2016/12/15/this-month-in-cvg-88/image-asset_hu_bbcecdbc5153882a.png 2x"
+            src="https://ziggurat.co.nz/news/2016/12/15/this-month-in-cvg-88/image-asset_hu_4de402ba2bd7bae8.png" width="160" height="120"
+          
+          
+            loading="lazy"
+          
+        />
+      </a>
+    </div>
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2016/12/15/this-month-in-cvg-88/"
+          >This month in... C&VG '88</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2016-12-15 07:52:40 &#43;0000 &#43;0000">15 December 2016</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">7 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+  
+    <article class="mt-6 flex max-w-prose flex-row">
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a
+        href="
+          https://ziggurat.co.nz/news/2016/11/30/november-games-revisited/
+        "
+        aria-label="November Games Revisited"
+      >
+        <img
+          alt=""
+          
+            class="w-24 rounded-md sm:w-40" srcset="https://ziggurat.co.nz/news/2016/11/30/november-games-revisited/image-asset_hu_e20dac24ebdfd9fb.png
+            160w,https://ziggurat.co.nz/news/2016/11/30/november-games-revisited/image-asset_hu_cf43e2b0d3c2791d.png 2x"
+            src="https://ziggurat.co.nz/news/2016/11/30/november-games-revisited/image-asset_hu_e20dac24ebdfd9fb.png" width="160" height="120"
+          
+          
+            loading="lazy"
+          
+        />
+      </a>
+    </div>
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2016/11/30/november-games-revisited/"
+          >November Games Revisited</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2016-11-30 07:26:06 &#43;0000 &#43;0000">30 November 2016</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+  
+
+
+</section>
+
+  
+
+      </main>
+      
+        <div
+          class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12"
+          id="to-top"
+          hidden="true"
+        >
+          <a
+            href="#the-top"
+            class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+            aria-label="Scroll to top"
+            title="Scroll to top"
+          >
+            &uarr;
+          </a>
+        </div>
+      <footer class="py-10 print:hidden">
+  
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
       
     </div>
+    <div class="flex flex-row items-center">
+      
+      
+      
+      
+        <div
+          class="me-14 cursor-pointer text-sm text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        >
+          <button id="appearance-switcher-0" type="button" aria-label="appearance switcher">
+            <div
+              class="flex h-12 w-12 items-center justify-center dark:hidden"
+              title="Switch to dark appearance"
+            >
+              <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+            </div>
+            <div
+              class="hidden h-12 w-12 items-center justify-center dark:flex"
+              title="Switch to light appearance"
+            >
+              <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+            </div>
+          </button>
+        </div>
+      
+    </div>
+  </div>
+  
+  
+</footer>
 
-
-</body>
+    </div>
+  </body>
 </html>

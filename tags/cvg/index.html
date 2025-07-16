@@ -1,1332 +1,1242 @@
-<!DOCTYPE html>
-<html lang="en-nz">
-<head>
-    <meta charset="utf-8">
+
+
+
+
+
+
+
+<!doctype html>
+<html
+  lang="en"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#FFFFFF" />
+  
+  <title>C&VG &middot; Ziggurat</title>
+    <meta name="title" content="C&VG &middot; Ziggurat" />
+  
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="https://ziggurat.co.nz/js/appearance.min.8a082f81b27f3cb2ee528df0b0bdc39787034cf2cc34d4669fbc9977c929023c.js"
+    integrity="sha256-iggvgbJ/PLLuUo3wsL3Dl4cDTPLMNNRmn7yZd8kpAjw="
+  ></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="https://ziggurat.co.nz/css/main.bundle.min.57d1c448a1783097815ad61ba1a727b1490184aed782150f83eb9243809e8142.css"
+    integrity="sha256-V9HESKF4MJeBWtYboacnsUkBhK7XghUPg&#43;uSQ4CegUI="
+  />
+  
+  
+  
     
-    <title>C&amp;VG | Ziggurat</title>
-    <meta name="description" content="Occasional ramblings about retro games, development, augmented reality and other random subjects.">
-    <meta name="author" content="">
     
-    <link rel="apple-touch-icon" sizes="180x180" href=https://ziggurat.co.nz/apple-touch-icon.png>
-    <link rel="icon" type="image/png" sizes="32x32" href=https://ziggurat.co.nz/favicon-32x32.png>
-    <link rel="icon" type="image/png" sizes="16x16" href=https://ziggurat.co.nz/favicon-16x16.png>
-    <link rel="manifest" href=https://ziggurat.co.nz/site.webmanifest>
-    <link rel="mask-icon" href=https://ziggurat.co.nz/safari-pinned-tab.svg color="#00416a">
-    <meta name="msapplication-TileColor" content="#00aba9">
-    <meta name="theme-color" content="#ffffff">
+  
+  
+  
+  
     
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="https://ziggurat.co.nz/js/main.bundle.min.3e80d0528c59616e7de9b0ca9316d9afd314b49ed9e5e6b88873731486ad67ee.js"
+      integrity="sha256-PoDQUoxZYW596bDKkxbZr9MUtJ7Z5ea4iHNzFIatZ&#43;4="
+      data-copy="Copy"
+      data-copied="Copied"
+    ></script>
+  
+  
+  <meta
+    name="description"
+    content="
+      
+        Occasional ramblings about retro games, development, augmented reality and other random subjects.
+      
+    "
+  />
+  
+  
+  
+  
+    <link rel="canonical" href="https://ziggurat.co.nz/tags/cvg/" />
+  
+  <link rel="alternate" type="application/rss+xml" href="https://ziggurat.co.nz/tags/cvg/index.xml" title="Ziggurat" />
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="https://ziggurat.co.nz/tags/cvg/">
+  <meta property="og:site_name" content="Ziggurat">
+  <meta property="og:title" content="C&VG">
+  <meta property="og:description" content="Occasional ramblings about retro games, development, augmented reality and other random subjects.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="C&VG">
+  <meta name="twitter:description" content="Occasional ramblings about retro games, development, augmented reality and other random subjects.">
+
+  
+  
+
+  
+  
+    <meta name="author" content="Michael Keith" />
+  
+  
+    
+      <link href="mailto:mike@ziggurat.co.nz" rel="me" />
+    
+      <link href="https://github.com/mikekeith" rel="me" />
+    
+      <link href="https://lastfm.com/user/nifta" rel="me" />
+    
+      <link href="https://icosahedron.website/@nifta" rel="me" />
+    
+  
+  
+  
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+  
+  
     <meta name="omgproof" content="proven.lol/df002d">
-    
-    
-    <link rel="me" href="mailto:mike@ziggurat.co.nz">
-    
-    
-    
-    
-    <link rel="stylesheet" href=https://ziggurat.co.nz/css/fonts.css />
-    <link rel="stylesheet" href=https://ziggurat.co.nz/css/style.css />
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
 </head>
-
-<body>
-    <div id="sitelogo">
-        <a class="glyph" alt="Home" href="https://ziggurat.co.nz/"><img src=https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol.svg alt="Site Logo" height="64px" width="64px"></a>
+<body
+    class="m-auto flex h-screen max-w-7xl flex-col bg-neutral px-6 text-lg leading-7 text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="-translate-y-8 rounded-b-lg bg-primary-200 px-3 py-1 text-sm focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="pe-2 font-bold text-primary-600 dark:text-primary-400">&darr;</span
+        >Skip to main content</a
+      >
     </div>
-    <header>
-        <nav>
     
-    <div id="page-nav">
-        <div class="page-nav-item">
-            <a href="https://ziggurat.co.nz/">Home</a>
-        </div>
-        
-            <div class="page-nav-item">
-                <a href="/confidential/">
-                    
-                    <span>Confidential Magazine</span>
-                </a>
-            </div>
-        
-            <div class="page-nav-item">
-                <a href="/about/">
-                    
-                    <span>About</span>
-                </a>
-            </div>
-        
+    
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral sm:py-10 print:hidden">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="flex flex-row items-center">
+      
+    <a href="/" class="mr-2">
+      
+      <img
+        src="https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol%2064x64.png"
+        width="32"
+        height="32"
+        class="max-h-[10rem] max-w-[10rem] object-scale-down object-left
+        "
+        alt="Ziggurat"
+      />
+    </a>
+  <a
+    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+    rel="me"
+    href="/"
+    >Ziggurat</a
+  >
+
     </div>
-</nav>
+    
+    
+      <ul class="flex list-none flex-col text-end sm:flex-row">
         
-        <div id="site-header">
-            <h1 id="site-header">Ziggurat</h1>
+          
             
-        </div>
-        
-    </header>
-
-<h2>
-  <span class="list-heading-type">tags:</span>
-  <span class="list-heading-tag">C&amp;VG</span>
-</h2>
-
-<div id="content">
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2018/2/8/this-month-in-cvg-90/">This month in... C&amp;VG &#39;90</a></h2>
-        
-        <p class="list-post-date"><time datetime="08 February 2018 20:36 NZDT">
-            08 February 2018 20:36 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2018/2/8/this-month-in-cvg-90/cvg199002.png"><img src="/news/2018/2/8/this-month-in-cvg-90/cvg199002_hu_16b74163ab9dfb1.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Code Masters unveiled their fancy new CD compilations for the Spectrum and C64. The package included a computer interface to connect your regular CD player and the CD-ROM containing 30 Code Masters games. The Spectrum version was able to load games in under a minute, while the C64 utilised the stereo audio signal to encode a timing track enabling even quicker load times. C&amp;VG marvelled at the possibilities:...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/12/19/this-month-in-cvg-89/">This month in... C&amp;VG &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="19 December 2017 20:10 NZDT">
-            19 December 2017 20:10 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/12/19/this-month-in-cvg-89/cvg198912.png"><img src="/news/2017/12/19/this-month-in-cvg-89/cvg198912_hu_d29cb0c083edfa93.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Hot off the presses from Japan was news of the PC Engine Super Grafx which looked to build on the already impressive original. New custom chips meant it could chuck around 128 sprites (up from 64) and the cartridges saw a decent boost in size. Perhaps the most intriguing aspect was the Power Console add on which the console slotted into and featured a full on steering yoke,...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/11/16/this-month-in-cvg-89/">This month in... C&amp;VG &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="16 November 2017 20:12 NZDT">
-            16 November 2017 20:12 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/11/16/this-month-in-cvg-89/cvg198911.png"><img src="/news/2017/11/16/this-month-in-cvg-89/cvg198911_hu_d669d93c32f9715c.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> A new computer was about to be unleashed on Europe which boasted specs that certainly beat the 8bits, but also - apparently - rivaled the Amiga and ST. While that didn&rsquo;t seem terribly exciting, it did have one interesting feature: the ability to run most Speccy games. The SAM Coupe was due to launch in the UK on November 20th. With Christmas around the corner, Hewson were to...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/10/15/this-month-in-cvg-89/">This month in... C&amp;VG &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="15 October 2017 21:03 NZDT">
-            15 October 2017 21:03 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/10/15/this-month-in-cvg-89/cvg198910.png"><img src="/news/2017/10/15/this-month-in-cvg-89/cvg198910_hu_5900a769029f3aaf.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> &ldquo;Konix Here At Last&rdquo; proclaimed the headline leading off this issue. The much hyped Konix Multisystem was going to be available to buy this month at stores across the UK for around 200 quid. Not all of the eagerly anticipated peripherals would be on sale to start with - the hydraulic chair was &ldquo;on the horizon&rdquo; and expected to cost another 200 quid. Of course, sadly, none of...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/9/5/this-month-in-cvg-89/">This month in... C&amp;VG &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="05 September 2017 19:45 NZST">
-            05 September 2017 19:45 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/9/5/this-month-in-cvg-89/cvg198909.png"><img src="/news/2017/9/5/this-month-in-cvg-89/cvg198909_hu_48edfc4fe4c67dd2.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Two years after it launched in the US, Atari were bringing the 7800 ProSystem to the UK. On paper the specs weren&rsquo;t up to much when compared to Nintendo and Sega&rsquo;s offerings, but at £69.95 it looked decent value for money. Stateside the 7800 was the number 2 selling console ahead of the Master System. Spectravideo&rsquo;s popular range of Quickshot joysticks (the Quickshot II Turbo was my personal...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/8/17/this-month-in-cvg-89/">This month in... C&amp;VG &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="17 August 2017 20:41 NZST">
-            17 August 2017 20:41 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/8/17/this-month-in-cvg-89/image-asset.png"><img src="/news/2017/8/17/this-month-in-cvg-89/image-asset_hu_4b9c3f060c4ad917.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Atari unveiled their impressive handheld, the Lynx. Julian Rignall got to check it out and was gobsmacked: &ldquo;Erm&hellip; hmmm&hellip; What can I say about the most exciting thing to happen to the games industry since the invention of the home console?&rdquo; Sinclair (aka Amstrad) were to launch a new bundle. The &ldquo;Action Pack&rdquo; would consist of a Spectrum +2 (£149) or +3 (£199), a Magnum light gun and...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/7/4/this-month-in-cvg-89/">This month in... C&amp;VG &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="04 July 2017 20:51 NZST">
-            04 July 2017 20:51 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/7/4/this-month-in-cvg-89/cvg198907.png"><img src="/news/2017/7/4/this-month-in-cvg-89/cvg198907_hu_79b3de176524ed3b.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> The industry was abuzz with talk of Nintendo’s Game Boy. The handheld had seen a very successful launch in Japan with over 500,000 units being sold (300,000 of which were on the first day), and now the question was when would it reach the UK. Nintendo were unable to give any dates, but confirmed they had plans… The FIST telephone game was getting a sequel (I have no...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/6/19/this-month-in-cvg-89/">This month in... C&amp;VG &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="19 June 2017 20:40 NZST">
-            19 June 2017 20:40 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/6/19/this-month-in-cvg-89/image-asset.png"><img src="/news/2017/6/19/this-month-in-cvg-89/image-asset_hu_d7cd49d2fa93786c.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> This month saw C&amp;VG getting a revamp based on reader feedback. Coin ops and consoles would get more pages, the adventure section got a make over, there was more space dedicated to previews and overall there would be a lot more colour. The announcement of these changes referenced the fact that some features were dropped, but they didn’t actually specify which. Somewhat worryingly, there were no adventure game...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/4/24/this-month-in-cvg-89/">This month in... C&amp;VG &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="07 May 2017 10:00 NZST">
-            07 May 2017 10:00 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/4/24/this-month-in-cvg-89/image-asset.png"><img src="/news/2017/4/24/this-month-in-cvg-89/image-asset_hu_b9c9acc7a57f5188.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Rignall and Glancey took on Domark’s Mark Strachan and Andy Blazdell in three rounds of Tengen’s &ldquo;Vindicators&rdquo; arcade machine. The C&amp;VG lads won two out of three and claimed the Tengen...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/3/20/this-month-in-cvg-89/">This month in... C&amp;VG &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="20 March 2017 21:06 NZDT">
-            20 March 2017 21:06 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/3/20/this-month-in-cvg-89/image-asset.png"><img src="/news/2017/3/20/this-month-in-cvg-89/image-asset_hu_9cccb565d8312384.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Michael Jackson’s “Moonwalker” movie had only just come out and US Gold had already snaffled the game license. Titus announced their futuristic deadly sport game &ldquo;Titan”. The Vocalizer 1000 was a music gadget where the user would hum/whistle/sing a tune at it and it would detect the varying pitches and allow playback of the tune using a selection of 28 instruments. Gary Liddon was teaming up with renowned...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/2/23/this-month-in-cvg-89/">This month in... C&amp;VG &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="23 February 2017 21:40 NZDT">
-            23 February 2017 21:40 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/2/23/this-month-in-cvg-89/image-asset.png"><img src="/news/2017/2/23/this-month-in-cvg-89/image-asset_hu_3809940b2ae3a6d9.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> &ldquo;Death Stalks the Night&rdquo; was an upcoming arcade adventure from Ubi Soft where the player assumed the role as Count Dracula to take on “the usual Van Helsings”. New software house EAS announced a space trading game called &ldquo;STAG&rdquo; for the Amiga and ST. Mr Chip’s &ldquo;Wrangler&quot;would see the player take control over Clint Eastwood (yes, apparently) and his ‘droid in what looked like a puzzle game. Budget...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/1/11/this-month-in-cvg-89/">This month in... C&amp;VG &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="11 January 2017 21:57 NZDT">
-            11 January 2017 21:57 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/1/11/this-month-in-cvg-89/image-asset.png"><img src="/news/2017/1/11/this-month-in-cvg-89/image-asset_hu_552017e16b12a4c.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> C&amp;VG were giving away a Body Rap toy which would be strapped to your body and emit audio (bass, drum, snare, cymbal etc) when hit. They described it as a “neat little gizmo” but I can’t imagine it being anything other than dreadful. The Amiga, ST and Amstrad versions of Titus’ car racing game &ldquo;Crazy Cars II&rdquo; were on the shelves, with the C64 due this month. German...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2016/12/15/this-month-in-cvg-88/">This month in... C&amp;VG &#39;88</a></h2>
-        
-        <p class="list-post-date"><time datetime="15 December 2016 20:52 NZDT">
-            15 December 2016 20:52 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2016/12/15/this-month-in-cvg-88/image-asset.png"><img src="/news/2016/12/15/this-month-in-cvg-88/image-asset_hu_553c04a8c2d27453.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> There were big changes at the mag, with Tony Takoushi &ldquo;getting the boot&rdquo; and replaced by Julian Rignall. This issue hit 114 pages. Mandarin Software were developing &ldquo;Grand Prix Circuit&rdquo;, an F1 racing sim to be published by Accolade. Elite&rsquo;s lineup for Christmas included &ldquo;Space Harrier 2&rdquo; for the 16bits (seems that Grandslam actually had the rights for that, weird) , &ldquo;Mike Read’s Pop Quiz&rdquo; and &ldquo;Storm Warrior&rdquo;....
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2016/11/28/this-month-in-cvg-88/">This month in... C&amp;VG &#39;88</a></h2>
-        
-        <p class="list-post-date"><time datetime="28 November 2016 21:15 NZDT">
-            28 November 2016 21:15 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2016/11/28/this-month-in-cvg-88/image-asset.png"><img src="/news/2016/11/28/this-month-in-cvg-88/image-asset_hu_d4907df486a13546.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> It was Superman vs Batman as to who would have the better game. Tynesoft delivering the former, while Ocean took on the latter. Early indications were that Batman had the edge. Loricel&rsquo;s next attempt to crack the UK would come in the form of Porsche racing game &ldquo;944 Turbo Cup&rdquo;. Driver Rene Metge (&ldquo;who?&rdquo; asked C&amp;VG) provided the endorsement and the software house hoped to include a model...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2016/10/12/this-month-in-cvg-88/">This month in... C&amp;VG &#39;88</a></h2>
-        
-        <p class="list-post-date"><time datetime="12 October 2016 20:34 NZDT">
-            12 October 2016 20:34 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2016/10/12/this-month-in-cvg-88/image-asset.png"><img src="/news/2016/10/12/this-month-in-cvg-88/image-asset_hu_5b98bc1f0ea37860.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Grand Slam were bringing the &ldquo;Pacmania&rdquo; coin-op to home computers (the Amiga, ST and Spectrum versions would be first, with C64 and Amstrad to follow next month). The software house was also working on a computer game based on board game &ldquo;sensation&rdquo; &ldquo;Espionage&rdquo;. Software Horizons was new on the scene and would be publishing three 16bit games within the next month or so: &ldquo;Veteran&rdquo;, &ldquo;Luxor&rdquo; and &ldquo;Mafdet&rdquo;. Chris...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2016/9/11/this-month-in-cvg-88/">This month in... C&amp;VG &#39;88</a></h2>
-        
-        <p class="list-post-date"><time datetime="11 September 2016 19:08 NZST">
-            11 September 2016 19:08 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2016/9/11/this-month-in-cvg-88/image-asset.png"><img src="/news/2016/9/11/this-month-in-cvg-88/image-asset_hu_437bc5a0a432cae0.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> For the first time, major games were being released on the 16bits before the 8bits. C&amp;VG reassured its readers that almost all the games would make their way to the C64/Spectrum/Amstrad, and that the magazine would continue to cover those machines. The Bitmap Brothers were following up their well received 16bit shoot&rsquo;em up &ldquo;Xenon&rdquo; with a new futuristic sports game, &ldquo;Speedball&rdquo;. Mirrorsoft had created a new label, Imageworks,...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2016/8/18/this-month-in-cvg-88/">This month in... C&amp;VG &#39;88</a></h2>
-        
-        <p class="list-post-date"><time datetime="18 August 2016 21:09 NZST">
-            18 August 2016 21:09 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2016/8/18/this-month-in-cvg-88/image-asset.png"><img src="/news/2016/8/18/this-month-in-cvg-88/image-asset_hu_ab5b237c1ab62e9.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> This month saw ex-Zzap!64 editor Julian Rignall and ex-Crash editor Steve Jarret join the C&amp;VG writing staff. With the Seoul olympic games about to start, Ocean were to release &ldquo;Daley Thompson&rsquo;s Olympic Challenge&rdquo;. Official olympic sponsor Adidas were also sponsoring the game. The first screenshot of Realtime Games&rsquo; impressive 16bit &ldquo;Carrier Command&rdquo; Spectrum port appeared. The game was also to appear on the Amstrad and C64. French software...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2016/7/11/this-month-in-cvg-88/">This month in... C&amp;VG &#39;88</a></h2>
-        
-        <p class="list-post-date"><time datetime="11 July 2016 20:18 NZST">
-            11 July 2016 20:18 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2016/7/11/this-month-in-cvg-88/image-asset.png"><img src="/news/2016/7/11/this-month-in-cvg-88/image-asset_hu_7d4aef4a6c4da31d.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> The 1988 Euros were about to start and Grandslam were putting the finishing touches on &ldquo;Peter Beardsley’s International Football&rdquo;. Titus was following up their &ldquo;Crazy Cars&rdquo; with &ldquo;Fire and Forget&rdquo;, a vehicular combat game featuring cars decked out with an array of weapons. Crocodile Dundee was heading back to the cinemas, but this time his antics would take place in New York. German developer house Logotron was to...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2016/6/21/this-month-in-cvg-88/">This month in... C&amp;VG &#39;88</a></h2>
-        
-        <p class="list-post-date"><time datetime="21 June 2016 20:32 NZST">
-            21 June 2016 20:32 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2016/6/21/this-month-in-cvg-88/image-asset.png"><img src="/news/2016/6/21/this-month-in-cvg-88/image-asset_hu_21462ee2455aba3c.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> The issue came with a &ldquo;Barbarian II&rdquo; poster. &ldquo;Pandora&rdquo; was a new sci-fi game from Firebird where character interaction was as important as blasting. London&rsquo;s The Museum of Mankind opened a new exhibit that made use of video discs and computers to create a game where visitors would learn what life in the Arctic was like. The first game to hit the shelves from new publisher Electra was...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2016/5/30/this-month-in-cvg-88/">This month in... C&amp;VG &#39;88</a></h2>
-        
-        <p class="list-post-date"><time datetime="30 May 2016 20:37 NZST">
-            30 May 2016 20:37 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2016/5/30/this-month-in-cvg-88/image-asset.png"><img src="/news/2016/5/30/this-month-in-cvg-88/image-asset_hu_98ebc501b468cbee.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Stephen Crow&rsquo;s &ldquo;Starquake&rdquo; was heading to the ST and Amstrad PC thanks to Mandarin Software. Hewson were to re-release several classic titles by Gargoyle Games. &ldquo;Dun Darach&rdquo;, &ldquo;Marsport&rdquo; and &ldquo;Tir Na Nog&rdquo; would available for a mere £1.99. C&amp;VG apologised for incorrectly stating the price of &ldquo;IO&rdquo; for the C64 last month. &ldquo;Stir Crazy&rdquo; from Infogrames starred a &ldquo;crazy criminal character&rdquo; attempting to escape prison. &ldquo;Batman: The Killing...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2016/4/30/this-month-in-cvg-88/">This month in... C&amp;VG &#39;88</a></h2>
-        
-        <p class="list-post-date"><time datetime="30 April 2016 11:51 NZST">
-            30 April 2016 11:51 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2016/4/30/this-month-in-cvg-88/image-asset.png"><img src="/news/2016/4/30/this-month-in-cvg-88/image-asset_hu_2d812352dd4a73f1.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> May 28th would see Video Charity Day take place as part of the &ldquo;massive&rdquo; &lsquo;88 Telethon charity drive. Video rental customers would be &ldquo;encouraged&rdquo; to donate while in video stores and there would be competitions and raffles. C&amp;VG found the fact that the player character in Martech&rsquo;s &ldquo;Vixen&rdquo; was female &ldquo;doubly refreshing&rdquo;. The double part may have been a reference to the game&rsquo;s cover/advertisements which featured a photo...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2016/3/30/this-month-in-cvg-88/">This month in... C&amp;VG &#39;88</a></h2>
-        
-        <p class="list-post-date"><time datetime="30 March 2016 19:32 NZDT">
-            30 March 2016 19:32 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2016/3/30/this-month-in-cvg-88/image-asset.png"><img src="/news/2016/3/30/this-month-in-cvg-88/image-asset_hu_2f5733c1717a70e0.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> The big buzz this month was the arrival of &ldquo;Xenon&rdquo; for the Amiga and ST which heralded the first true coin-op quality game on home computers. Electronic Arts were working on a graphic adventure for the Amiga called &ldquo;Return to Atlantis&rdquo;. Infocom were trying something a bit different with their Infocomix line of interactive comics. Rather than a typical adventure game, each issue would allow the reader to...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2016/2/28/this-month-in-cvg-88/">This month in... C&amp;VG &#39;88</a></h2>
-        
-        <p class="list-post-date"><time datetime="28 February 2016 12:01 NZDT">
-            28 February 2016 12:01 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2016/2/28/this-month-in-cvg-88/image-asset.png"><img src="/news/2016/2/28/this-month-in-cvg-88/image-asset_hu_e667f3769a543f21.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> This month saw Eugene Lacey take over as editor. Lacey came from editing Commodore User, and had been a C&amp;VG staff writer sometime earlier. Go!&rsquo;s &ldquo;Bedlam&rdquo; promised arcade action featuring up to 18 aliens at any one time. Sega&rsquo;s Master System recently launched in the UK and now a slew of titles were heading its way. These included: &ldquo;Kung-Kid&rdquo;, &ldquo;Fantasy Zone II&rdquo;, &ldquo;After Burner&rdquo;, &ldquo;Global Defense&rdquo;, &ldquo;Zaxxon 3D&rdquo;,...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2016/1/10/this-month-in-cvg-88/">This month in... C&amp;VG &#39;88</a></h2>
-        
-        <p class="list-post-date"><time datetime="10 January 2016 18:04 NZDT">
-            10 January 2016 18:04 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2016/1/10/this-month-in-cvg-88/image-asset.png"><img src="/news/2016/1/10/this-month-in-cvg-88/image-asset_hu_c77fedaa0a76e086.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> This issue came with an audio cassette featuring music from 720º and Out Run. Electric Dreams&rsquo; Spectrum port of &ldquo;Super Hang-On&rdquo; narrowly missed the review window for the month, but a tasty screenshot of it was included instead. C&amp;VG assured readers it was &ldquo;simply brilliant&rdquo;. The Edge was bringing comic cat &ldquo;Garfield&rdquo; to home computers. &ldquo;Crazy Cars&rdquo; was a rather promising looking 16bit racing game from Titus. &ldquo;Robocop&rdquo;...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2015/12/29/this-month-in-cvg-87/">This month in... C&amp;VG &#39;87</a></h2>
-        
-        <p class="list-post-date"><time datetime="29 December 2015 18:48 NZDT">
-            29 December 2015 18:48 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2015/12/29/this-month-in-cvg-87/image-asset.png"><img src="/news/2015/12/29/this-month-in-cvg-87/image-asset_hu_77b09bab3635477e.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Rainbird&rsquo;s &ldquo;Universal Military Simulator&rdquo; for the ST promised wargaming fans the ability to re-enact a vast array of different battles, including ones between armies from different time periods. &ldquo;Stratton&rdquo; from CRL would see the player attempt to shutdown the automated defence units of a space station which had suffered a terrorist attack and had turned on its inhabitants. (unable to find evidence of this being released) Bike racing...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2015/11/23/this-month-in-cvg-87/">This month in... C&amp;VG &#39;87</a></h2>
-        
-        <p class="list-post-date"><time datetime="23 November 2015 20:14 NZDT">
-            23 November 2015 20:14 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2015/11/23/this-month-in-cvg-87/image-asset.png"><img src="/news/2015/11/23/this-month-in-cvg-87/image-asset_hu_a2ee0565eac99bc5.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Microprose&rsquo;s &ldquo;F-15 Strike Eagle&rdquo; was about to land on the ST. The ST would also get a port of Mirrorsoft&rsquo;s flightsim featuring a somewhat older aircraft, &ldquo;Spitfire 40&rdquo;. Viz were working on &ldquo;Werewolves of London&rdquo;. For the first time since being bought out by Mastertronic, Melbourne House announced its upcoming titles: &ldquo;Roadwars&rdquo;, &ldquo;Rockford&rdquo;, &ldquo;Pulse Warrior&rdquo;, &ldquo;Street Hassle&rdquo;, &ldquo;Metropolis&rdquo; and &ldquo;Kelly X&rdquo; (I was unable to find any sign...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2015/10/24/this-month-in-cvg-87/">This month in... C&amp;VG &#39;87</a></h2>
-        
-        <p class="list-post-date"><time datetime="24 October 2015 11:54 NZDT">
-            24 October 2015 11:54 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2015/10/24/this-month-in-cvg-87/image-asset.png"><img src="/news/2015/10/24/this-month-in-cvg-87/image-asset_hu_6c95ae9ac6fe44be.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Jim Synoski and Arnold Hendrick, designers of Microprose&rsquo;s &ldquo;Project: Stealth Fighter&rdquo;, were promoting the game ahead of its launch. While they admitted nothing official was known about the fighter, they felt that they had &ldquo;a fair idea of what the capabilities of the plane must be&rdquo;. Incentive&rsquo;s &ldquo;Driller&rdquo; was shaping up well on the Speccy. Electric Dreams had the rights to &ldquo;Knightmare&rdquo; - the game of the TV...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2015/9/13/this-month-in-cvg-87/">This month in... C&amp;VG &#39;87</a></h2>
-        
-        <p class="list-post-date"><time datetime="13 September 2015 18:36 NZST">
-            13 September 2015 18:36 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2015/9/13/this-month-in-cvg-87/image-asset.png"><img src="/news/2015/9/13/this-month-in-cvg-87/image-asset_hu_fb169dae23a4ea0f.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Digital Integration&rsquo;s &ldquo;Bobsleigh&rdquo; was a departure from their usual flight sims and would centre around the winter event. Incentive teased their impressive new Freescape engine with a couple of screenshots of the upcoming &ldquo;Driller&rdquo;. English Software were working on a Rambo-esque game: &ldquo;Captain Courageous&rdquo;. Atari dropped the price of the 520STFM to £299.99. They were also planning to re-launch the 130XE and position it as &ldquo;the ultimate teaching...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2015/8/25/this-month-in-cvg-87/">This month in... C&amp;VG &#39;87</a></h2>
-        
-        <p class="list-post-date"><time datetime="25 August 2015 20:32 NZST">
-            25 August 2015 20:32 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2015/8/25/this-month-in-cvg-87/image-asset.png"><img src="/news/2015/8/25/this-month-in-cvg-87/image-asset_hu_fa89fafaeff5090a.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> &ldquo;Catch 23&rdquo; was a new 3D vector arcade adventure from Martech. Epyx were continuing their &ldquo;Games&rdquo; series, this time focussing on events such as BMXing, skateboarding, surfing and flying disks (frisbees) in &ldquo;California Games&rdquo;. Microprose were to release a new flight sim, &ldquo;Project: Stealth Fighter&rdquo; based on the top secret American stealth plane, and a more arcade-y combat game, &ldquo;Airborne Ranger&rdquo;. Activision &amp; System 3 got the game...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2015/7/19/this-month-in-cvg-87/">This month in... C&amp;VG &#39;87</a></h2>
-        
-        <p class="list-post-date"><time datetime="19 July 2015 18:31 NZST">
-            19 July 2015 18:31 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2015/7/19/this-month-in-cvg-87/image-asset.png"><img src="/news/2015/7/19/this-month-in-cvg-87/image-asset_hu_a4ee1e138da8a48d.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> &ldquo;Dungeons, Amethysts, Alchemists &rsquo;n&rsquo; Everythin&rsquo;&rdquo; from Atlantis Software promised &ldquo;the occasional rude word and sexual innuendo, novice nuns, entangled lovers and busty barmaids&rdquo;. The cover of the game came with a &ldquo;Not suitable for persons under the age of 16&rdquo; label. Paul Hardcastle had a big hit with his Vietnam war song &ldquo;19&rdquo; and Cascade were turning it into a game. Rather interestingly, the player would be faced...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2015/6/30/this-month-in-cvg-87/">This month in... C&amp;VG &#39;87</a></h2>
-        
-        <p class="list-post-date"><time datetime="30 June 2015 19:35 NZST">
-            30 June 2015 19:35 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2015/6/30/this-month-in-cvg-87/image-asset.png"><img src="/news/2015/6/30/this-month-in-cvg-87/image-asset_hu_122fb53c1511ef9b.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> US Gold had signed a deal to sponsor race driver David Hall&rsquo;s car for the Formula Forward season. Meanwhile, US Gold released &ldquo;Deeper Dungeons&rdquo; for those &ldquo;Gauntlet&rdquo; fans wanting more. The British Open AD&amp;D Championships were held at the Reading University Students Union building. Up to 600 people were expected. Laser tag guns were the toy of the moment. The two main contenders were &ldquo;Laser Combat&rdquo; from Action...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2015/5/24/this-month-in-cvg-87/">This month in... C&amp;VG &#39;87</a></h2>
-        
-        <p class="list-post-date"><time datetime="24 May 2015 16:16 NZST">
-            24 May 2015 16:16 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2015/5/24/this-month-in-cvg-87/image-asset.png"><img src="/news/2015/5/24/this-month-in-cvg-87/image-asset_hu_b762fc70cc2ea9aa.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Simon Price, who had previously worked on &ldquo;Redhawk&rdquo; and &ldquo;Kwah!&rdquo;, was developing &ldquo;Wiz&rdquo; for Melbourne House. Danish software house Kele Line had two new C64 releases this month, &ldquo;Thunder Force&rdquo; and &ldquo;Unitrax&rdquo;. &ldquo;The 4th Dimension&rdquo;, &ldquo;Vikings&rdquo; and &ldquo;Pirates of the Ocean&rdquo; were to follow. Seems that only &ldquo;Thunder Force&rdquo; (published by Hewson) and &ldquo;Vikings&rdquo; made it out. &ldquo;The Mystery of Arkham Manor&rdquo; would see the player take on...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2015/4/12/this-month-in-cvg-87/">This month in... C&amp;VG &#39;87</a></h2>
-        
-        <p class="list-post-date"><time datetime="12 April 2015 17:26 NZST">
-            12 April 2015 17:26 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2015/4/12/this-month-in-cvg-87/image-asset.png"><img src="/news/2015/4/12/this-month-in-cvg-87/image-asset_hu_d84bce242e8189d5.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> This month C&amp;VG became the biggest selling games mag in the UK, shifting 106,571 copies monthly. The Edge picked up the license for &ldquo;Garfield&rdquo;. Superior Software were launching a big spring recruitment drive, and had written a handbook for budding games programmers titled &ldquo;Success in Software&rdquo;. Beano-esque comic &ldquo;Oink!&rdquo; was to be turned into a game by CRL. &ldquo;Dan Dare&rdquo; creator, Andy Wilson, was finishing up &ldquo;Laurel and...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2015/3/23/this-month-in-cvg-87/">This month in... C&amp;VG &#39;87</a></h2>
-        
-        <p class="list-post-date"><time datetime="23 March 2015 18:07 NZDT">
-            23 March 2015 18:07 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2015/3/23/this-month-in-cvg-87/image-asset.png"><img src="/news/2015/3/23/this-month-in-cvg-87/image-asset_hu_7a7312e1eb0c65a5.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> &ldquo;Indoor Sports&rdquo; by Mindscape was to feature a set of &ldquo;unusual&rdquo; sports, such as air hockey. Creative Sparks announced not one but four new budget titles: &ldquo;Little Alien&rdquo;, &ldquo;Smudge and the Moonees&rdquo;, &ldquo;Super Shuffle&rdquo; and &ldquo;Cyber I&rdquo;. It doesn&rsquo;t look like any of these were released. Melbourne House&rsquo;s &ldquo;Murder at Arkham Hall&rdquo; was to be a detective style adventure with the player taking on the role of a...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2015/2/14/this-month-in-cvg-87/">This month in... C&amp;VG &#39;87</a></h2>
-        
-        <p class="list-post-date"><time datetime="14 February 2015 10:11 NZDT">
-            14 February 2015 10:11 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2015/2/14/this-month-in-cvg-87/image-asset.png"><img src="/news/2015/2/14/this-month-in-cvg-87/image-asset_hu_fc016f27c58827a8.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> The Robot Society of America was offering newly signed up members the chance to win an &ldquo;experimental sound-activated robot&rdquo; kit. Membership was $50 per year. Bug Byte was to release old Virgin games under its budget label. &ldquo;Strangeloop&rdquo; and &ldquo;Falcon Patrol II&rdquo; were among the first batch. Also getting in on the budget action was newcomer Alternative Software with releases such as &ldquo;Howzat&rdquo;, and &ldquo;Henry&rsquo;s Hoard&rdquo;. Not exactly...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2015/1/31/this-month-in-cvg-87/">This month in... C&amp;VG &#39;87</a></h2>
-        
-        <p class="list-post-date"><time datetime="31 January 2015 09:37 NZDT">
-            31 January 2015 09:37 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2015/1/31/this-month-in-cvg-87/image-asset.png"><img src="/news/2015/1/31/this-month-in-cvg-87/image-asset_hu_cacd1b20fa0725ec.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Ocean was to bring &ldquo;Donkey Kong&rdquo; to the C64, Spectrum and Amstrad. &ldquo;Blood n&rsquo; Guts&rdquo; was heading to the C64 and was described by publisher American Action as &ldquo;an ancient barbarian decathlon with all the violence and brutality you&rsquo;ve ever dreamed about in a computer game&rdquo;. Oo-kay. Atari&rsquo;s 7800 was about to hit the shelves retailing for around £70, with games costing £10-15. Bo Jangeborg was busy finishing...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2014/12/28/this-month-in-cvg-86/">This month in... C&amp;VG &#39;86</a></h2>
-        
-        <p class="list-post-date"><time datetime="28 December 2014 15:58 NZDT">
-            28 December 2014 15:58 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2014/12/28/this-month-in-cvg-86/image-asset.png"><img src="/news/2014/12/28/this-month-in-cvg-86/image-asset_hu_5d62889bcd864cb2.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Probe Software was porting two arcade games, &ldquo;Quartet&rdquo; and &ldquo;Enduro Racer&rdquo; to home computers for Activision. &ldquo;Tracker&rdquo; from Rainbird promised tactical battles against an &ldquo;artificially intelligent enemy&rdquo; which would involve strategy and fast 3D arcade sections. Beyond continued to promote their much hyped &ldquo;Star Trek&rdquo; game, which would never see a release. They also revealed &ldquo;Infodroid&rdquo; - a new game from Denton Designs. After Ocean&rsquo;s exceptionally disappointing &ldquo;Transformers&rdquo;...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2014/11/30/this-month-in-cvg-86/">This month in... C&amp;VG &#39;86</a></h2>
-        
-        <p class="list-post-date"><time datetime="30 November 2014 12:48 NZDT">
-            30 November 2014 12:48 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2014/11/30/this-month-in-cvg-86/image-asset.png"><img src="/news/2014/11/30/this-month-in-cvg-86/image-asset_hu_18e0f4133c1d9533.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> This month saw C&amp;VG turn 5 years old and to celebrate they had a bunch of special features, including a Spectrum listing by Steve Turner&rsquo;s dad. Microsphere revealed their next game would be &ldquo;Contact Sam Cruise&rdquo;, which was inspired by classic private eye movies. There was also a hint that there might be something for fans of &ldquo;Skool Daze&rdquo; at Christmas. Arioalasoft got the licenses for two Hanna-Barbera...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2014/10/12/this-month-in-cvg-86/">This month in... C&amp;VG &#39;86</a></h2>
-        
-        <p class="list-post-date"><time datetime="12 October 2014 16:32 NZDT">
-            12 October 2014 16:32 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2014/10/12/this-month-in-cvg-86/image-asset.png"><img src="/news/2014/10/12/this-month-in-cvg-86/image-asset_hu_a8040c102c6066bd.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Ariolasoft spun out two new software houses, 39 Steps to focus on adventure games and Reaktor arcade/action games. First up from 39 Steps would be &ldquo;They Stole a Million&rdquo; while Reaktor&rsquo;s would be &ldquo;Deactivators&rdquo;. Martial arts games were proving popular and Martech threw their hat in the ring with &ldquo;Uchi-Mata&rdquo;, a &ldquo;more subtle&rdquo; simulation based on Judo. Beyond&rsquo;s &ldquo;Star Trek&rdquo; was to land in time for Christmas and...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2014/9/21/this-month-in-cvg-86/">This month in... C&amp;VG &#39;86</a></h2>
-        
-        <p class="list-post-date"><time datetime="21 September 2014 13:22 NZST">
-            21 September 2014 13:22 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2014/9/21/this-month-in-cvg-86/image-asset.png"><img src="/news/2014/9/21/this-month-in-cvg-86/image-asset_hu_b35fbd5e4a1848cc.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Peter Jones and Trevor Lever (the blokes behind &ldquo;Terrormolinos&rdquo; and &ldquo;Hampstead&rdquo;) were back with a new two part adventure &ldquo;Dodgy Geezers&rdquo;. US Gold had a strong upcoming lineup with &ldquo;Gauntlet&rdquo;, &ldquo;Masters of the Universe&rdquo;, &ldquo;Infiltrator&rdquo;, &ldquo;Super Cycle&rdquo;, &ldquo;Championship Wrestling&rdquo;, &ldquo;Movie Monster&rdquo;, &ldquo;World Games&rdquo;, &ldquo;Xevious&rdquo;, &ldquo;Express Raider&rdquo; and &ldquo;Break Thru&rdquo;. Phew. Lucasfilm and Activision picked up the game rights for &ldquo;Labyrinth&rdquo;. The movie had been received well in the...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2014/8/17/this-month-in-cvg-86/">This month in... C&amp;VG &#39;86</a></h2>
-        
-        <p class="list-post-date"><time datetime="17 August 2014 15:18 NZST">
-            17 August 2014 15:18 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2014/8/17/this-month-in-cvg-86/image-asset.png"><img src="/news/2014/8/17/this-month-in-cvg-86/image-asset_hu_2276dc48a35d1c2.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> &ldquo;It&rsquo;s nearly here&rdquo;, declared C&amp;VG about Mike Singleton&rsquo;s &ldquo;Dark Sceptre&rdquo;. The ambitious strategy/adventure (which was intended to have an optional Play By Mail service to allow players to compete with each other and Mike himself) had been in progress for a while and looked fantastic, but it wouldn&rsquo;t be until February 1988 that C&amp;VG finally got to play it. From the review: &ldquo;Was it worth the wait? We&rsquo;ll...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2014/7/27/this-month-in-cvg-86/">This month in... C&amp;VG &#39;86</a></h2>
-        
-        <p class="list-post-date"><time datetime="27 July 2014 16:04 NZST">
-            27 July 2014 16:04 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2014/7/27/this-month-in-cvg-86/cvg198607.png"><img src="/news/2014/7/27/this-month-in-cvg-86/cvg198607_hu_fa40dc507b7099b5.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Leading this month&rsquo;s news was US Gold&rsquo;s &ldquo;World Cup Carnival&rdquo;, the official World Cup &lsquo;86 game. A team of programmers had been working on it for 6 months and US Gold boldly claimed that it would &ldquo;reach new standards in football simulation&rdquo;. Sadly it would turn out to be one of the most infamously terrible games of the time, and was just a repackaging of an older title....
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2014/6/22/this-month-in-cvg-86/">This month in... C&amp;VG &#39;86</a></h2>
-        
-        <p class="list-post-date"><time datetime="22 June 2014 15:02 NZST">
-            22 June 2014 15:02 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2014/6/22/this-month-in-cvg-86/image-asset.png"><img src="/news/2014/6/22/this-month-in-cvg-86/image-asset_hu_13dff75f08b7ebaf.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Activision announced &ldquo;Murder on the Missippisic&quot;81, which was being written by Adam Bellin. Rather oddly C&amp;VG described Bellin as &ldquo;part of the team who produced the controversial &lsquo;Ghostbusters&rsquo;&rdquo;. I have no idea what the controversy was. &ldquo;Dr Blitzen and the Islands of Arcanum&rdquo; would be the followup to the popular &ldquo;Dynamite Dan&rdquo;. Alligata released &ldquo;Who Dares Wins II&rdquo;. Colin McLinton won Firebird&rsquo;s &ldquo;Elite&rdquo; competition. There were 11 finalists,...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2014/5/25/this-month-in-cvg-86/">This month in... C&amp;VG &#39;86</a></h2>
-        
-        <p class="list-post-date"><time datetime="25 May 2014 13:22 NZST">
-            25 May 2014 13:22 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2014/5/25/this-month-in-cvg-86/cvg198605.png"><img src="/news/2014/5/25/this-month-in-cvg-86/cvg198605_hu_3af3b1f482413e8c.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Tony Crowther moved back Alligata, the company he started out with. He had briefly run his own software house called Wizard Developments. After finding success with Delta4&rsquo;s &ldquo;Bored of the Rings&rdquo; CRL had signed up the new St Brides spoof &ldquo;The Very Big Cave Adventure&rdquo;. Little of the much hyped &ldquo;Nexus&rdquo; had been heard over the previous few months, but now it had resurfaced with news that Beyond...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2014/4/27/this-month-in-cvg-86/">This month in... C&amp;VG &#39;86</a></h2>
-        
-        <p class="list-post-date"><time datetime="27 April 2014 11:56 NZST">
-            27 April 2014 11:56 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2014/4/27/this-month-in-cvg-86/image-asset.png"><img src="/news/2014/4/27/this-month-in-cvg-86/image-asset_hu_86e06492a661b7fc.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> The UK release of &ldquo;Questprobe 3&rdquo; (aka &ldquo;The Fantastic Four&rdquo;) had suffered more delays. There had been hopes it&rsquo;d be out for Christmas, but it looks like licensing issues had pushed it back. Rhino announced &ldquo;Ark Pandora&rdquo; for the C64. PSS had released two new wargames: &ldquo;Falklands 82&rdquo; for the Spectrum and &ldquo;Theatre of Europe&rdquo; for the Amstrad. Global Software announced a game based on &ldquo;the Worst Vegetable...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2014/3/18/this-month-in-cvg-86/">This month in... C&amp;VG &#39;86</a></h2>
-        
-        <p class="list-post-date"><time datetime="18 March 2014 19:34 NZDT">
-            18 March 2014 19:34 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2014/3/18/this-month-in-cvg-86/cvg198603.png"><img src="/news/2014/3/18/this-month-in-cvg-86/cvg198603_hu_f87dccb85302d462.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> The biggest news by far this month was that US Gold had merged with Ultimate Play The Game, and that US Gold would now handle all international manufacturing, promotion, marketing and sales of Ultimate games. Ultimate said that they were going to concentrate on making games and planned to release six new titles during 1986. What wasn&rsquo;t clear was just how involved the Stamper brothers were to be,...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2014/1/5/mun4x70unjj1dh0jl2mlo3doj77olx/">This month in... C&amp;VG &#39;86</a></h2>
-        
-        <p class="list-post-date"><time datetime="05 January 2014 11:48 NZDT">
-            05 January 2014 11:48 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2014/1/5/mun4x70unjj1dh0jl2mlo3doj77olx/image-asset.png"><img src="/news/2014/1/5/mun4x70unjj1dh0jl2mlo3doj77olx/image-asset_hu_6294438c8690dac4.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Dave Perry and Nick Jones had nearly wrapped up the latest Wally game for MikroGen - &ldquo;Three Weeks in Paradise&rdquo;. Domark released a screenshot of their rather controversial &ldquo;Friday the 13th&rdquo;. The game certainly got the attention of the press but - unsurprisingly - for all the wrong reasons, as it turned out to be rubbish. (&ldquo;Oh dear, oh dear&rdquo; lamented Crash in their review). A BBC conversion...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2013/12/8/this-month-in-cvg-85/">This month in... C&amp;VG &#39;85</a></h2>
-        
-        <p class="list-post-date"><time datetime="08 December 2013 10:15 NZDT">
-            08 December 2013 10:15 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2013/12/8/this-month-in-cvg-85/cvg198512.png"><img src="/news/2013/12/8/this-month-in-cvg-85/cvg198512_hu_b66526a2b6bc3c35.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Ariolasoft released a couple of screenshots from a new game which promised to be a &ldquo;totally interactive graphic adventure &lsquo;movie&rsquo;.&rdquo; The game, &ldquo;Wild West&rdquo;, received luke warm reviews, but it was notable in that it was one of those rarities at the time: a game developed behind the iron curtain. Activision were to take on EA&rsquo;s excellent &ldquo;Racing Destruction Set&rdquo; with their own racing game with a built...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2013/11/24/this-month-in-cvg-85/">This month in... C&amp;VG &#39;85</a></h2>
-        
-        <p class="list-post-date"><time datetime="24 November 2013 17:08 NZDT">
-            24 November 2013 17:08 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2013/11/24/this-month-in-cvg-85/cvg198511.png"><img src="/news/2013/11/24/this-month-in-cvg-85/cvg198511_hu_16b53926db53be48.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Elite announced &ldquo;Scooby-Doo in the Castle Mystery&rdquo;, teasing gamers with a couple of amazing looking screens. It promised to provide cartoon like quality graphics but the game then promptly disappeared, only to resurface some time later as a very good, but very different game developed for Elite by Gargoyle Games. Christian Urqhart (programmer behind games like &ldquo;Daley Thompson&rsquo;s Decathlon&rdquo; and &ldquo;Hunchback&rdquo;) had left Ocean and formed his own...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2013/10/20/this-month-in-cvg-85/">This month in... C&amp;VG &#39;85</a></h2>
-        
-        <p class="list-post-date"><time datetime="20 October 2013 12:05 NZDT">
-            20 October 2013 12:05 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2013/10/20/this-month-in-cvg-85/cvg-198510.png"><img src="/news/2013/10/20/this-month-in-cvg-85/cvg-198510_hu_8f344e14bfa5da68.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> After months of teasing, the new look for C&amp;VG was here. It was quite a radical change and still looks pretty decent today. The excellent &ldquo;Bored of the Rings&rdquo; was going to be re-launched by Silversoft and would feature new locations and graphics. Beyond struck a deal with Mindscape that would see its games distributed in the the US. First up were &ldquo;Lords of Midnight&rdquo;, &ldquo;Shadowfire&rdquo; and &ldquo;Quake...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2013/9/15/this-month-in-cvg-85/">This month in... C&amp;VG &#39;85</a></h2>
-        
-        <p class="list-post-date"><time datetime="15 September 2013 16:34 NZST">
-            15 September 2013 16:34 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2013/9/15/this-month-in-cvg-85/cvg198509.png"><img src="/news/2013/9/15/this-month-in-cvg-85/cvg198509_hu_f9dd47abfe1a0397.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> The Golden Sundial of Pi prize from &ldquo;Pimania&rdquo; was finally found! The winners - Sue Cooper and Lizi Newman - solved the puzzle by being at Hindover Hill in Sussex on July 22nd. The competition had begun on the release of &ldquo;Pimania&rdquo; in 1982. British Telecom were about to open up public access to M.U.D. (multi-user dungeon), which had previously just been available to students and staff at...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2013/8/13/this-month-in-cvg-85/">This month in... C&amp;VG &#39;85</a></h2>
-        
-        <p class="list-post-date"><time datetime="13 August 2013 20:15 NZST">
-            13 August 2013 20:15 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2013/8/13/this-month-in-cvg-85/cvg198508.png"><img src="/news/2013/8/13/this-month-in-cvg-85/cvg198508_hu_f741c1395a38c441.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> US Gold had signed the licenses to a couple of Disney games, &ldquo;Winnie the Pooh in the Hundred Acre Wood&rdquo; and &ldquo;Donald Duck&rsquo;s Playground&rdquo;. Both were aimed at children, and both were written by Al Lowe (including the music). Even though Ocean had been publishing Konami&rsquo;s games in the US, they were strangely absent from UK shelves. This was about to change with &ldquo;Hypersports&rdquo;, followed by &ldquo;Konami Tennis&rdquo;,...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2013/7/8/this-month-in-cvg-85/">This month in... C&amp;VG &#39;85</a></h2>
-        
-        <p class="list-post-date"><time datetime="08 July 2013 18:07 NZST">
-            08 July 2013 18:07 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2013/7/8/this-month-in-cvg-85/cvg198507.png"><img src="/news/2013/7/8/this-month-in-cvg-85/cvg198507_hu_1eabbd18ede9f2b0.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Plans were afoot to build Britain&rsquo;s first Laser tag centre. It would be built on Wellington Pier in Great Yarmouth and promised to &ldquo;take leisure and entertainment &lsquo;into the 21st century.&rsquo;&rdquo; Games Workshop was about to release &ldquo;Chaos&rdquo; by a certain Julian Gollop who would go onto produce such genre defining games as Rebelstar and XCom. He has a remake of &ldquo;Chaos&rdquo; underway and you can follow his...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2013/6/16/this-month-in-cvg-85/">This month in... C&amp;VG &#39;85</a></h2>
-        
-        <p class="list-post-date"><time datetime="16 June 2013 16:53 NZST">
-            16 June 2013 16:53 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2013/6/16/this-month-in-cvg-85/cvg198506.png"><img src="/news/2013/6/16/this-month-in-cvg-85/cvg198506_hu_be32d5fd985deb6b.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> * Atari announced they were about to launch a new range of computers. First there were the new XEs which were basically upgraded/re-styled 800 XLs. But more importantly were the STs which would provide an impressive jump from the existing machines. * Robert Schifreen who had written the &ldquo;Bug hunter&rdquo; and Micronet columns for C&amp;VG was arrested for hacking. <strong>Notable Reviews</strong> * &ldquo;Starion&rdquo; Melbourne House - Spectrum...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2013/5/12/this-month-in-cvg-/">This Month in... C&amp;VG &#39;85</a></h2>
-        
-        <p class="list-post-date"><time datetime="12 May 2013 12:23 NZST">
-            12 May 2013 12:23 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2013/5/12/this-month-in-cvg-/cvg-198505.png"><img src="/news/2013/5/12/this-month-in-cvg-/cvg-198505_hu_bc3b9c9ffc620947.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Not games related as such, but May saw the launch of C&amp;VG&rsquo;s &ldquo;Bring Back the Doctor&rdquo; campaign after the BBC announced Doctor Who was to end. I don&rsquo;t know if the BBC had specified <em>when</em> this was to happen, as it would last another 4 years. The &ldquo;Designer of the Month&rdquo; was Stephen Redman, a 21 year old uni student who released the somewhat controversial (how innocent we...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-</div>
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/about/"
+                  title="About"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >About</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/posts/"
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Blog</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/categories/"
+                  title="Categories"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Categories</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/tags/"
+                  title="Tags"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Tags</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/confidential/"
+                  title="Confidential Magazine"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Confidential Magazine</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                
+                
+              
+            </li>
+          
+            
+              
+          
+        
+      </ul>
+    
+  </nav>
+</header>
 
     
-    <div id="footer">
-      
-      <aside id="social">
-  <div id="social-icons">
+    <div class="relative flex grow flex-col">
+      <main id="main-content" class="grow">
+        
+  
+  <header>
     
-    <div class="icon-24x24">
-      <a class="glyph" alt="Email me" href="mailto:mike@ziggurat.co.nz"><img src=https://ziggurat.co.nz/icons/envelope.svg height="24px" width="24px"></a>
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">C&amp;VG</h1>
+  </header>
+  <section
+    class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row"
+  >
+    
+    <div class="min-h-0 min-w-0 max-w-prose grow">
+      
     </div>
-    
-    
-    <div class="icon-24x24">
-      <a rel="me" class="glyph" alt="Mastodon profile" href="https://icosahedron.website/@nifta"><img src=https://ziggurat.co.nz/icons/mastodon.svg height="24px" width="24px"></a>
-     </div>
-     
-    
-    
-    
-    <div class="icon-24x24">
-      <a class="glyph" alt="GitHub profile" href="https://github.com/mikekeith"><img src=https://ziggurat.co.nz/icons/github.svg height="24px" width="24px"></a>
+  </section>
+  
+    <section>
+      
+        
+          <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+            2018
+          </h2>
+          <hr class="w-36 border-dotted border-neutral-400" />
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a
+        href="
+          https://ziggurat.co.nz/news/2018/2/8/this-month-in-cvg-90/
+        "
+        aria-label="This month in... C&VG &#39;90"
+      >
+        <img
+          alt=""
+          
+            class="w-24 rounded-md sm:w-40" srcset="https://ziggurat.co.nz/news/2018/2/8/this-month-in-cvg-90/cvg199002_hu_3ab18dbf48bd161f.png
+            160w,https://ziggurat.co.nz/news/2018/2/8/this-month-in-cvg-90/cvg199002_hu_b859fd3f873d55d.png 2x"
+            src="https://ziggurat.co.nz/news/2018/2/8/this-month-in-cvg-90/cvg199002_hu_3ab18dbf48bd161f.png" width="160" height="120"
+          
+          
+            loading="lazy"
+          
+        />
+      </a>
     </div>
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2018/2/8/this-month-in-cvg-90/"
+          >This month in... C&VG '90</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
     
     
+      <time datetime="2018-02-08 07:36:26 &#43;0000 &#43;0000">8 February 2018</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
     
-    
-    
-    
-    
-    
-    
-    
+
     
     
   </div>
-</aside>
 
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+        
+          <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+            2017
+          </h2>
+          <hr class="w-36 border-dotted border-neutral-400" />
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a
+        href="
+          https://ziggurat.co.nz/news/2017/12/19/this-month-in-cvg-89/
+        "
+        aria-label="This month in... C&VG &#39;89"
+      >
+        <img
+          alt=""
+          
+            class="w-24 rounded-md sm:w-40" srcset="https://ziggurat.co.nz/news/2017/12/19/this-month-in-cvg-89/cvg198912_hu_24ff90ecebcc1fb8.png
+            160w,https://ziggurat.co.nz/news/2017/12/19/this-month-in-cvg-89/cvg198912_hu_fcbffdb3dce14c67.png 2x"
+            src="https://ziggurat.co.nz/news/2017/12/19/this-month-in-cvg-89/cvg198912_hu_24ff90ecebcc1fb8.png" width="160" height="120"
+          
+          
+            loading="lazy"
+          
+        />
+      </a>
+    </div>
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
       
-      <p class="copyright">
-          Copyright © 2022, Ziggurat Development Ltd
-      </p>
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2017/12/19/this-month-in-cvg-89/"
+          >This month in... C&VG '89</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2017-12-19 07:10:38 &#43;0000 &#43;0000">19 December 2017</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a
+        href="
+          https://ziggurat.co.nz/news/2017/11/16/this-month-in-cvg-89/
+        "
+        aria-label="This month in... C&VG &#39;89"
+      >
+        <img
+          alt=""
+          
+            class="w-24 rounded-md sm:w-40" srcset="https://ziggurat.co.nz/news/2017/11/16/this-month-in-cvg-89/cvg198911_hu_7db7da032539aad5.png
+            160w,https://ziggurat.co.nz/news/2017/11/16/this-month-in-cvg-89/cvg198911_hu_f60358ceb6ca52a1.png 2x"
+            src="https://ziggurat.co.nz/news/2017/11/16/this-month-in-cvg-89/cvg198911_hu_7db7da032539aad5.png" width="160" height="120"
+          
+          
+            loading="lazy"
+          
+        />
+      </a>
+    </div>
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2017/11/16/this-month-in-cvg-89/"
+          >This month in... C&VG '89</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2017-11-16 07:12:40 &#43;0000 &#43;0000">16 November 2017</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a
+        href="
+          https://ziggurat.co.nz/news/2017/10/15/this-month-in-cvg-89/
+        "
+        aria-label="This month in... C&VG &#39;89"
+      >
+        <img
+          alt=""
+          
+            class="w-24 rounded-md sm:w-40" srcset="https://ziggurat.co.nz/news/2017/10/15/this-month-in-cvg-89/cvg198910_hu_c4a443dfed90ab70.png
+            160w,https://ziggurat.co.nz/news/2017/10/15/this-month-in-cvg-89/cvg198910_hu_e96bd2481aa74747.png 2x"
+            src="https://ziggurat.co.nz/news/2017/10/15/this-month-in-cvg-89/cvg198910_hu_c4a443dfed90ab70.png" width="160" height="120"
+          
+          
+            loading="lazy"
+          
+        />
+      </a>
+    </div>
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2017/10/15/this-month-in-cvg-89/"
+          >This month in... C&VG '89</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2017-10-15 08:03:52 &#43;0000 &#43;0000">15 October 2017</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a
+        href="
+          https://ziggurat.co.nz/news/2017/9/5/this-month-in-cvg-89/
+        "
+        aria-label="This month in... C&VG &#39;89"
+      >
+        <img
+          alt=""
+          
+            class="w-24 rounded-md sm:w-40" srcset="https://ziggurat.co.nz/news/2017/9/5/this-month-in-cvg-89/cvg198909_hu_b444b477ce7569f0.png
+            160w,https://ziggurat.co.nz/news/2017/9/5/this-month-in-cvg-89/cvg198909_hu_88f26a09ce9208cd.png 2x"
+            src="https://ziggurat.co.nz/news/2017/9/5/this-month-in-cvg-89/cvg198909_hu_b444b477ce7569f0.png" width="160" height="120"
+          
+          
+            loading="lazy"
+          
+        />
+      </a>
+    </div>
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2017/9/5/this-month-in-cvg-89/"
+          >This month in... C&VG '89</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2017-09-05 07:45:21 &#43;0000 &#43;0000">5 September 2017</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a
+        href="
+          https://ziggurat.co.nz/news/2017/8/17/this-month-in-cvg-89/
+        "
+        aria-label="This month in... C&VG &#39;89"
+      >
+        <img
+          alt=""
+          
+            class="w-24 rounded-md sm:w-40" srcset="https://ziggurat.co.nz/news/2017/8/17/this-month-in-cvg-89/image-asset_hu_f45b11aa241e41da.png
+            160w,https://ziggurat.co.nz/news/2017/8/17/this-month-in-cvg-89/image-asset_hu_f64080679263902d.png 2x"
+            src="https://ziggurat.co.nz/news/2017/8/17/this-month-in-cvg-89/image-asset_hu_f45b11aa241e41da.png" width="160" height="120"
+          
+          
+            loading="lazy"
+          
+        />
+      </a>
+    </div>
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2017/8/17/this-month-in-cvg-89/"
+          >This month in... C&VG '89</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2017-08-17 08:41:39 &#43;0000 &#43;0000">17 August 2017</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a
+        href="
+          https://ziggurat.co.nz/news/2017/7/4/this-month-in-cvg-89/
+        "
+        aria-label="This month in... C&VG &#39;89"
+      >
+        <img
+          alt=""
+          
+            class="w-24 rounded-md sm:w-40" srcset="https://ziggurat.co.nz/news/2017/7/4/this-month-in-cvg-89/cvg198907_hu_58fb3d5b4ea29ea0.png
+            160w,https://ziggurat.co.nz/news/2017/7/4/this-month-in-cvg-89/cvg198907_hu_5bdedef3c39cb3d2.png 2x"
+            src="https://ziggurat.co.nz/news/2017/7/4/this-month-in-cvg-89/cvg198907_hu_58fb3d5b4ea29ea0.png" width="160" height="120"
+          
+          
+            loading="lazy"
+          
+        />
+      </a>
+    </div>
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2017/7/4/this-month-in-cvg-89/"
+          >This month in... C&VG '89</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2017-07-04 08:51:51 &#43;0000 &#43;0000">4 July 2017</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a
+        href="
+          https://ziggurat.co.nz/news/2017/6/19/this-month-in-cvg-89/
+        "
+        aria-label="This month in... C&VG &#39;89"
+      >
+        <img
+          alt=""
+          
+            class="w-24 rounded-md sm:w-40" srcset="https://ziggurat.co.nz/news/2017/6/19/this-month-in-cvg-89/image-asset_hu_f0d63176020c7eb7.png
+            160w,https://ziggurat.co.nz/news/2017/6/19/this-month-in-cvg-89/image-asset_hu_7c035a423a52fd2e.png 2x"
+            src="https://ziggurat.co.nz/news/2017/6/19/this-month-in-cvg-89/image-asset_hu_f0d63176020c7eb7.png" width="160" height="120"
+          
+          
+            loading="lazy"
+          
+        />
+      </a>
+    </div>
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2017/6/19/this-month-in-cvg-89/"
+          >This month in... C&VG '89</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2017-06-19 08:40:45 &#43;0000 &#43;0000">19 June 2017</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a
+        href="
+          https://ziggurat.co.nz/news/2017/4/24/this-month-in-cvg-89/
+        "
+        aria-label="This month in... C&VG &#39;89"
+      >
+        <img
+          alt=""
+          
+            class="w-24 rounded-md sm:w-40" srcset="https://ziggurat.co.nz/news/2017/4/24/this-month-in-cvg-89/image-asset_hu_140c4df899c99e48.png
+            160w,https://ziggurat.co.nz/news/2017/4/24/this-month-in-cvg-89/image-asset_hu_880ade8dc261d3bf.png 2x"
+            src="https://ziggurat.co.nz/news/2017/4/24/this-month-in-cvg-89/image-asset_hu_140c4df899c99e48.png" width="160" height="120"
+          
+          
+            loading="lazy"
+          
+        />
+      </a>
+    </div>
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2017/4/24/this-month-in-cvg-89/"
+          >This month in... C&VG '89</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2017-05-06 22:00:00 &#43;0000 &#43;0000">6 May 2017</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a
+        href="
+          https://ziggurat.co.nz/news/2017/3/20/this-month-in-cvg-89/
+        "
+        aria-label="This month in... C&VG &#39;89"
+      >
+        <img
+          alt=""
+          
+            class="w-24 rounded-md sm:w-40" srcset="https://ziggurat.co.nz/news/2017/3/20/this-month-in-cvg-89/image-asset_hu_716de0284eb42874.png
+            160w,https://ziggurat.co.nz/news/2017/3/20/this-month-in-cvg-89/image-asset_hu_445abe975a66ebe9.png 2x"
+            src="https://ziggurat.co.nz/news/2017/3/20/this-month-in-cvg-89/image-asset_hu_716de0284eb42874.png" width="160" height="120"
+          
+          
+            loading="lazy"
+          
+        />
+      </a>
+    </div>
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2017/3/20/this-month-in-cvg-89/"
+          >This month in... C&VG '89</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2017-03-20 08:06:51 &#43;0000 &#43;0000">20 March 2017</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+        
+      
+    </section>
+    
+    <ul class="mt-8 flex flex-row">
+        <li class="mx-1 min-w-[1.8rem] text-center">
+            <span
+              aria-current="page"
+              aria-label="Page 1"
+              class="block rounded bg-primary-200 font-semibold text-primary-700 dark:bg-primary-400 dark:text-neutral-800"
+            >
+              1
+            </span>
+        </li>
+        <li class="mx-1 min-w-[1.8rem] text-center">
+            <a
+              href="/tags/cvg/page/2/"
+              class="block rounded hover:bg-primary-600 hover:text-neutral"
+              aria-label="Page 2"
+            >
+              2
+            </a>
+        </li>
+        <li class="mx-1 min-w-[1.8rem] text-center">
+            <a
+              href="/tags/cvg/page/3/"
+              class="block rounded hover:bg-primary-600 hover:text-neutral"
+              aria-label="Page 3"
+            >
+              3
+            </a>
+        </li>
+            <li>&ctdot;</li>
+          <li class="mx-1 min-w-[1.8rem] text-center">
+            <a
+              href="/tags/cvg/page/6/"
+              class="block rounded hover:bg-primary-600 hover:text-neutral"
+              aria-label="Last page"
+            >
+              6
+            </a>
+          </li>
+        <li>
+          <a
+            href="/tags/cvg/page/2/"
+            class="mx-1 block min-w-[1.8rem] rounded text-center hover:bg-primary-600 hover:text-neutral"
+            aria-label="Next page"
+            rel="next"
+          >
+            &rarr;
+          </a>
+        </li>
+    </ul>
+
+  
+
+      </main>
+      
+        <div
+          class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12"
+          id="to-top"
+          hidden="true"
+        >
+          <a
+            href="#the-top"
+            class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+            aria-label="Scroll to top"
+            title="Scroll to top"
+          >
+            &uarr;
+          </a>
+        </div>
+      <footer class="py-10 print:hidden">
+  
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
       
     </div>
+    <div class="flex flex-row items-center">
+      
+      
+      
+      
+        <div
+          class="me-14 cursor-pointer text-sm text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        >
+          <button id="appearance-switcher-0" type="button" aria-label="appearance switcher">
+            <div
+              class="flex h-12 w-12 items-center justify-center dark:hidden"
+              title="Switch to dark appearance"
+            >
+              <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+            </div>
+            <div
+              class="hidden h-12 w-12 items-center justify-center dark:flex"
+              title="Switch to light appearance"
+            >
+              <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+            </div>
+          </button>
+        </div>
+      
+    </div>
+  </div>
+  
+  
+</footer>
 
-
-</body>
+    </div>
+  </body>
 </html>

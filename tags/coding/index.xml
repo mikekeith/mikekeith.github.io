@@ -5,8 +5,7 @@
     <link>https://ziggurat.co.nz/tags/coding/</link>
     <description>Recent content in Coding on Ziggurat</description>
     <generator>Hugo</generator>
-    <language>en-nz</language>
-    <copyright>Copyright © 2022, Ziggurat Development Ltd</copyright>
+    <language>en</language>
     <lastBuildDate>Sun, 24 Feb 2019 00:46:02 +0000</lastBuildDate>
     <atom:link href="https://ziggurat.co.nz/tags/coding/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -14,28 +13,28 @@
       <link>https://ziggurat.co.nz/news/2019/2/24/diary-of-a-game-part-4-item-activation-interpolation-and-bugs/</link>
       <pubDate>Sun, 24 Feb 2019 00:46:02 +0000</pubDate>
       <guid>https://ziggurat.co.nz/news/2019/2/24/diary-of-a-game-part-4-item-activation-interpolation-and-bugs/</guid>
-      <description>&lt;p&gt;Since my last update work has been a bit quieter post-ship and I enjoyed an&#xA;unexpectedly low key Christmas break, so surely I&amp;rsquo;ve made a lot of progress,&#xA;right? Well&amp;hellip; life decided to intervene which resulted in a lot less time to&#xA;work on the game than I had hoped. But I have managed to tick off a few things&#xA;on the long to-do list&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ziggurat.co.nz/images/2019-02-24-2019224diary-of-a-game-part-4-item-activation-interpolation-and-bugs/image-asset.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;item-activation&#34;&gt;Item Activation&lt;/h2&gt;&#xA;&lt;p&gt;The main - and, I must admit, only - playing facing addition is items that&#xA;need to be activated before they can be matched. Activation occurs when a&#xA;neighbour - regardless of colour - is matched and removed. I&amp;rsquo;ve reserved the&#xA;4th bit to indicate whether an item requires activation, which means I have 7&#xA;possible item types. So far I&amp;rsquo;m only using 4, so I &lt;em&gt;think&lt;/em&gt; this will be&#xA;enough. However, I should be able to take the 5th bit to give 15 item types&#xA;(each with an unactivated variant) if need be.&lt;/p&gt;</description>
+      <description></description>
     </item>
     <item>
       <title>Diary of a Game: Part 3 - Sprites, Character Animation and Input</title>
       <link>https://ziggurat.co.nz/news/2018/10/15/diary-of-a-game-part-3-sprites-character-animation-and-input/</link>
       <pubDate>Mon, 15 Oct 2018 00:11:05 +0000</pubDate>
       <guid>https://ziggurat.co.nz/news/2018/10/15/diary-of-a-game-part-3-sprites-character-animation-and-input/</guid>
-      <description>&lt;p&gt;Good grief, in my mind my last update was 3, maybe 4, months ago&amp;hellip; but May?!&#xA;Well, I guess I&amp;rsquo;ve had &lt;a href=&#34;https://michael-keith-y85g.squarespace.com/news/2018/10/15/of-magic-leap-amp-dr-grordborts&#34;&gt;a decent excuse&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Despite being embarassingly tardy with writing updates, some progress has been&#xA;made. This is the current state of the game:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ziggurat.co.nz/images/2018-10-15-20181015diary-of-a-game-part-3-sprites-character-animation-and-input/20181015.2018-10-15-10_54_13.gif&#34; alt=&#34;20181015.2018-10-15 10_54_13.gif&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;sprites&#34;&gt;Sprites&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve continued to stick with the C64&amp;rsquo;s &lt;a href=&#34;https://www.c64-wiki.com/wiki/Standard_Character_Mode&#34;&gt;standard character mode&lt;/a&gt; - I&#xA;may well switch to the multicolour character mode, but a character approach&#xA;seems to be working well. In order to draw the overlapping rows of items on&#xA;the board, I just change the horizontal scroll value every 8 lines which means&#xA;I don&amp;rsquo;t have to faff about with creating a bunch of extra in-between chars.&#xA;The downside to this is that as items/balls/whatever fall down, they jump left&#xA;and right.&lt;/p&gt;</description>
+      <description></description>
     </item>
     <item>
       <title>Diary of a Game: Part 2 - Matching and Testing</title>
       <link>https://ziggurat.co.nz/news/2018/5/20/diary-of-a-game-part-2-matching-and-testing/</link>
       <pubDate>Sun, 20 May 2018 00:17:01 +0000</pubDate>
       <guid>https://ziggurat.co.nz/news/2018/5/20/diary-of-a-game-part-2-matching-and-testing/</guid>
-      <description>&lt;p&gt;Once again a depressing amount of time has passed since my last update. Given&#xA;what&amp;rsquo;s on my plate workwise over the next few months I suspect the sporadic&#xA;nature of my posts will continue. Thankfully I have continued to find time to&#xA;chip away at the game, and some progress has been made.&lt;/p&gt;&#xA;&lt;p&gt;After I managed to get a super rough first pass of the (very) initial base of&#xA;the game done (with the balls/bubbles/whatever falling down the board and&#xA;stacking up correctly), the next thing to tackle was the colour matching. This&#xA;ended up being a rather humbling endeavour as my initial confidence met the&#xA;realities of my inexperience with 6502 coding.&lt;/p&gt;</description>
+      <description></description>
     </item>
     <item>
       <title>Diary of a Game: Part 0 - Genesis</title>
       <link>https://ziggurat.co.nz/news/2018/1/22/diary-of-a-game-part-0-genesis/</link>
       <pubDate>Sun, 21 Jan 2018 22:25:29 +0000</pubDate>
       <guid>https://ziggurat.co.nz/news/2018/1/22/diary-of-a-game-part-0-genesis/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ziggurat.co.nz/images/2018-01-21-2018122diary-of-a-game-part-0-genesis/poko.png&#34; alt=&#34;poko.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Here is the first screenshot of a new game I&amp;rsquo;m working on - awesome eh? Wait,&#xA;don&amp;rsquo;t walk away! It&amp;rsquo;ll get better, I promise!&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve spent the last 23 years working in the games industry and at various&#xA;points I&amp;rsquo;ve attempted to muster the motivation/energy to create a game in my&#xA;spare time. Only one of those (a simple iPhone game, no longer available) made&#xA;it through to the end and even that took way too long. The reasons for the&#xA;slow/non-existent progress have typically revolved around being swamped with&#xA;work, being overly ambitious and getting distracted by new shiny things.&lt;/p&gt;</description>
+      <description></description>
     </item>
   </channel>
 </rss>

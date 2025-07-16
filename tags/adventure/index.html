@@ -1,528 +1,1095 @@
-<!DOCTYPE html>
-<html lang="en-nz">
-<head>
-    <meta charset="utf-8">
+
+
+
+
+
+
+
+<!doctype html>
+<html
+  lang="en"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#FFFFFF" />
+  
+  <title>Adventure &middot; Ziggurat</title>
+    <meta name="title" content="Adventure &middot; Ziggurat" />
+  
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="https://ziggurat.co.nz/js/appearance.min.8a082f81b27f3cb2ee528df0b0bdc39787034cf2cc34d4669fbc9977c929023c.js"
+    integrity="sha256-iggvgbJ/PLLuUo3wsL3Dl4cDTPLMNNRmn7yZd8kpAjw="
+  ></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="https://ziggurat.co.nz/css/main.bundle.min.57d1c448a1783097815ad61ba1a727b1490184aed782150f83eb9243809e8142.css"
+    integrity="sha256-V9HESKF4MJeBWtYboacnsUkBhK7XghUPg&#43;uSQ4CegUI="
+  />
+  
+  
+  
     
-    <title>Adventure | Ziggurat</title>
-    <meta name="description" content="Occasional ramblings about retro games, development, augmented reality and other random subjects.">
-    <meta name="author" content="">
     
-    <link rel="apple-touch-icon" sizes="180x180" href=https://ziggurat.co.nz/apple-touch-icon.png>
-    <link rel="icon" type="image/png" sizes="32x32" href=https://ziggurat.co.nz/favicon-32x32.png>
-    <link rel="icon" type="image/png" sizes="16x16" href=https://ziggurat.co.nz/favicon-16x16.png>
-    <link rel="manifest" href=https://ziggurat.co.nz/site.webmanifest>
-    <link rel="mask-icon" href=https://ziggurat.co.nz/safari-pinned-tab.svg color="#00416a">
-    <meta name="msapplication-TileColor" content="#00aba9">
-    <meta name="theme-color" content="#ffffff">
+  
+  
+  
+  
     
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="https://ziggurat.co.nz/js/main.bundle.min.3e80d0528c59616e7de9b0ca9316d9afd314b49ed9e5e6b88873731486ad67ee.js"
+      integrity="sha256-PoDQUoxZYW596bDKkxbZr9MUtJ7Z5ea4iHNzFIatZ&#43;4="
+      data-copy="Copy"
+      data-copied="Copied"
+    ></script>
+  
+  
+  <meta
+    name="description"
+    content="
+      
+        Occasional ramblings about retro games, development, augmented reality and other random subjects.
+      
+    "
+  />
+  
+  
+  
+  
+    <link rel="canonical" href="https://ziggurat.co.nz/tags/adventure/" />
+  
+  <link rel="alternate" type="application/rss+xml" href="https://ziggurat.co.nz/tags/adventure/index.xml" title="Ziggurat" />
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="https://ziggurat.co.nz/tags/adventure/">
+  <meta property="og:site_name" content="Ziggurat">
+  <meta property="og:title" content="Adventure">
+  <meta property="og:description" content="Occasional ramblings about retro games, development, augmented reality and other random subjects.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Adventure">
+  <meta name="twitter:description" content="Occasional ramblings about retro games, development, augmented reality and other random subjects.">
+
+  
+  
+
+  
+  
+    <meta name="author" content="Michael Keith" />
+  
+  
+    
+      <link href="mailto:mike@ziggurat.co.nz" rel="me" />
+    
+      <link href="https://github.com/mikekeith" rel="me" />
+    
+      <link href="https://lastfm.com/user/nifta" rel="me" />
+    
+      <link href="https://icosahedron.website/@nifta" rel="me" />
+    
+  
+  
+  
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+  
+  
     <meta name="omgproof" content="proven.lol/df002d">
-    
-    
-    <link rel="me" href="mailto:mike@ziggurat.co.nz">
-    
-    
-    
-    
-    <link rel="stylesheet" href=https://ziggurat.co.nz/css/fonts.css />
-    <link rel="stylesheet" href=https://ziggurat.co.nz/css/style.css />
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
 </head>
-
-<body>
-    <div id="sitelogo">
-        <a class="glyph" alt="Home" href="https://ziggurat.co.nz/"><img src=https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol.svg alt="Site Logo" height="64px" width="64px"></a>
+<body
+    class="m-auto flex h-screen max-w-7xl flex-col bg-neutral px-6 text-lg leading-7 text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="-translate-y-8 rounded-b-lg bg-primary-200 px-3 py-1 text-sm focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="pe-2 font-bold text-primary-600 dark:text-primary-400">&darr;</span
+        >Skip to main content</a
+      >
     </div>
-    <header>
-        <nav>
     
-    <div id="page-nav">
-        <div class="page-nav-item">
-            <a href="https://ziggurat.co.nz/">Home</a>
-        </div>
-        
-            <div class="page-nav-item">
-                <a href="/confidential/">
-                    
-                    <span>Confidential Magazine</span>
-                </a>
-            </div>
-        
-            <div class="page-nav-item">
-                <a href="/about/">
-                    
-                    <span>About</span>
-                </a>
-            </div>
-        
+    
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral sm:py-10 print:hidden">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="flex flex-row items-center">
+      
+    <a href="/" class="mr-2">
+      
+      <img
+        src="https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol%2064x64.png"
+        width="32"
+        height="32"
+        class="max-h-[10rem] max-w-[10rem] object-scale-down object-left
+        "
+        alt="Ziggurat"
+      />
+    </a>
+  <a
+    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+    rel="me"
+    href="/"
+    >Ziggurat</a
+  >
+
     </div>
-</nav>
+    
+    
+      <ul class="flex list-none flex-col text-end sm:flex-row">
         
-        <div id="site-header">
-            <h1 id="site-header">Ziggurat</h1>
+          
             
-        </div>
-        
-    </header>
-
-<h2>
-  <span class="list-heading-type">tags:</span>
-  <span class="list-heading-tag">Adventure</span>
-</h2>
-
-<div id="content">
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2020/1/2/confidential-magazine-12-augustseptember-1990/">Confidential Magazine #12 August/September 1990</a></h2>
-        
-        <p class="list-post-date"><time datetime="02 January 2020 10:35 NZDT">
-            02 January 2020 10:35 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2020/1/2/confidential-magazine-12-augustseptember-1990/"><img src="https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol.svg"></a>
-        
-        <div>
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/about/"
+                  title="About"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >About</span
+                    >
+                  </a
+                >
+              
+            </li>
           
-            <iframe src="https://archive.org/embed/confidential12"
-width="560" height="384" frameborder="0" webkitallowfullscreen="true"
-mozallowfullscreen="true" allowfullscreen></iframe>
-
-<p>In this issue&hellip;</p>
-<p>The editor reflected on 2 years of Special Reserve: memberships had shot
-passed 25,000, with 5,500 of those …</p>
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/posts/"
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Blog</span
+                    >
+                  </a
+                >
+              
+            </li>
           
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2019/7/29/st-brides-article/">St. Bride&#39;s Article</a></h2>
-        
-        <p class="list-post-date"><time datetime="29 July 2019 10:49 NZST">
-            29 July 2019 10:49 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2019/7/29/st-brides-article/st-brides_1.jpg"><img src="/news/2019/7/29/st-brides-article/st-brides_1_hu_62ad0bed674fc85.jpg"></a>
-        
-        <div>
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/categories/"
+                  title="Categories"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Categories</span
+                    >
+                  </a
+                >
+              
+            </li>
           
-            <p><a href="https://flexiblehead.blog/2014/02/16/st-brides-school/"> <img src="/images/2019-07-28-2019729st-brides-article/st-brides_1.jpg" alt="st-brides_1.jpg"> </a></p>
-<p><a href="https://flexiblehead.blog/2014/02/16/st-brides-school/">This is a great piece</a> on the mysterious text adventure creators, St
-Bride&rsquo;s; an edited version of which appeared in GamesTM mag.</p>
-<p>I&rsquo;d <a href="/news/2013/4/23/st-brides">written about them previously</a>, but this article does a far better
-job at uncovering their somewhat bizarre story.</p>
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/tags/"
+                  title="Tags"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Tags</span
+                    >
+                  </a
+                >
+              
+            </li>
           
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2018/10/23/confidential-magazine-10-aprilmay-1990/">Confidential Magazine #10 April/May 1990</a></h2>
-        
-        <p class="list-post-date"><time datetime="24 October 2018 18:48 NZDT">
-            24 October 2018 18:48 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2018/10/23/confidential-magazine-10-aprilmay-1990/"><img src="https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol.svg"></a>
-        
-        <div>
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/confidential/"
+                  title="Confidential Magazine"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Confidential Magazine</span
+                    >
+                  </a
+                >
+              
+            </li>
           
-            In this month&rsquo;s issue&hellip; The subject on the editor&rsquo;s mind was, perhaps unexpectedly for an adventure gaming mag, taxation as he had a good rant about how much money from each game the club sold went to the HMRC. * Games making the news this month included several horror games (&ldquo;Elvira&rdquo;, &ldquo;Demon&rsquo;s Tomb - The Awakening&rdquo;, &ldquo;Mystery of the...
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                
+                
+              
+            </li>
           
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2018/10/13/confidential-magazine-9-februarymarch-1990/">Confidential Magazine #9 February/March 1990</a></h2>
-        
-        <p class="list-post-date"><time datetime="13 October 2018 12:42 NZDT">
-            13 October 2018 12:42 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2018/10/13/confidential-magazine-9-februarymarch-1990/"><img src="https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol.svg"></a>
-        
-        <div>
+            
+              
           
-            In this month&rsquo;s editorial, The Boss Upstairs reflected on the success of the Special Reserve and Official Secrets clubs. The team had grown to 30 to cope with the increased orders, with some 200 being processed every day. The future looked bright. Elsewhere in the mag: * A lengthy interview with Anita Sinclair of Magnetic Scrolls. * The newest...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
         
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2018/6/19/confidential-magazine-8-december-88january-89/">Confidential Magazine #8 December &#39;88/January &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="19 June 2018 19:34 NZST">
-            19 June 2018 19:34 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2018/6/19/confidential-magazine-8-december-88january-89/"><img src="https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol.svg"></a>
-        
-        <div>
-          
-            As we bid goodbye to the 80s, the Editor pondered what lay ahead in the coming decade. After the world had lived in fear of nuclear annihalation for so many years, the arrival of the likes of Gorbachev meant we could now focus on the &ldquo;prospect of irreversible doom&rdquo; thanks to global warming. Technology would, of course, play a...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2018/5/6/confidential-magazine-7-octobernovember-1989/">Confidential Magazine #7 October/November 1989</a></h2>
-        
-        <p class="list-post-date"><time datetime="06 May 2018 20:16 NZST">
-            06 May 2018 20:16 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2018/5/6/confidential-magazine-7-octobernovember-1989/"><img src="https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol.svg"></a>
-        
-        <div>
-          
-            While they didn&rsquo;t reveal actual subscription figures, the situation sounded a bit grim - the membership fee was to increase and there was a plea for readers to spread the word. Meanwhile the helpline seemed to have switched to be a largely answering machine based service, and there was a request for solutions to a bunch of big recent...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2018/4/4/the-art-of-point-and-click-adventure-games-pre-orders-are-live/">The Art of Point-and-Click Adventure Games pre-orders are live!</a></h2>
-        
-        <p class="list-post-date"><time datetime="04 April 2018 10:26 NZST">
-            04 April 2018 10:26 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2018/4/4/the-art-of-point-and-click-adventure-games-pre-orders-are-live/pointandclick.png"><img src="/news/2018/4/4/the-art-of-point-and-click-adventure-games-pre-orders-are-live/pointandclick_hu_6ae05f5dec2f9b13.png"></a>
-        
-        <div>
-          
-            !pointandclick.png 4058 There is a slight irony around my love of point &amp; click adventures over the last few years. Back in the 8 and 16 bit days I would often pour my disdain on these games while proclaiming the superiority of the good old text adventure. I was willing to accept the static images that accompanied games like &ldquo;The Guild of Thieves&rdquo; or &ldquo;The Boggit&rdquo;, but controlling a pixeled...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/12/29/guild-of-thieves-remastered-is-out/">&#34;Guild of Thieves Remastered&#34; is out!</a></h2>
-        
-        <p class="list-post-date"><time datetime="29 December 2017 11:52 NZDT">
-            29 December 2017 11:52 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/12/29/guild-of-thieves-remastered-is-out/"><img src="https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol.svg"></a>
-        
-        <div>
-          
-            I guess this is a sign of how recent life has been all-consumed by work, but I only just noticed that Strand Games have released the second of their Magnetic Scrolls remasters, &ldquo;The Guild of Thieves&rdquo;. There are few games which I remember as fondly as this, not just because it is a brilliant adventure (which it certainly is),...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/9/19/happy-thimbleweed-park-day/">Happy Thimbleweed Park Day!</a></h2>
-        
-        <p class="list-post-date"><time datetime="19 September 2017 19:11 NZST">
-            19 September 2017 19:11 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/9/19/happy-thimbleweed-park-day/thimbleweed.png"><img src="/news/2017/9/19/happy-thimbleweed-park-day/thimbleweed_hu_ae432cae2a0bfeaf.png"></a>
-        
-        <div>
-          
-            !thimbleweed.png 3770 The iPad has become my preferred platform for playing adventure games, so I&rsquo;ve been looking forward to this one. I backed the Kickstarter almost three years ago and it&rsquo;s been a treat to see it take shape - the dev blog posts and podcasts were worth it alone. As luck would have it, my next overseas business trip is coming up in a few days which I <em>hope</em>...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/9/16/confidential-magazine-4-aprilmay-1989/">Confidential Magazine #4 April/May 1989</a></h2>
-        
-        <p class="list-post-date"><time datetime="16 September 2017 19:24 NZST">
-            16 September 2017 19:24 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/9/16/confidential-magazine-4-aprilmay-1989/"><img src="https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol.svg"></a>
-        
-        <div>
-          
-            This issue came hot on the heels of British Telecom&rsquo;s decision to bail out of the games industry. They were looking to sell off the Rainbird, Firebird and Silverbird labels as one lot, while winding Telecomsoft down. The official reason given was that games were no longer in line with the goals of BT, and the asking price was...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/9/16/official-magnetic-scrolls-solution-books/">Official Magnetic Scrolls Solution Books</a></h2>
-        
-        <p class="list-post-date"><time datetime="16 September 2017 18:05 NZST">
-            16 September 2017 18:05 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/9/16/official-magnetic-scrolls-solution-books/corruption_01.png"><img src="/news/2017/9/16/official-magnetic-scrolls-solution-books/corruption_01_hu_109e9038cfd35666.png"></a>
-        
-        <div>
-          
-            While digging through some boxes of old Stuff from the attic I came across a couple of solution books for the adventure games &ldquo;Corruption&rdquo; and &ldquo;Fish!&rdquo; by Magnetic Scrolls. I got these directly from Magnetic Scrolls, and they&rsquo;&rsquo;re far superior to regular old walkthroughs as they include location maps, hints for specific situations along with the step by step solutions....
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/7/20/full-throttle-remastered-arrives-on-ios/">Full Throttle Remastered arrives on iOS</a></h2>
-        
-        <p class="list-post-date"><time datetime="20 July 2017 21:02 NZST">
-            20 July 2017 21:02 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/7/20/full-throttle-remastered-arrives-on-ios/"><img src="https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol.svg"></a>
-        
-        <div>
-          
-            Finally! I&rsquo;ve been waiting for this one for a while: &ldquo;Full Throttle Remastered&rdquo; has been released for iOS. The iPad has become my adventure gaming device of choice (aside from 8bit text adventures, and I&rsquo;m trying to figure out a solution for that), so it&rsquo;s great to see another LucasArts classic on the platform. Not only that, but to...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/7/8/confidential-magazine-1-septoct-1988/">Confidential Magazine #1 Sept/Oct 1988</a></h2>
-        
-        <p class="list-post-date"><time datetime="09 July 2017 18:08 NZST">
-            09 July 2017 18:08 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/7/8/confidential-magazine-1-septoct-1988/"><img src="https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol.svg"></a>
-        
-        <div>
-          
-            Back in 1987 I ordered a copy of the classic adventure &ldquo;Guild of Thieves&rdquo; along with my Amiga 500. Included in the game&rsquo;s package was a copy of &ldquo;What Burglar?&rdquo; magazine, and an advert for a mysterious &ldquo;Confidential&rdquo; club. Well, that&rsquo;s how I remember it - looking through the box now I don&rsquo;t see such an advert in there,...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/6/22/review-the-camp-c64-by-protovision/">Review: &#34;The Camp&#34; (C64) by Protovision</a></h2>
-        
-        <p class="list-post-date"><time datetime="22 June 2017 20:42 NZST">
-            22 June 2017 20:42 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/6/22/review-the-camp-c64-by-protovision/image-asset.png"><img src="/news/2017/6/22/review-the-camp-c64-by-protovision/image-asset_hu_95b2229f587503a2.png"></a>
-        
-        <div>
-          
-            ! 3520 Way back in the mists of time (well, 1982) my parents took me and my sister out of school for a few months to embark on a trip around the UK, Europe and the US. For the European leg we jaunted about in a campervan, staying at campsites (and occasionally on roadsides) along the way. My memories of that time are sadly vague - my main recollection is...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/6/18/the-return-of-magnetic-scrolls-sort-of/">The return of Magnetic Scrolls? (Sort of)</a></h2>
-        
-        <p class="list-post-date"><time datetime="18 June 2017 18:02 NZST">
-            18 June 2017 18:02 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/6/18/the-return-of-magnetic-scrolls-sort-of/image-asset.jpeg"><img src="/news/2017/6/18/the-return-of-magnetic-scrolls-sort-of/image-asset_hu_a55511e8834ee8af.jpeg"></a>
-        
-        <div>
-          
-            !3426 Well, this is very interesting indeed. Hugh Steers - a founding member of Magnetic Scrolls - has formed Strand Games along with Stefan Meier (from if-legends.org). Their first release is a a remaster of the classic adventure &ldquo;The Pawn&rdquo;, available for Mac, Win and Linux. Not only that, but they have the support of other Magnetic Scrolls alumni, including Anita Sinclair and Ken Gordon. I stumbled across their site somewhat...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/4/25/recent-kickstarters/">Recent Kickstarters</a></h2>
-        
-        <p class="list-post-date"><time datetime="25 April 2017 11:46 NZST">
-            25 April 2017 11:46 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/4/25/recent-kickstarters/"><img src="https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol.svg"></a>
-        
-        <div>
-          
-            <strong>Reformation 2 from Matt Gray</strong> The first Reformation took a little longer to ship than originally expected, but it was well worth the wait. 5 CDs of excellent...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2014/1/19/broken-age-part-1/">Broken Age Part 1</a></h2>
-        
-        <p class="list-post-date"><time datetime="19 January 2014 12:29 NZDT">
-            19 January 2014 12:29 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2014/1/19/broken-age-part-1/"><img src="https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol.svg"></a>
-        
-        <div>
-          
-            The Double Fine Adventure Kickstarter was one of those few moments where you feel like you&rsquo;re actually seeing a seismic shift in the industry. I jumped in within hours of the campaign going live - as a huge fan of adventure games, particularly those from Lucasfilm/Lucas Arts, I didn&rsquo;t need to think twice. It&rsquo;s been a really fascinating ride...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2013/4/23/st-brides/">St Brides</a></h2>
-        
-        <p class="list-post-date"><time datetime="23 April 2013 16:12 NZST">
-            23 April 2013 16:12 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2013/4/23/st-brides/stbrides.png"><img src="/news/2013/4/23/st-brides/stbrides_hu_e2a62c73d035a166.png"></a>
-        
-        <div>
-          
-            St Brides were easily one of those most intriguing software houses of the 80s. For a start they produced some great adventures games - &ldquo;The Very Big Cave Adventure&rdquo; was my first exposure to them, which I remember fondly. Their games were known for being well written with a keen sense of humour. Then there was the fact that they <em>appeared</em> to be a company consisting entirely of...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-</div>
+      </ul>
+    
+  </nav>
+</header>
 
     
-    <div id="footer">
-      
-      <aside id="social">
-  <div id="social-icons">
+    <div class="relative flex grow flex-col">
+      <main id="main-content" class="grow">
+        
+  
+  <header>
     
-    <div class="icon-24x24">
-      <a class="glyph" alt="Email me" href="mailto:mike@ziggurat.co.nz"><img src=https://ziggurat.co.nz/icons/envelope.svg height="24px" width="24px"></a>
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Adventure</h1>
+  </header>
+  <section
+    class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row"
+  >
+    
+    <div class="min-h-0 min-w-0 max-w-prose grow">
+      
     </div>
+  </section>
+  
+    <section>
+      
+        
+          <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+            2020
+          </h2>
+          <hr class="w-36 border-dotted border-neutral-400" />
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2020/1/2/confidential-magazine-12-augustseptember-1990/"
+          >Confidential Magazine #12 August/September 1990</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
     
     
-    <div class="icon-24x24">
-      <a rel="me" class="glyph" alt="Mastodon profile" href="https://icosahedron.website/@nifta"><img src=https://ziggurat.co.nz/icons/mastodon.svg height="24px" width="24px"></a>
-     </div>
-     
+      <time datetime="2020-01-01 21:35:39 &#43;0000 &#43;0000">1 January 2020</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
     
-    
-    
-    <div class="icon-24x24">
-      <a class="glyph" alt="GitHub profile" href="https://github.com/mikekeith"><img src=https://ziggurat.co.nz/icons/github.svg height="24px" width="24px"></a>
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     
     
   </div>
-</aside>
 
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+        
+          <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+            2019
+          </h2>
+          <hr class="w-36 border-dotted border-neutral-400" />
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a
+        href="
+          https://ziggurat.co.nz/news/2019/7/29/st-brides-article/
+        "
+        aria-label="St. Bride&#39;s Article"
+      >
+        <img
+          alt=""
+          
+            class="w-24 rounded-md sm:w-40" srcset="https://ziggurat.co.nz/news/2019/7/29/st-brides-article/st-brides_1_hu_2bb0b85df95b0c5b.jpg
+            160w,https://ziggurat.co.nz/news/2019/7/29/st-brides-article/st-brides_1_hu_f5c66d900b4e4200.jpg 2x"
+            src="https://ziggurat.co.nz/news/2019/7/29/st-brides-article/st-brides_1_hu_2bb0b85df95b0c5b.jpg" width="160" height="120"
+          
+          
+            loading="lazy"
+          
+        />
+      </a>
+    </div>
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
       
-      <p class="copyright">
-          Copyright © 2022, Ziggurat Development Ltd
-      </p>
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2019/7/29/st-brides-article/"
+          >St. Bride's Article</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2019-07-28 22:49:19 &#43;0000 &#43;0000">28 July 2019</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+        
+          <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+            2018
+          </h2>
+          <hr class="w-36 border-dotted border-neutral-400" />
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2018/10/23/confidential-magazine-10-aprilmay-1990/"
+          >Confidential Magazine #10 April/May 1990</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2018-10-24 05:48:34 &#43;0000 &#43;0000">24 October 2018</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2018/10/13/confidential-magazine-9-februarymarch-1990/"
+          >Confidential Magazine #9 February/March 1990</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2018-10-12 23:42:17 &#43;0000 &#43;0000">12 October 2018</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2018/6/19/confidential-magazine-8-december-88january-89/"
+          >Confidential Magazine #8 December '88/January '89</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2018-06-19 07:34:33 &#43;0000 &#43;0000">19 June 2018</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2018/5/6/confidential-magazine-7-octobernovember-1989/"
+          >Confidential Magazine #7 October/November 1989</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2018-05-06 08:16:20 &#43;0000 &#43;0000">6 May 2018</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a
+        href="
+          https://ziggurat.co.nz/news/2018/4/4/the-art-of-point-and-click-adventure-games-pre-orders-are-live/
+        "
+        aria-label="The Art of Point-and-Click Adventure Games pre-orders are live!"
+      >
+        <img
+          alt=""
+          
+            class="w-24 rounded-md sm:w-40" srcset="https://ziggurat.co.nz/news/2018/4/4/the-art-of-point-and-click-adventure-games-pre-orders-are-live/pointandclick_hu_ddbc3209f0370905.png
+            160w,https://ziggurat.co.nz/news/2018/4/4/the-art-of-point-and-click-adventure-games-pre-orders-are-live/pointandclick_hu_b76d1756b1853dae.png 2x"
+            src="https://ziggurat.co.nz/news/2018/4/4/the-art-of-point-and-click-adventure-games-pre-orders-are-live/pointandclick_hu_ddbc3209f0370905.png" width="160" height="120"
+          
+          
+            loading="lazy"
+          
+        />
+      </a>
+    </div>
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2018/4/4/the-art-of-point-and-click-adventure-games-pre-orders-are-live/"
+          >The Art of Point-and-Click Adventure Games pre-orders are live!</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2018-04-03 22:26:11 &#43;0000 &#43;0000">3 April 2018</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+        
+          <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+            2017
+          </h2>
+          <hr class="w-36 border-dotted border-neutral-400" />
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2017/12/29/guild-of-thieves-remastered-is-out/"
+          >"Guild of Thieves Remastered" is out!</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2017-12-28 22:52:38 &#43;0000 &#43;0000">28 December 2017</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a
+        href="
+          https://ziggurat.co.nz/news/2017/9/19/happy-thimbleweed-park-day/
+        "
+        aria-label="Happy Thimbleweed Park Day!"
+      >
+        <img
+          alt=""
+          
+            class="w-24 rounded-md sm:w-40" srcset="https://ziggurat.co.nz/news/2017/9/19/happy-thimbleweed-park-day/thimbleweed_hu_912360371bf45cd6.png
+            160w,https://ziggurat.co.nz/news/2017/9/19/happy-thimbleweed-park-day/thimbleweed_hu_7d8ab3e6695984f3.png 2x"
+            src="https://ziggurat.co.nz/news/2017/9/19/happy-thimbleweed-park-day/thimbleweed_hu_912360371bf45cd6.png" width="160" height="120"
+          
+          
+            loading="lazy"
+          
+        />
+      </a>
+    </div>
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2017/9/19/happy-thimbleweed-park-day/"
+          >Happy Thimbleweed Park Day!</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2017-09-19 07:11:43 &#43;0000 &#43;0000">19 September 2017</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2017/9/16/confidential-magazine-4-aprilmay-1989/"
+          >Confidential Magazine #4 April/May 1989</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2017-09-16 07:24:34 &#43;0000 &#43;0000">16 September 2017</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+        
+      
+    </section>
+    
+    <ul class="mt-8 flex flex-row">
+        <li class="mx-1 min-w-[1.8rem] text-center">
+            <span
+              aria-current="page"
+              aria-label="Page 1"
+              class="block rounded bg-primary-200 font-semibold text-primary-700 dark:bg-primary-400 dark:text-neutral-800"
+            >
+              1
+            </span>
+        </li>
+        <li class="mx-1 min-w-[1.8rem] text-center">
+            <a
+              href="/tags/adventure/page/2/"
+              class="block rounded hover:bg-primary-600 hover:text-neutral"
+              aria-label="Page 2"
+            >
+              2
+            </a>
+        </li>
+        <li>
+          <a
+            href="/tags/adventure/page/2/"
+            class="mx-1 block min-w-[1.8rem] rounded text-center hover:bg-primary-600 hover:text-neutral"
+            aria-label="Next page"
+            rel="next"
+          >
+            &rarr;
+          </a>
+        </li>
+    </ul>
+
+  
+
+      </main>
+      
+        <div
+          class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12"
+          id="to-top"
+          hidden="true"
+        >
+          <a
+            href="#the-top"
+            class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+            aria-label="Scroll to top"
+            title="Scroll to top"
+          >
+            &uarr;
+          </a>
+        </div>
+      <footer class="py-10 print:hidden">
+  
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
       
     </div>
+    <div class="flex flex-row items-center">
+      
+      
+      
+      
+        <div
+          class="me-14 cursor-pointer text-sm text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        >
+          <button id="appearance-switcher-0" type="button" aria-label="appearance switcher">
+            <div
+              class="flex h-12 w-12 items-center justify-center dark:hidden"
+              title="Switch to dark appearance"
+            >
+              <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+            </div>
+            <div
+              class="hidden h-12 w-12 items-center justify-center dark:flex"
+              title="Switch to light appearance"
+            >
+              <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+            </div>
+          </button>
+        </div>
+      
+    </div>
+  </div>
+  
+  
+</footer>
 
-
-</body>
+    </div>
+  </body>
 </html>

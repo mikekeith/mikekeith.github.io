@@ -1,540 +1,1123 @@
-<!DOCTYPE html>
-<html lang="en-nz">
-<head>
-    <meta charset="utf-8">
+
+
+
+
+
+
+
+<!doctype html>
+<html
+  lang="en"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#FFFFFF" />
+  
+  <title>1989 &middot; Ziggurat</title>
+    <meta name="title" content="1989 &middot; Ziggurat" />
+  
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="https://ziggurat.co.nz/js/appearance.min.8a082f81b27f3cb2ee528df0b0bdc39787034cf2cc34d4669fbc9977c929023c.js"
+    integrity="sha256-iggvgbJ/PLLuUo3wsL3Dl4cDTPLMNNRmn7yZd8kpAjw="
+  ></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="https://ziggurat.co.nz/css/main.bundle.min.57d1c448a1783097815ad61ba1a727b1490184aed782150f83eb9243809e8142.css"
+    integrity="sha256-V9HESKF4MJeBWtYboacnsUkBhK7XghUPg&#43;uSQ4CegUI="
+  />
+  
+  
+  
     
-    <title>1989 | Ziggurat</title>
-    <meta name="description" content="Occasional ramblings about retro games, development, augmented reality and other random subjects.">
-    <meta name="author" content="">
     
-    <link rel="apple-touch-icon" sizes="180x180" href=https://ziggurat.co.nz/apple-touch-icon.png>
-    <link rel="icon" type="image/png" sizes="32x32" href=https://ziggurat.co.nz/favicon-32x32.png>
-    <link rel="icon" type="image/png" sizes="16x16" href=https://ziggurat.co.nz/favicon-16x16.png>
-    <link rel="manifest" href=https://ziggurat.co.nz/site.webmanifest>
-    <link rel="mask-icon" href=https://ziggurat.co.nz/safari-pinned-tab.svg color="#00416a">
-    <meta name="msapplication-TileColor" content="#00aba9">
-    <meta name="theme-color" content="#ffffff">
+  
+  
+  
+  
     
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="https://ziggurat.co.nz/js/main.bundle.min.3e80d0528c59616e7de9b0ca9316d9afd314b49ed9e5e6b88873731486ad67ee.js"
+      integrity="sha256-PoDQUoxZYW596bDKkxbZr9MUtJ7Z5ea4iHNzFIatZ&#43;4="
+      data-copy="Copy"
+      data-copied="Copied"
+    ></script>
+  
+  
+  <meta
+    name="description"
+    content="
+      
+        Occasional ramblings about retro games, development, augmented reality and other random subjects.
+      
+    "
+  />
+  
+  
+  
+  
+    <link rel="canonical" href="https://ziggurat.co.nz/tags/1989/" />
+  
+  <link rel="alternate" type="application/rss+xml" href="https://ziggurat.co.nz/tags/1989/index.xml" title="Ziggurat" />
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="https://ziggurat.co.nz/tags/1989/">
+  <meta property="og:site_name" content="Ziggurat">
+  <meta property="og:title" content="1989">
+  <meta property="og:description" content="Occasional ramblings about retro games, development, augmented reality and other random subjects.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="1989">
+  <meta name="twitter:description" content="Occasional ramblings about retro games, development, augmented reality and other random subjects.">
+
+  
+  
+
+  
+  
+    <meta name="author" content="Michael Keith" />
+  
+  
+    
+      <link href="mailto:mike@ziggurat.co.nz" rel="me" />
+    
+      <link href="https://github.com/mikekeith" rel="me" />
+    
+      <link href="https://lastfm.com/user/nifta" rel="me" />
+    
+      <link href="https://icosahedron.website/@nifta" rel="me" />
+    
+  
+  
+  
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+  
+  
     <meta name="omgproof" content="proven.lol/df002d">
-    
-    
-    <link rel="me" href="mailto:mike@ziggurat.co.nz">
-    
-    
-    
-    
-    <link rel="stylesheet" href=https://ziggurat.co.nz/css/fonts.css />
-    <link rel="stylesheet" href=https://ziggurat.co.nz/css/style.css />
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
 </head>
-
-<body>
-    <div id="sitelogo">
-        <a class="glyph" alt="Home" href="https://ziggurat.co.nz/"><img src=https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol.svg alt="Site Logo" height="64px" width="64px"></a>
+<body
+    class="m-auto flex h-screen max-w-7xl flex-col bg-neutral px-6 text-lg leading-7 text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="-translate-y-8 rounded-b-lg bg-primary-200 px-3 py-1 text-sm focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="pe-2 font-bold text-primary-600 dark:text-primary-400">&darr;</span
+        >Skip to main content</a
+      >
     </div>
-    <header>
-        <nav>
     
-    <div id="page-nav">
-        <div class="page-nav-item">
-            <a href="https://ziggurat.co.nz/">Home</a>
-        </div>
-        
-            <div class="page-nav-item">
-                <a href="/confidential/">
-                    
-                    <span>Confidential Magazine</span>
-                </a>
-            </div>
-        
-            <div class="page-nav-item">
-                <a href="/about/">
-                    
-                    <span>About</span>
-                </a>
-            </div>
-        
+    
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral sm:py-10 print:hidden">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="flex flex-row items-center">
+      
+    <a href="/" class="mr-2">
+      
+      <img
+        src="https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol%2064x64.png"
+        width="32"
+        height="32"
+        class="max-h-[10rem] max-w-[10rem] object-scale-down object-left
+        "
+        alt="Ziggurat"
+      />
+    </a>
+  <a
+    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+    rel="me"
+    href="/"
+    >Ziggurat</a
+  >
+
     </div>
-</nav>
+    
+    
+      <ul class="flex list-none flex-col text-end sm:flex-row">
         
-        <div id="site-header">
-            <h1 id="site-header">Ziggurat</h1>
+          
             
-        </div>
-        
-    </header>
-
-<h2>
-  <span class="list-heading-type">tags:</span>
-  <span class="list-heading-tag">1989</span>
-</h2>
-
-<div id="content">
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2018/6/19/confidential-magazine-8-december-88january-89/">Confidential Magazine #8 December &#39;88/January &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="19 June 2018 19:34 NZST">
-            19 June 2018 19:34 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2018/6/19/confidential-magazine-8-december-88january-89/"><img src="https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol.svg"></a>
-        
-        <div>
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/about/"
+                  title="About"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >About</span
+                    >
+                  </a
+                >
+              
+            </li>
           
-            As we bid goodbye to the 80s, the Editor pondered what lay ahead in the coming decade. After the world had lived in fear of nuclear annihalation for so many years, the arrival of the likes of Gorbachev meant we could now focus on the &ldquo;prospect of irreversible doom&rdquo; thanks to global warming. Technology would, of course, play a...
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/posts/"
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Blog</span
+                    >
+                  </a
+                >
+              
+            </li>
           
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2018/1/2/confidential-magazine-6-augustseptember-1989/">Confidential Magazine #6 August/September 1989</a></h2>
-        
-        <p class="list-post-date"><time datetime="02 January 2018 19:51 NZDT">
-            02 January 2018 19:51 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2018/1/2/confidential-magazine-6-augustseptember-1989/"><img src="https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol.svg"></a>
-        
-        <div>
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/categories/"
+                  title="Categories"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Categories</span
+                    >
+                  </a
+                >
+              
+            </li>
           
-            This month&rsquo;s mag included: * A rather depressing Editorial which opened with &ldquo;Boom-time for the computer games world is over, at least for the next few years.&rdquo; The Japanese consoles were wiping the floor with computers - the 8bits were barely hanging on, the ST not far behind them. There looked to be some life left in the Amiga,...
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/tags/"
+                  title="Tags"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Tags</span
+                    >
+                  </a
+                >
+              
+            </li>
           
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/12/29/confidential-magazine-junejuly-1989/">Confidential Magazine #5 June/July 1989</a></h2>
-        
-        <p class="list-post-date"><time datetime="29 December 2017 11:09 NZDT">
-            29 December 2017 11:09 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/12/29/confidential-magazine-junejuly-1989/"><img src="https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol.svg"></a>
-        
-        <div>
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/confidential/"
+                  title="Confidential Magazine"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Confidential Magazine</span
+                    >
+                  </a
+                >
+              
+            </li>
           
-            In this issue you can find: * A bit of a rant by the Ed on the &ldquo;joys&rdquo; of running a software mail order service and dealing with clueless, impatient and down right rude customers calling up. * A report from the first European Computer Trade Show, which sounded like a right disappointment: &ldquo;Where were the First Ever Showings?...
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                
+                
+              
+            </li>
           
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/12/19/this-month-in-cvg-89/">This month in... C&amp;VG &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="19 December 2017 20:10 NZDT">
-            19 December 2017 20:10 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/12/19/this-month-in-cvg-89/cvg198912.png"><img src="/news/2017/12/19/this-month-in-cvg-89/cvg198912_hu_d29cb0c083edfa93.png"></a>
-        
-        <div>
+            
+              
           
-            <strong>News</strong> Hot off the presses from Japan was news of the PC Engine Super Grafx which looked to build on the already impressive original. New custom chips meant it could chuck around 128 sprites (up from 64) and the cartridges saw a decent boost in size. Perhaps the most intriguing aspect was the Power Console add on which the console slotted into and featured a full on steering yoke,...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
         
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/11/16/this-month-in-cvg-89/">This month in... C&amp;VG &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="16 November 2017 20:12 NZDT">
-            16 November 2017 20:12 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/11/16/this-month-in-cvg-89/cvg198911.png"><img src="/news/2017/11/16/this-month-in-cvg-89/cvg198911_hu_d669d93c32f9715c.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> A new computer was about to be unleashed on Europe which boasted specs that certainly beat the 8bits, but also - apparently - rivaled the Amiga and ST. While that didn&rsquo;t seem terribly exciting, it did have one interesting feature: the ability to run most Speccy games. The SAM Coupe was due to launch in the UK on November 20th. With Christmas around the corner, Hewson were to...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/10/15/this-month-in-cvg-89/">This month in... C&amp;VG &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="15 October 2017 21:03 NZDT">
-            15 October 2017 21:03 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/10/15/this-month-in-cvg-89/cvg198910.png"><img src="/news/2017/10/15/this-month-in-cvg-89/cvg198910_hu_5900a769029f3aaf.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> &ldquo;Konix Here At Last&rdquo; proclaimed the headline leading off this issue. The much hyped Konix Multisystem was going to be available to buy this month at stores across the UK for around 200 quid. Not all of the eagerly anticipated peripherals would be on sale to start with - the hydraulic chair was &ldquo;on the horizon&rdquo; and expected to cost another 200 quid. Of course, sadly, none of...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/9/16/confidential-magazine-4-aprilmay-1989/">Confidential Magazine #4 April/May 1989</a></h2>
-        
-        <p class="list-post-date"><time datetime="16 September 2017 19:24 NZST">
-            16 September 2017 19:24 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/9/16/confidential-magazine-4-aprilmay-1989/"><img src="https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol.svg"></a>
-        
-        <div>
-          
-            This issue came hot on the heels of British Telecom&rsquo;s decision to bail out of the games industry. They were looking to sell off the Rainbird, Firebird and Silverbird labels as one lot, while winding Telecomsoft down. The official reason given was that games were no longer in line with the goals of BT, and the asking price was...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/9/5/this-month-in-cvg-89/">This month in... C&amp;VG &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="05 September 2017 19:45 NZST">
-            05 September 2017 19:45 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/9/5/this-month-in-cvg-89/cvg198909.png"><img src="/news/2017/9/5/this-month-in-cvg-89/cvg198909_hu_48edfc4fe4c67dd2.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Two years after it launched in the US, Atari were bringing the 7800 ProSystem to the UK. On paper the specs weren&rsquo;t up to much when compared to Nintendo and Sega&rsquo;s offerings, but at £69.95 it looked decent value for money. Stateside the 7800 was the number 2 selling console ahead of the Master System. Spectravideo&rsquo;s popular range of Quickshot joysticks (the Quickshot II Turbo was my personal...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/9/3/confidential-magazine-2-dec-1988jan-1989/">Confidential Magazine #2 Dec 1988/Jan 1989</a></h2>
-        
-        <p class="list-post-date"><time datetime="03 September 2017 20:54 NZST">
-            03 September 2017 20:54 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/9/3/confidential-magazine-2-dec-1988jan-1989/"><img src="https://ziggurat.co.nz/images/Ziggurat%20Logo%20Symbol.svg"></a>
-        
-        <div>
-          
-            Postal strikes had caused delays to the first issue, and - whether it was due to this or some other reason - November came and went without the second issue. Going forward they would be sticking to the every-other-month schedule. Contents: * Interview with Philippe Ulrich, head of the EXXOS group at French software house ERE Informatique which had...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/8/17/this-month-in-cvg-89/">This month in... C&amp;VG &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="17 August 2017 20:41 NZST">
-            17 August 2017 20:41 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/8/17/this-month-in-cvg-89/image-asset.png"><img src="/news/2017/8/17/this-month-in-cvg-89/image-asset_hu_4b9c3f060c4ad917.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Atari unveiled their impressive handheld, the Lynx. Julian Rignall got to check it out and was gobsmacked: &ldquo;Erm&hellip; hmmm&hellip; What can I say about the most exciting thing to happen to the games industry since the invention of the home console?&rdquo; Sinclair (aka Amstrad) were to launch a new bundle. The &ldquo;Action Pack&rdquo; would consist of a Spectrum +2 (£149) or +3 (£199), a Magnum light gun and...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/7/4/this-month-in-cvg-89/">This month in... C&amp;VG &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="04 July 2017 20:51 NZST">
-            04 July 2017 20:51 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/7/4/this-month-in-cvg-89/cvg198907.png"><img src="/news/2017/7/4/this-month-in-cvg-89/cvg198907_hu_79b3de176524ed3b.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> The industry was abuzz with talk of Nintendo’s Game Boy. The handheld had seen a very successful launch in Japan with over 500,000 units being sold (300,000 of which were on the first day), and now the question was when would it reach the UK. Nintendo were unable to give any dates, but confirmed they had plans… The FIST telephone game was getting a sequel (I have no...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/6/19/this-month-in-cvg-89/">This month in... C&amp;VG &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="19 June 2017 20:40 NZST">
-            19 June 2017 20:40 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/6/19/this-month-in-cvg-89/image-asset.png"><img src="/news/2017/6/19/this-month-in-cvg-89/image-asset_hu_d7cd49d2fa93786c.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> This month saw C&amp;VG getting a revamp based on reader feedback. Coin ops and consoles would get more pages, the adventure section got a make over, there was more space dedicated to previews and overall there would be a lot more colour. The announcement of these changes referenced the fact that some features were dropped, but they didn’t actually specify which. Somewhat worryingly, there were no adventure game...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/4/24/this-month-in-cvg-89/">This month in... C&amp;VG &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="07 May 2017 10:00 NZST">
-            07 May 2017 10:00 NZST
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/4/24/this-month-in-cvg-89/image-asset.png"><img src="/news/2017/4/24/this-month-in-cvg-89/image-asset_hu_b9c9acc7a57f5188.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Rignall and Glancey took on Domark’s Mark Strachan and Andy Blazdell in three rounds of Tengen’s &ldquo;Vindicators&rdquo; arcade machine. The C&amp;VG lads won two out of three and claimed the Tengen...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/3/20/this-month-in-cvg-89/">This month in... C&amp;VG &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="20 March 2017 21:06 NZDT">
-            20 March 2017 21:06 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/3/20/this-month-in-cvg-89/image-asset.png"><img src="/news/2017/3/20/this-month-in-cvg-89/image-asset_hu_9cccb565d8312384.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Michael Jackson’s “Moonwalker” movie had only just come out and US Gold had already snaffled the game license. Titus announced their futuristic deadly sport game &ldquo;Titan”. The Vocalizer 1000 was a music gadget where the user would hum/whistle/sing a tune at it and it would detect the varying pitches and allow playback of the tune using a selection of 28 instruments. Gary Liddon was teaming up with renowned...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/2/23/this-month-in-cvg-89/">This month in... C&amp;VG &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="23 February 2017 21:40 NZDT">
-            23 February 2017 21:40 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/2/23/this-month-in-cvg-89/image-asset.png"><img src="/news/2017/2/23/this-month-in-cvg-89/image-asset_hu_3809940b2ae3a6d9.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> &ldquo;Death Stalks the Night&rdquo; was an upcoming arcade adventure from Ubi Soft where the player assumed the role as Count Dracula to take on “the usual Van Helsings”. New software house EAS announced a space trading game called &ldquo;STAG&rdquo; for the Amiga and ST. Mr Chip’s &ldquo;Wrangler&quot;would see the player take control over Clint Eastwood (yes, apparently) and his ‘droid in what looked like a puzzle game. Budget...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2017/1/11/this-month-in-cvg-89/">This month in... C&amp;VG &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="11 January 2017 21:57 NZDT">
-            11 January 2017 21:57 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2017/1/11/this-month-in-cvg-89/image-asset.png"><img src="/news/2017/1/11/this-month-in-cvg-89/image-asset_hu_552017e16b12a4c.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> C&amp;VG were giving away a Body Rap toy which would be strapped to your body and emit audio (bass, drum, snare, cymbal etc) when hit. They described it as a “neat little gizmo” but I can’t imagine it being anything other than dreadful. The Amiga, ST and Amstrad versions of Titus’ car racing game &ldquo;Crazy Cars II&rdquo; were on the shelves, with the C64 due this month. German...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2014/3/22/this-month-in-tgm-89/">This month in... TGM &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="22 March 2014 12:56 NZDT">
-            22 March 2014 12:56 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2014/3/22/this-month-in-tgm-89/image-asset.png"><img src="/news/2014/3/22/this-month-in-tgm-89/image-asset_hu_7d1f83400790a7db.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Word leaked out that Epyx was working on a new console. David Morse (CEO of Epyx, and one of the original Amiga hardware designers) was involved on what was rumoured to be a new handheld. This, of course, would become the Atari Lynx. Megadrives and NES consoles started appearing in arcades in the UK where players could purchase a set amount of play time with a range of...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2014/2/23/this-month-in-tgm-89/">This month in... TGM &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="23 February 2014 18:19 NZDT">
-            23 February 2014 18:19 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2014/2/23/this-month-in-tgm-89/tgm15.png"><img src="/news/2014/2/23/this-month-in-tgm-89/tgm15_hu_286f1b07cbd8e0df.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> Atari Games (not to be confused with hardware manufacturer, Atari) sued Nintendo for $100 million over the inability to publish games for the NES without going through the Japanese company. Nintendo seemed unphased by the move, saying that they had never lost a lawsuit. Confusion reigned over the specifics for the Konix Slipstream. TGM attempted to clear things up by confirming that it would retail at £150 (or...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-      <article class="item-article">
-      <header>
-        
-        <h2 class="list-title"><a href="https://ziggurat.co.nz/news/2014/1/19/this-month-in-tgm-89/">This month in... TGM &#39;89</a></h2>
-        
-        <p class="list-post-date"><time datetime="19 January 2014 13:14 NZDT">
-            19 January 2014 13:14 NZDT
-          </time>
-        </p>
-      </header>
-      <div class="item">
-          <a href="https://ziggurat.co.nz/news/2014/1/19/this-month-in-tgm-89/tgm14.png"><img src="/news/2014/1/19/this-month-in-tgm-89/tgm14_hu_44bfeaa4eb26feb4.png"></a>
-        
-        <div>
-          
-            <strong>News</strong> This month saw a new &ldquo;bigger and brighter&rdquo; look for TGM. Excitement was growing for the impending release of the Konix Slipstream megaconsole. Costing a mere £149 it was due to go on sale in Autumn and would be able to read software from standard 3&quot; disks as well as cartridges. Disks were looking like the preferred format due to being much cheaper to produce - customers could...
-          
-        </div>
-      </div>
-      
-    </article>
-  
-</div>
+      </ul>
+    
+  </nav>
+</header>
 
     
-    <div id="footer">
-      
-      <aside id="social">
-  <div id="social-icons">
+    <div class="relative flex grow flex-col">
+      <main id="main-content" class="grow">
+        
+  
+  <header>
     
-    <div class="icon-24x24">
-      <a class="glyph" alt="Email me" href="mailto:mike@ziggurat.co.nz"><img src=https://ziggurat.co.nz/icons/envelope.svg height="24px" width="24px"></a>
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">1989</h1>
+  </header>
+  <section
+    class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row"
+  >
+    
+    <div class="min-h-0 min-w-0 max-w-prose grow">
+      
     </div>
+  </section>
+  
+    <section>
+      
+        
+          <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+            2018
+          </h2>
+          <hr class="w-36 border-dotted border-neutral-400" />
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2018/6/19/confidential-magazine-8-december-88january-89/"
+          >Confidential Magazine #8 December '88/January '89</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
     
     
-    <div class="icon-24x24">
-      <a rel="me" class="glyph" alt="Mastodon profile" href="https://icosahedron.website/@nifta"><img src=https://ziggurat.co.nz/icons/mastodon.svg height="24px" width="24px"></a>
-     </div>
-     
+      <time datetime="2018-06-19 07:34:33 &#43;0000 &#43;0000">19 June 2018</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
     
-    
-    
-    <div class="icon-24x24">
-      <a class="glyph" alt="GitHub profile" href="https://github.com/mikekeith"><img src=https://ziggurat.co.nz/icons/github.svg height="24px" width="24px"></a>
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     
     
   </div>
-</aside>
 
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
       
-      <p class="copyright">
-          Copyright © 2022, Ziggurat Development Ltd
-      </p>
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2018/1/2/confidential-magazine-6-augustseptember-1989/"
+          >Confidential Magazine #6 August/September 1989</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2018-01-02 06:51:54 &#43;0000 &#43;0000">2 January 2018</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+        
+          <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+            2017
+          </h2>
+          <hr class="w-36 border-dotted border-neutral-400" />
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2017/12/29/confidential-magazine-junejuly-1989/"
+          >Confidential Magazine #5 June/July 1989</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2017-12-28 22:09:34 &#43;0000 &#43;0000">28 December 2017</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a
+        href="
+          https://ziggurat.co.nz/news/2017/12/19/this-month-in-cvg-89/
+        "
+        aria-label="This month in... C&VG &#39;89"
+      >
+        <img
+          alt=""
+          
+            class="w-24 rounded-md sm:w-40" srcset="https://ziggurat.co.nz/news/2017/12/19/this-month-in-cvg-89/cvg198912_hu_24ff90ecebcc1fb8.png
+            160w,https://ziggurat.co.nz/news/2017/12/19/this-month-in-cvg-89/cvg198912_hu_fcbffdb3dce14c67.png 2x"
+            src="https://ziggurat.co.nz/news/2017/12/19/this-month-in-cvg-89/cvg198912_hu_24ff90ecebcc1fb8.png" width="160" height="120"
+          
+          
+            loading="lazy"
+          
+        />
+      </a>
+    </div>
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2017/12/19/this-month-in-cvg-89/"
+          >This month in... C&VG '89</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2017-12-19 07:10:38 &#43;0000 &#43;0000">19 December 2017</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a
+        href="
+          https://ziggurat.co.nz/news/2017/11/16/this-month-in-cvg-89/
+        "
+        aria-label="This month in... C&VG &#39;89"
+      >
+        <img
+          alt=""
+          
+            class="w-24 rounded-md sm:w-40" srcset="https://ziggurat.co.nz/news/2017/11/16/this-month-in-cvg-89/cvg198911_hu_7db7da032539aad5.png
+            160w,https://ziggurat.co.nz/news/2017/11/16/this-month-in-cvg-89/cvg198911_hu_f60358ceb6ca52a1.png 2x"
+            src="https://ziggurat.co.nz/news/2017/11/16/this-month-in-cvg-89/cvg198911_hu_7db7da032539aad5.png" width="160" height="120"
+          
+          
+            loading="lazy"
+          
+        />
+      </a>
+    </div>
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2017/11/16/this-month-in-cvg-89/"
+          >This month in... C&VG '89</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2017-11-16 07:12:40 &#43;0000 &#43;0000">16 November 2017</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a
+        href="
+          https://ziggurat.co.nz/news/2017/10/15/this-month-in-cvg-89/
+        "
+        aria-label="This month in... C&VG &#39;89"
+      >
+        <img
+          alt=""
+          
+            class="w-24 rounded-md sm:w-40" srcset="https://ziggurat.co.nz/news/2017/10/15/this-month-in-cvg-89/cvg198910_hu_c4a443dfed90ab70.png
+            160w,https://ziggurat.co.nz/news/2017/10/15/this-month-in-cvg-89/cvg198910_hu_e96bd2481aa74747.png 2x"
+            src="https://ziggurat.co.nz/news/2017/10/15/this-month-in-cvg-89/cvg198910_hu_c4a443dfed90ab70.png" width="160" height="120"
+          
+          
+            loading="lazy"
+          
+        />
+      </a>
+    </div>
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2017/10/15/this-month-in-cvg-89/"
+          >This month in... C&VG '89</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2017-10-15 08:03:52 &#43;0000 &#43;0000">15 October 2017</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2017/9/16/confidential-magazine-4-aprilmay-1989/"
+          >Confidential Magazine #4 April/May 1989</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2017-09-16 07:24:34 &#43;0000 &#43;0000">16 September 2017</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a
+        href="
+          https://ziggurat.co.nz/news/2017/9/5/this-month-in-cvg-89/
+        "
+        aria-label="This month in... C&VG &#39;89"
+      >
+        <img
+          alt=""
+          
+            class="w-24 rounded-md sm:w-40" srcset="https://ziggurat.co.nz/news/2017/9/5/this-month-in-cvg-89/cvg198909_hu_b444b477ce7569f0.png
+            160w,https://ziggurat.co.nz/news/2017/9/5/this-month-in-cvg-89/cvg198909_hu_88f26a09ce9208cd.png 2x"
+            src="https://ziggurat.co.nz/news/2017/9/5/this-month-in-cvg-89/cvg198909_hu_b444b477ce7569f0.png" width="160" height="120"
+          
+          
+            loading="lazy"
+          
+        />
+      </a>
+    </div>
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2017/9/5/this-month-in-cvg-89/"
+          >This month in... C&VG '89</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2017-09-05 07:45:21 &#43;0000 &#43;0000">5 September 2017</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2017/9/3/confidential-magazine-2-dec-1988jan-1989/"
+          >Confidential Magazine #2 Dec 1988/Jan 1989</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2017-09-03 08:54:12 &#43;0000 &#43;0000">3 September 2017</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+            <article class="mt-6 flex max-w-prose flex-row">
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a
+        href="
+          https://ziggurat.co.nz/news/2017/8/17/this-month-in-cvg-89/
+        "
+        aria-label="This month in... C&VG &#39;89"
+      >
+        <img
+          alt=""
+          
+            class="w-24 rounded-md sm:w-40" srcset="https://ziggurat.co.nz/news/2017/8/17/this-month-in-cvg-89/image-asset_hu_f45b11aa241e41da.png
+            160w,https://ziggurat.co.nz/news/2017/8/17/this-month-in-cvg-89/image-asset_hu_f64080679263902d.png 2x"
+            src="https://ziggurat.co.nz/news/2017/8/17/this-month-in-cvg-89/image-asset_hu_f45b11aa241e41da.png" width="160" height="120"
+          
+          
+            loading="lazy"
+          
+        />
+      </a>
+    </div>
+  <div>
+    <h3 class="flex items-center text-xl font-semibold">
+      
+        <a
+          class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="https://ziggurat.co.nz/news/2017/8/17/this-month-in-cvg-89/"
+          >This month in... C&VG '89</a
+        >
+      
+      
+      
+    </h3>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2017-08-17 08:41:39 &#43;0000 &#43;0000">17 August 2017</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+    </div>
+    
+  </div>
+</article>
+
+          
+        
+      
+    </section>
+    
+    <ul class="mt-8 flex flex-row">
+        <li class="mx-1 min-w-[1.8rem] text-center">
+            <span
+              aria-current="page"
+              aria-label="Page 1"
+              class="block rounded bg-primary-200 font-semibold text-primary-700 dark:bg-primary-400 dark:text-neutral-800"
+            >
+              1
+            </span>
+        </li>
+        <li class="mx-1 min-w-[1.8rem] text-center">
+            <a
+              href="/tags/1989/page/2/"
+              class="block rounded hover:bg-primary-600 hover:text-neutral"
+              aria-label="Page 2"
+            >
+              2
+            </a>
+        </li>
+        <li>
+          <a
+            href="/tags/1989/page/2/"
+            class="mx-1 block min-w-[1.8rem] rounded text-center hover:bg-primary-600 hover:text-neutral"
+            aria-label="Next page"
+            rel="next"
+          >
+            &rarr;
+          </a>
+        </li>
+    </ul>
+
+  
+
+      </main>
+      
+        <div
+          class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12"
+          id="to-top"
+          hidden="true"
+        >
+          <a
+            href="#the-top"
+            class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+            aria-label="Scroll to top"
+            title="Scroll to top"
+          >
+            &uarr;
+          </a>
+        </div>
+      <footer class="py-10 print:hidden">
+  
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
       
     </div>
+    <div class="flex flex-row items-center">
+      
+      
+      
+      
+        <div
+          class="me-14 cursor-pointer text-sm text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        >
+          <button id="appearance-switcher-0" type="button" aria-label="appearance switcher">
+            <div
+              class="flex h-12 w-12 items-center justify-center dark:hidden"
+              title="Switch to dark appearance"
+            >
+              <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+            </div>
+            <div
+              class="hidden h-12 w-12 items-center justify-center dark:flex"
+              title="Switch to light appearance"
+            >
+              <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+            </div>
+          </button>
+        </div>
+      
+    </div>
+  </div>
+  
+  
+</footer>
 
-
-</body>
+    </div>
+  </body>
 </html>
